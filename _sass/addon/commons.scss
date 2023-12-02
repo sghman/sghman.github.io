@@ -750,7 +750,8 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      color: var(--site-title-color);
+      // color: var(--site-title-color);
+      color : #333D79
     }
   }
 
@@ -799,9 +800,16 @@ $btn-mb: 0.5rem;
       }
 
       &.active {
+
+
+
+
+        
         .nav-link {
-          color: var(--sidebar-active-color);
-          background-color: var(--sidebar-hover-bg);
+          // color: var(--sidebar-active-color);
+          color: #0063B2;
+          // background-color: var(--sidebar-hover-bg);
+          background-color: #FFDFDE;
 
           span {
             opacity: 1;
@@ -827,7 +835,8 @@ $btn-mb: 0.5rem;
       height: $btn-size;
       margin-bottom: $btn-mb; // multi line gap
       border-radius: 50%;
-      color: var(--sidebar-btn-color);
+      // color: var(--sidebar-btn-color);
+      color: #013DC4;
       background-color: var(--sidebar-btn-bg);
       text-align: center;
       display: flex;
