@@ -1,8 +1,8 @@
 ---
 title: 비정규화 언제 사용되나?
 author: gyuhwan
-date: 2024-01-16 16:50:00 +0800
-categories: [DB, DB Design]
+date: 2024-01-14 16:50:00 +0800
+categories: [DB, DB_Design]
 tags: [denormalization]
 ---
 
@@ -17,8 +17,6 @@ tags: [denormalization]
 ##### [- 테이블 분할](#테이블-분할)
 #### [비정규화를 언제해야 할까?](#비정규화를-언제해야-할까)
 
-
----
 <br>
 <br>
 
