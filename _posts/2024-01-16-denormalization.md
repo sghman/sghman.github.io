@@ -6,20 +6,6 @@ categories: [DB, DB_Design]
 tags: [denormalization]
 ---
 
-**목차**
-#### [비정규화의 장단점](#비정규화의-장단점)
-##### [- 비정규화의 장점](#비정규화의-장점)
-##### [- 비정규화의 단점](#비정규화의-단점)
-#### [비정규화의 기술들](#비정규화-기술들)
-##### [- 파생되는 값이 자주 사용될 경우](#파생되는-값이-자주-사용될-경우)
-##### [- 테이블 사전 조인](#테이블-사전-조인)
-##### [- 파일이 여러 개일 때](#파일이-여러-개일-때)
-##### [- 테이블 분할](#테이블-분할)
-#### [비정규화를 언제해야 할까?](#비정규화를-언제해야-할까)
-
-<br>
-<br>
-
 정규화, 비정규화란 용어는 흔히 접했었고 정의에 대해서도 나름대로 학습을 했었다. **정규화**는 테이블 간 데이터의 중복을 허용하지 않는다는 것이고, **비정규화**는 정규화의 반대로 성능 향상, 데이터 검색 속도 증가를 위해 중복, 통합, 분할하는 과정이다.
 
 일반적인 설계를 시작할 때 기본적으로 정규화를 했었다. 그게 당연하다고 생각했고 그 외엔 생각하지 못했다. 그러던 중 한 질문을 받았었는데. 
@@ -38,7 +24,7 @@ tags: [denormalization]
 
 고객 테이블만 수정하는게 아닌 주문 테이블도 수정해야 할 것이다. 이 예시는 단순히 테이블 두 개지만 중복된 테이블이 많을 수록 장애가 발생할 확률이 높아진다.
 
-![denormalization1](../assets/img/denormalization/Denormalization1.png)
+![denormalization1](https://github.com/sghman/sghman.github.io/blob/main/assets/img/denormalization/Denormalization1.png?raw=true)
 
 출처: https://www.splunk.com/en_us/blog/learn/data-denormalization.html
 
@@ -106,7 +92,7 @@ tags: [denormalization]
 
 이제 User_messages의 테이블만 조회하면 카테고리별로 분류가 가능해진다. 주의할 점은 카테고리의 이름이 변경되면 User_messages의 칼럼의 이름도 변경해야 한다.
 
-![denormalization2](../assets/img/denormalization/Denormalization2.png)
+![denormalization2](https://github.com/sghman/sghman.github.io/blob/main/assets/img/denormalization/Denormalization2.png?raw=true)
 
 출처: https://rubygarage.org/blog/database-denormalization-with-examples
 
@@ -114,7 +100,7 @@ tags: [denormalization]
 
 보통 사용자가 첨부파일을 여러 개 첨부할 때, ‘뻐꾸기 외 3개’처럼 제일 첫 번째 파일 이름만 필요할 때가 있다. 이때 제일 첫 번재 이름만 마스터 테이블에 포함시킨다. 역시나 주의할 점은 파일이 수정될 때, 마스터의 첫 번째 첨부 파일 이름 칼럼도 수정되어야 한다.
 
-![denormalization3](../assets/img/denormalization/Denormalization3.png)
+![denormalization3](https://github.com/sghman/sghman.github.io/blob/main/assets/img/denormalization/Denormalization3.png?raw=true)
 
 ## 테이블 분할
 
