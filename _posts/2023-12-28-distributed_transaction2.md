@@ -4,6 +4,9 @@ author: gyuhwan
 date: 2023-12-28 21:14:00 +0800
 categories: [Project, Reservation]
 tags: [Reservation]
+image:
+  path: /commons/previews/distributed_transaction2.png
+  alt: distributed transaction
 ---
 
 # 1. 개요

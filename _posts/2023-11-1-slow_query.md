@@ -2,7 +2,7 @@
 title: Slow Query 추적(PostgreSQL)
 author: gyuhwan
 date: 2023-11-1 12:50:00 +0800
-categories: [DB, Tips]
+categories: [DB, tips]
 tags: [SlowQuery]
 ---
 

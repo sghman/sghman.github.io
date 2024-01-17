@@ -4,6 +4,9 @@ author: gyuhwan
 date: 2024-1-2 8:30:00 +0800
 categories: [Project, Reservation]
 tags: [Reservation]
+image:
+  path: /commons/previews/idempotent.png
+  alt: idempotent
 ---
 # 멱등성을 위하여
 

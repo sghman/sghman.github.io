@@ -4,6 +4,9 @@ author: gyuhwan
 date: 2023-12-24 20:14:00 +0800
 categories: [Project, Reservation]
 tags: [Reservation]
+image:
+  path: /commons/previews/distributed_transaction1.png
+  alt: distributed transaction
 ---
 # **1. 사가 패턴의 Choreography**
 

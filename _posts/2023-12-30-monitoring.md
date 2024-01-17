@@ -4,6 +4,9 @@ author: gyuhwan
 date: 2023-12-30 23:14:00 +0800
 categories: [Project, Reservation]
 tags: [Reservation]
+image:
+  path: /commons/reservation/jvm.png
+  alt: monitoring
 ---
 # 분산 추적과 성능 모니터링 구축
 

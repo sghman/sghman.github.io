@@ -4,6 +4,9 @@ author: gyuhwan
 date: 2024-01-14 16:50:00 +0800
 categories: [DB, DB Design]
 tags: [denormalization]
+image:
+  path: /commons/previews/denormalization.png
+  alt: denormalization
 ---
 
 **"정규화"**, **"비정규화"**란 용어는 데이터베이스 설계에서 자주 접하게 되는 개념이다. **정규화**는 테이블 간 데이터의 중복을 최소화하는 것을 목표로 하며, 이를 통해 데이터 무결성을 유지한다. 반면, **비정규화**는 성능 향상, 데이터 검색 속도 증가를 위해 중복, 통합, 분할하는 과정이다.
