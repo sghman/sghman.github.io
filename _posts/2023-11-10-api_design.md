@@ -2,7 +2,7 @@
 title: API 디자인(Java 8)
 author: gyuhwan
 date: 2023-11-10 14:50:00 +0800
-categories: [Tips, API]
+categories: [Backend, Tips]
 tags: [API]
 ---
 # API 디자인 10개 체크리스트(Java 8)

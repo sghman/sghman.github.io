@@ -2,7 +2,7 @@
 title: 실제로 적용하는 네이밍 방법
 author: gyuhwan
 date: 2023-11-11 15:50:00 +0800
-categories: [Tips, Naming]
+categories: [Backend, Tips]
 tags: [Naming]
 ---
 

@@ -2,7 +2,7 @@
 title: 하이버네이트 성능 튜닝
 author: gyuhwan
 date: 2023-12-15 16:50:00 +0800
-categories: [Spring, JPA]
+categories: [Backend, Spring]
 tags: [Hibernate, JPA]
 ---
 많은 사람들이 생각하는 **Hibernate**에 대해 가지는 오해중 하나는 데이터베이스가 크거나 사용자가 많아지면 성능 문제가 발생한다고 생각합니다. 하지만 대부분 잘 만들어진 프로젝트를 보면 HIbernate를 사용하여 확장성이 뛰어나고 유지 보수가 쉬운 영속성 계층을 구현한 것을 볼 수 있습니다. 

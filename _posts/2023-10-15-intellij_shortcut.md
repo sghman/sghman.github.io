@@ -2,7 +2,7 @@
 title: Intellij 단축키 Tip
 author: gyuhwan
 date: 2023-10-15 12:50:00 +0800
-categories: [Tips, Intellij]
+categories: [Backend, Tips]
 tags: [Intellij]
 ---
 

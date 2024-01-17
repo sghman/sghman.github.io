@@ -2,7 +2,7 @@
 title: 스프링 스케줄러 사소한 팁
 author: gyuhwan
 date: 2023-11-11 15:50:00 +0800
-categories: [Spring, Scheduler]
+categories: [Backend, Spring]
 tags: [Scheduler]
 ---
 

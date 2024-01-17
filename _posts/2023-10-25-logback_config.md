@@ -2,7 +2,7 @@
 title: Logback을 적용하면서 정리한 여러가지 방법
 author: gyuhwan
 date: 2023-10-25 14:50:00 +0800
-categories: [Tips, Logback]
+categories: [Backend, Tips]
 tags: [Logback]
 ---
 

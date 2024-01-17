@@ -2,7 +2,7 @@
 title: 비정규화 언제 사용되나?
 author: gyuhwan
 date: 2024-01-14 16:50:00 +0800
-categories: [DB, DB_Design]
+categories: [DB, DB Design]
 tags: [denormalization]
 ---
 
