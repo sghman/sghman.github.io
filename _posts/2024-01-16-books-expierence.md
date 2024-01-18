@@ -6,7 +6,7 @@ categories: [Study, Books]
 tags: [books]
 image:
   path: /commons/previews/real_book.png
-  alt: Stickers - Flaticon (https://www.flaticon.com/kr/stickers-pack/hanukkah-13372753)
+  alt: 
 ---
 
 이번 글은 개인적으로 좋았던 책과 후기를 작성해보고자 한다.
