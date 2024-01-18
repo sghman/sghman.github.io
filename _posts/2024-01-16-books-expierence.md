@@ -5,8 +5,8 @@ date: 2024-01-16 12:50:00 +0800
 categories: [회고, Books]
 tags: [books]
 image:
-  path: /commons/previews/books.png
-  alt: 문화 스티커 제작자: Stickers - Flaticon
+  path: /commons/previews/real_book.png
+  alt: Stickers - Flaticon (https://www.flaticon.com/kr/stickers-pack/hanukkah-13372753)
 ---
 
 이번 글은 개인적으로 좋았던 책과 후기를 작성해보고자 한다.
