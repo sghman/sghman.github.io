@@ -2,7 +2,7 @@
 title: 프로그래밍 책 후기와 추천
 author: gyuhwan
 date: 2024-01-16 12:50:00 +0800
-categories: [회고, Books]
+categories: [Study, Books]
 tags: [books]
 image:
   path: /commons/previews/real_book.png
