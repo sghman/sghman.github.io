@@ -59,7 +59,7 @@ pennyArea = 0.4417860938;
 
 ```java
 for(int i = 0; i < n; i++) {
-	array[i] = 0;
+ array[i] = 0;
 }
 ```
 
