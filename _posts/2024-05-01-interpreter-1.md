@@ -13,7 +13,7 @@ tags: [Interpreter]
 
 ```java
 class Foods {
-	private int count; 
+  private int count; 
 }
 ```
 
