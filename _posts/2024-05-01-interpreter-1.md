@@ -1,5 +1,5 @@
 ---
-title: Java를 활용한 인터프리터 구현 시작
+title: 1. 인터프리터 구현 with Java
 author: gyuhwan
 date: 2024-05-01 13:40:00 +0800
 categories: [Interpreter, Java]

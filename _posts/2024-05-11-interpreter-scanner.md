@@ -1,5 +1,5 @@
 ---
-title: 인터프리터 구현 - 스캐닝
+title: 2. 인터프리터 구현 - Scanner
 author: gyuhwan
 date: 2024-05-11 14:40:00 +0800
 categories: [Interpreter, Java]
