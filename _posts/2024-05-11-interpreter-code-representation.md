@@ -51,10 +51,11 @@ bread → “English muffin”;
 
 ‘**breakfast** → **protein** “with” **breakfast** “on the side” →  
 ‘”sausage” “with” **breakfast** “on the side”’
+"sausage" "with" "bread" on the side
 
 최종적으로 이러한 식이 만들어진다.
 
-**‘“sausage” “with” “toast” “on the side”’**
+**‘“sausage” “with” "bread" “on the side”’**
  
  이런 식으로 유한한 문법으로 정말 다양한 표현식을 만들 수 있게 된다. 
 
