@@ -12,7 +12,9 @@ tags: [Interpreter]
 
 ## 컨텍스트 자유 문법
 
-표현식을 정의하기 앞서, 스캐너는 문자들을 토큰으로 묶는 데. 이러한 규칙을 정규 언어(regular language)라고 한다. 그런데 이러한 정규 언어는 중첩한 표현식을 처리하기 쉽지 않다. ex) `4 * (2 + 1 / (3 - 2)))`
+표현식을 정의하기 앞서, 스캐너는 문자들을 토큰으로 묶는 데. 이러한 규칙을 정규 언어(regular language)라고 한다. 그런데 이러한 정규 언어는 중첩한 표현식을 처리하기 쉽지 않다. 
+
+ex) `4 * (2 + 1 / (3 - 2)))`
 
 중첩되어 있으면 가장 안쪽의 괄호부터 밖의 괄호 범위로 확장하며 처리해야 하는데. 이러한 표현식을 처리하기 위한 방법으로 **컨텍스트 자유 문법(Context-Free Grammar)**가 있다. 컨텍스트 자유 문법은 복잡한 언어 구조를 분석하고 이해하는 데 필수적인 도구다.  컨텍스트 자유 문법에 대해 다음의 예시와 함께 살펴보자. 
 
@@ -30,9 +32,9 @@ protein → cooked “eggs”;
 crispiness → “really”;
 crispiness → “really” crispiness;
 
-cooked → scrambled”;
-cooked → poached”;
-cooked → fried”;
+cooked → "scrambled”;
+cooked → "poached”;
+cooked → "fried”;
 
 bread → “toast”;
 bread → “biscuits”;
@@ -48,10 +50,13 @@ bread → “English muffin”;
 자유 문법을 통해 하나의 예시를 만들어보자. 
 
 ‘**breakfast** → **protein** “with” **breakfast** “on the side” →  
+‘”sausage” “with” **breakfast** “on the side”’
 
-‘”sausage” “with” **breakfast** “on the side”’→ 
+최종적으로 이러한 식이 만들어진다.
 
-‘“sausage” “with” “toast” “on the side”’ 최종적으로 이러한 식이 만들어지는데. 이런 식으로 유한한 문법으로 정말 다양한 표현식을 만들 수 있게 된다. 
+**‘“sausage” “with” “toast” “on the side”’**
+ 
+ 이런 식으로 유한한 문법으로 정말 다양한 표현식을 만들 수 있게 된다. 
 
 ### 표기법 개선
 
@@ -75,10 +80,8 @@ bread → “English muffin”;
 아래는 최종 정리 형태이다. 
 
 ```
-breakfast -> protein ("with" breakfast "on the side" )? 
-							| bread ;
-protein -> "really" + "crispy" "bacon" | "sausage"
-						| ( "scrambled" | "poached" | "fried" ) "eggs" ;
+breakfast -> protein ("with" breakfast "on the side" )? | bread ;
+protein -> "really" + "crispy" "bacon" | "sausage" | ( "scrambled" | "poached" | "fried" ) "eggs" ;
 bread  -> "toast" | "biscuits" | "English muffin" ;
 ```
 
