@@ -43,7 +43,7 @@ tags: [Interpreter]
 
 (1) 파싱의 제일 처음은 expression 부터다. 토큰 뭉치에서 제일 앞에 있는 **6**을 가져온다. 
 
-(2) expression에서 갈 수 있는 곳은 ‘literal | unary | binary | grouping’ **이다.** 다음 토큰을 확인해보니 **‘/’** 이다. ****다음에 갈 곳은 **binary** 가 맞을 것 같다. (binary → expression operator expression)
+(2) expression에서 갈 수 있는 곳은 ‘literal | unary | binary | grouping’ **이다.** 다음 토큰을 확인해보니 **‘/’** 이다. 다음에 갈 곳은 **binary** 가 맞을 것 같다. (binary → expression operator expression)
 
 ![three.png](/commons/interpreter/3.png)
 
