@@ -194,7 +194,7 @@ private Expr equality() {
     }
     ```
     
-    advance()
+    **advance()**
     
     ```java
     // 현재 위치 증가와 현재 토큰 반환
@@ -204,7 +204,7 @@ private Expr equality() {
     }
     ```
     
-    peek, isAtEnd, previous
+    **peek, isAtEnd, previous**
     
     ```java
     // 토큰의 마지막인지 확인
