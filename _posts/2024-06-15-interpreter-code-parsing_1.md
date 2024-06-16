@@ -43,7 +43,8 @@ tags: [Interpreter]
 
 (1) 파싱의 제일 처음은 expression 부터다. 토큰 뭉치에서 제일 앞에 있는 **6**을 가져온다. 
 
-(2) expression에서 갈 수 있는 곳은 ‘literal | unary | binary | grouping’ **이다.** 다음 토큰을 확인해보니 **‘/’** 이다. 다음에 갈 곳은 **binary** 가 맞을 것 같다. (binary → expression operator expression)
+(2) expression에서 갈 수 있는 곳은 `literal | unary | binary | grouping`이다. 다음 토큰을 확인해보니 토큰의 값이 '/'이라는 것을 확인할 수 있다. '/'라면 **binary**가 맞을 것같다. (binary → expression operator expression)
+
 
 ![three.png](/commons/interpreter/3.png)
 
@@ -94,23 +95,23 @@ tags: [Interpreter]
 | --- | --- |
 | 터미널 | 토큰을 매치하여 소비하는 코드 |
 | 넌터미널 | 해당 규칙의 함수를 호출 |
-| | | if 또는 switch문 |
+| \| | if 또는 switch문 |
 | * 또는 + | while 또는 for문 |
 | ? | if 문 |
 
 **expression** → **equality**;
 
-**equality** → **comparison** ( (”≠” | “==”) **comparison**)*;
+**equality** → **comparison** ( (”≠” \| “==”) **comparison**)*;
 
-**comparison** → **term**( ( ”>” | “≥” | “<”| “≤” ) **term**)*;
+**comparison** → **term**( ( ”>” \| “≥” \| “<” \| “≤” ) **term**)*;
 
-**term** → **factor**( ( ”-” | ”+” ) **factor**)*;
+**term** → **factor**( ( ”-” \| ”+” ) **factor**)*;
 
-**factor** → **unary**( ( ”/” | “*” ) **unary**)*;
+**factor** → **unary**( ( ”/” \| “*” ) **unary**)*;
 
-**unary** → ( ”!” | “-” ) **unary** | **primary**;
+**unary** → ( ”!” \| “-” ) **unary** \| **primary**;
 
-**primary** → NUMBER | String | “true” | “false” | “nil” | “(” expression “)”;
+**primary** → NUMBER \| String \| “true” \| “false” \| “nil” \| “(” expression “)”;
 
 ## 2. 파싱 구현
 
@@ -123,7 +124,7 @@ tags: [Interpreter]
 ![seven.png](/commons/interpreter/7.png)
 ### 파서 클래스
 
-스캐너가 플랫한 입력한 시퀀스를 소비하지만, 파서는 문자 대신 토큰을 소비한다.
+스캐너가 플랫한 입력된 시퀀스를 소비하지만, 파서는 문자 대신 토큰을 소비한다.
 
 ```java
 class Parser{
@@ -136,7 +137,7 @@ class Parser{
 }
 ```
 
-current는 파싱할 토큰의 위치를 가리킨다. 이제 위에 있던 록스 표현식을 코드로 옮겨보자.
+current는 현재 파싱할 토큰의 위치를 가리킨다. 이제 위에 있던 **록스 표현식을 코드로 옮겨보자.**
 
 ### **1) expression → equality**
 
@@ -161,9 +162,9 @@ private Expr equality() {
 }
 ```
 
-하나를 살펴보면 나머지는 거의 동일하다. 이해하기 쉽게 예시와 함께 살펴보자. 
+equality 하나를 살펴보면 나머지 문법은 거의 동일하다. 이해하기 쉽게 예시와 함께 살펴보자. 
 
-- ‘1 == 2’ 라는 코드가 있을 때, 처음 `Expr expr = comparison()`를 거치면서(자세한 구현은 아래에 나올 것이다.) 숫자 1을 담을 것이다. **match** 메소드는 두 가지 일을 한다. 하나는 현재 토큰이 인자와 일치하는지와 일치하면 현재 위치를 증가시킨다. 가능하면 한 가지 일을 하는게 이해하기 쉬운데. 저자는 이 방식을 택했다.
+- ‘1 == 2’ 라는 코드가 있을 때, 처음 `Expr expr = comparison()`를 거치면서(자세한 구현은 아래에 나올 것이다.) 숫자 1을 담을 것이다. **match** 메소드는 두 가지 일을 한다. 하나는 현재 토큰이 인자와 일치하는지와 일치하면 current의 값을 증가시킨다. 가능하면 한 가지 일을 하는게 이해하기 쉬운데. 저자는 이 방식을 택했다.
 - while 문을 통해 ‘==’ or ‘!=’ 가 있다면 true를 반환함과 동시에 current 의 값을 증가시킨다.
 - previous 메서드는 current - 1 의 토큰을 가져온다. 예시로는 == 값이 담긴 토큰을 가져온다.
 - right는 처음 1을 담을 때와 동일하게 숫자 2를 오른쪽 값을 담게 된다.
