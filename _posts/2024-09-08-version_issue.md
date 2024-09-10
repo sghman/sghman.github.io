@@ -70,20 +70,20 @@ END IF^;
 
 ```yaml
 Caused by: java.sql.SQLSyntaxErrorException: (conn=3) You have an error in your SQL syntax; 
-					check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
-	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:282)
-	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
-	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:134)
-	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:872)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:811)
-	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:730)
-	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:654)
-	at org.mariadb.jdbc.Statement.executeInternal(Statement.java:957)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:1083)
-	at org.mariadb.jdbc.Statement.execute(Statement.java:474)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+		check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:282)
+at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:134)
+at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:872)
+at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:811)
+at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:730)
+at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:654)
+at org.mariadb.jdbc.Statement.executeInternal(Statement.java:957)
+at org.mariadb.jdbc.Statement.execute(Statement.java:1083)
+at org.mariadb.jdbc.Statement.execute(Statement.java:474)
+at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
 	....
 ```
 
@@ -209,7 +209,7 @@ private static boolean containsStatementSeparator(@Nullable EncodedResource reso
 
 ```
 
-이 메서드는 매개변수로 넘어온 separator가 해당 스크립트에 존재하는지 확인한다. 만약 존재하면 true, 그렇지 않으면 false를 반환합니다. 즉, 현재 스크립트에 ‘^;’가 없으면 false를 반환하게 됩니다.
+이 메서드는 매개변수로 넘어온 separator가 해당 스크립트에 존재하는지 확인한다. 만약 존재하면 true, 그렇지 않으면 false를 반환한다. 즉, 현재 스크립트에 ‘^;’가 없으면 false를 반환하게 된다.
 
 이 경우 false를 반환하면 separator는 기본적으로 ‘\n’으로 할당된다.
 
