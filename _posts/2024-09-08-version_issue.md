@@ -89,7 +89,7 @@ at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptU
 
 **결국 다시 `schema.sql`에서 한 곳만 ‘^;’로 변경하니 정상적으로 실행되었다.. 도무지 이해할 수 없는 상황이었고 정확한 원인을 파악하기 위해 디버깅을 시작했다.**
 
-**SQL을 작성하고 실제로 실행되는 부분은 spring jdbc 안에 있는 [ScriptUtils.java](http://scriptutils.java/)의 executeSqlScript 메서드이다.**
+**SQL을 작성하고 실제로 실행되는 부분은 spring jdbc 안에 있는 [ScriptUtils.java](https://github.com/spring-projects/spring-framework/blob/main/spring-jdbc/src/main/java/org/springframework/jdbc/datasource/init/ScriptUtils.java)의 executeSqlScript 메서드이다.**
 
 ```jsx
 public static void executeSqlScript(Connection connection, EncodedResource resource, boolean continueOnError,
