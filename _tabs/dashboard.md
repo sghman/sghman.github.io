@@ -1,12 +1,3 @@
-﻿
-> 이 파일은 블로그 레포(`E:\sghman.github.io`)에 생성한다.
-> Chirpy는 `_tabs/` 디렉토리의 .md 파일을 사이드바 네비게이션에 자동 등록한다.
-
-### Step 1: `E:\sghman.github.io\_tabs\dashboard.md` 생성
-
-아래 전체 내용으로 생성 (수정 없이 그대로):
-
-```markdown
 ---
 layout: page
 title: 기술 트렌드 대시보드
@@ -245,6 +236,8 @@ order: 5
 
   /* ── 3. 급상승 미지 키워드 Horizontal Bar + 드릴다운 ─────── */
   const emerging = DATA.emerging_topics?.topics ?? [];
+  let activeDrilldownIdx = -1;  /* 드릴다운 상태 관리 */
+
   if (emerging.length) {
     const topN = emerging.slice(0, 15);
     new Chart(document.getElementById('js-emerging-bar'), {
@@ -264,19 +257,31 @@ order: 5
         responsive: true,
         onClick: (_evt, elements) => {
           if (!elements.length) return;
-          const topic = topN[elements[0].index];
+          const idx   = elements[0].index;
+          const topic = topN[idx];
           const panel = document.getElementById('js-drilldown');
           const titleEl = document.getElementById('js-drilldown-title');
           const listEl  = document.getElementById('js-drilldown-list');
+
           /* 같은 항목 다시 클릭 → 닫기 */
-          if (titleEl.textContent.startsWith(topic.topic) && panel.classList.contains('active')) {
+          if (activeDrilldownIdx === idx && panel.classList.contains('active')) {
             panel.classList.remove('active');
+            activeDrilldownIdx = -1;
             return;
           }
+
+          activeDrilldownIdx = idx;
           titleEl.textContent = `${topic.topic}  (${(topic.sources || []).join(', ')})`;
-          listEl.innerHTML = (topic.sample_titles?.length)
-            ? topic.sample_titles.map(t => `<li>${t}</li>`).join('')
-            : '<li>샘플 없음</li>';
+
+          /* XSS 방지: textContent 사용 */
+          listEl.innerHTML = '';
+          const titles = topic.sample_titles?.length ? topic.sample_titles : ['샘플 없음'];
+          titles.forEach(t => {
+            const li = document.createElement('li');
+            li.textContent = t;
+            listEl.appendChild(li);
+          });
+
           panel.classList.add('active');
         },
         plugins: {
@@ -423,4 +428,13 @@ order: 5
         <td>${link}</td>
       </tr>`;
     }).join('');
+  } else {
+    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--text-muted-color)">데이터 없음</td></tr>';
+  }
 
+  /* ── 8. 메타 정보 ────────────────────────────────────────── */
+  if (DATA.generated_at) {
+    document.getElementById('js-meta').textContent = `마지막 갱신: ${DATA.generated_at} UTC`;
+  }
+})();
+</script>
