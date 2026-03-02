@@ -7,6 +7,13 @@ order: 5
 ---
 
 <style>
+/* 오른쪽 패널(인기 태그) 숨기고 main 컬럼 풀 와이드 */
+#panel-wrapper { display: none !important; }
+#main-wrapper main.col-xl-9 {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
 .db-grid { display: grid; gap: 1.5rem; }
 
 .summary-cards {
@@ -173,8 +180,9 @@ order: 5
   ];
 
   /* Chart.js 전역 기본값 */
-  Chart.defaults.color       = C.text;
-  Chart.defaults.borderColor = C.border;
+  Chart.defaults.color                  = C.text;
+  Chart.defaults.borderColor            = C.border;
+  Chart.defaults.layout.padding         = 10;  /* 포인트 원이 경계 밖으로 잘리지 않게 */
 
   /* ── 공통 축 옵션 생성 헬퍼 ──────────────────────────────── */
   function xAxis(extra) {
