@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: Gyu Hwan # the main title
 
-tagline: ?꾩쟻?꾩쟻 # it will display as the sub-title
+tagline: 끄적끄적 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  肄붾뜑蹂대떎???붿??덉뼱
+  기술 트렌드를 수집하고 정리하는 엔지니어링 블로그
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.

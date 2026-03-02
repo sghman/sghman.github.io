@@ -57,6 +57,11 @@ order: 5
   padding: 0;
 }
 
+/* Chart.js 크기 제어: position relative + 명시적 height */
+.chart-wrapper {
+  position: relative;
+}
+
 .drilldown-panel {
   display: none;
   background: var(--main-bg);
@@ -111,12 +116,16 @@ order: 5
 
   <div class="chart-row">
     <div class="chart-box">
-      <h3>내 키워드 주간 순위 변동 (Bump Chart)</h3>
-      <canvas id="js-bump-chart" height="260"></canvas>
+      <h3>이번 주 키워드 수집 현황</h3>
+      <div class="chart-wrapper" id="js-weekly-rank-wrapper">
+        <canvas id="js-weekly-rank-chart"></canvas>
+      </div>
     </div>
     <div class="chart-box">
-      <h3>급상승 미지 키워드 (최근 7일)</h3>
-      <canvas id="js-emerging-bar" height="260"></canvas>
+      <h3>새로 뜨는 키워드 (최근 7일)</h3>
+      <div class="chart-wrapper" id="js-emerging-wrapper">
+        <canvas id="js-emerging-bar"></canvas>
+      </div>
       <div id="js-drilldown" class="drilldown-panel">
         <strong id="js-drilldown-title"></strong>
         <ul id="js-drilldown-list"></ul>
@@ -125,18 +134,24 @@ order: 5
   </div>
 
   <div class="chart-full">
-    <h3>내 키워드 멘션 추이 (최근 30일)</h3>
-    <canvas id="js-mentions-chart" height="140"></canvas>
+    <h3>키워드 멘션 추이 (최근 30일)</h3>
+    <div class="chart-wrapper" style="height:200px">
+      <canvas id="js-mentions-chart"></canvas>
+    </div>
   </div>
 
   <div class="chart-row">
     <div class="chart-box">
       <h3>블로그 품질 트렌드 (최근 60일)</h3>
-      <canvas id="js-quality-chart" height="200"></canvas>
+      <div class="chart-wrapper" style="height:240px">
+        <canvas id="js-quality-chart"></canvas>
+      </div>
     </div>
     <div class="chart-box">
       <h3>월별 AI 비용 (USD, Haiku 4.5)</h3>
-      <canvas id="js-cost-chart" height="200"></canvas>
+      <div class="chart-wrapper" style="height:240px">
+        <canvas id="js-cost-chart"></canvas>
+      </div>
     </div>
   </div>
 
@@ -180,9 +195,9 @@ order: 5
   ];
 
   /* Chart.js 전역 기본값 */
-  Chart.defaults.color                  = C.text;
-  Chart.defaults.borderColor            = C.border;
-  Chart.defaults.layout.padding         = 10;  /* 포인트 원이 경계 밖으로 잘리지 않게 */
+  Chart.defaults.color       = C.text;
+  Chart.defaults.borderColor = C.border;
+  Chart.defaults.layout.padding = 10;
 
   /* ── 공통 축 옵션 생성 헬퍼 ──────────────────────────────── */
   function xAxis(extra) {
@@ -190,6 +205,11 @@ order: 5
   }
   function yAxis(extra) {
     return Object.assign({ ticks: { color: C.muted }, grid: { color: C.border } }, extra);
+  }
+
+  /* ── 가로 막대 높이 계산 (항목당 40px + 여백 60px, 120~350px 범위) ── */
+  function barHeight(count) {
+    return Math.min(350, Math.max(120, count * 40 + 60));
   }
 
   /* ── 1. 요약 카드 ─────────────────────────────────────────── */
@@ -206,48 +226,50 @@ order: 5
       <div class="summary-card__value">${c.value}</div>
     </div>`).join('');
 
-  /* ── 2. Bump Chart (y축 reverse Line Chart) ──────────────── */
-  const bump = DATA.tracked_trend?.bump_chart;
-  if (bump?.weeks?.length && bump?.series?.length) {
-    new Chart(document.getElementById('js-bump-chart'), {
-      type: 'line',
+  /* ── 2. 이번 주 키워드 수집 현황 (Horizontal Bar) ───────── */
+  const weeklyRank = DATA.tracked_trend?.weekly_rank ?? [];
+  if (weeklyRank.length) {
+    const h = barHeight(weeklyRank.length);
+    document.getElementById('js-weekly-rank-wrapper').style.height = h + 'px';
+    new Chart(document.getElementById('js-weekly-rank-chart'), {
+      type: 'bar',
       data: {
-        labels: bump.weeks,
-        datasets: bump.series.map((s, i) => ({
-          label:           s.topic,
-          data:            s.ranks,
-          borderColor:     PAL[i % PAL.length],
-          backgroundColor: PAL[i % PAL.length] + '22',
-          pointRadius:     6,
-          pointHoverRadius:8,
-          tension:         0.3,
-        })),
+        labels: weeklyRank.map(r => r.topic),
+        datasets: [{
+          label: '이번 주 멘션',
+          data:  weeklyRank.map(r => r.mentions),
+          backgroundColor: weeklyRank.map((_, i) => PAL[i % PAL.length] + 'bb'),
+          borderColor:     weeklyRank.map((_, i) => PAL[i % PAL.length]),
+          borderWidth: 1,
+          borderRadius: 3,
+        }],
       },
       options: {
+        indexAxis: 'y',
         responsive: true,
-        scales: {
-          y: yAxis({
-            reverse: true,
-            min: 1,
-            max: bump.series.length,
-            ticks: { stepSize: 1, callback: v => `#${v}`, color: C.muted },
-          }),
-          x: xAxis(),
-        },
+        maintainAspectRatio: false,
         plugins: {
-          legend: { labels: { color: C.text, boxWidth: 12 } },
-          tooltip: { callbacks: { label: ctx => ` ${ctx.dataset.label}: #${ctx.parsed.y}위` } },
+          legend: { display: false },
+          tooltip: {
+            callbacks: { label: ctx => ` ${ctx.parsed.x}건` },
+          },
+        },
+        scales: {
+          x: xAxis({ beginAtZero: true }),
+          y: yAxis({ ticks: { color: C.text, font: { size: 12 } } }),
         },
       },
     });
   }
 
-  /* ── 3. 급상승 미지 키워드 Horizontal Bar + 드릴다운 ─────── */
+  /* ── 3. 새로 뜨는 키워드 Horizontal Bar + 드릴다운 ─────── */
   const emerging = DATA.emerging_topics?.topics ?? [];
-  let activeDrilldownIdx = -1;  /* 드릴다운 상태 관리 */
+  let activeDrilldownIdx = -1;
 
   if (emerging.length) {
     const topN = emerging.slice(0, 15);
+    const h = barHeight(topN.length);
+    document.getElementById('js-emerging-wrapper').style.height = h + 'px';
     new Chart(document.getElementById('js-emerging-bar'), {
       type: 'bar',
       data: {
@@ -258,11 +280,13 @@ order: 5
           backgroundColor: topN.map((_, i) => PAL[i % PAL.length] + 'bb'),
           borderColor:     topN.map((_, i) => PAL[i % PAL.length]),
           borderWidth: 1,
+          borderRadius: 3,
         }],
       },
       options: {
         indexAxis: 'y',
         responsive: true,
+        maintainAspectRatio: false,
         onClick: (_evt, elements) => {
           if (!elements.length) return;
           const idx   = elements[0].index;
@@ -271,7 +295,6 @@ order: 5
           const titleEl = document.getElementById('js-drilldown-title');
           const listEl  = document.getElementById('js-drilldown-list');
 
-          /* 같은 항목 다시 클릭 → 닫기 */
           if (activeDrilldownIdx === idx && panel.classList.contains('active')) {
             panel.classList.remove('active');
             activeDrilldownIdx = -1;
@@ -280,8 +303,6 @@ order: 5
 
           activeDrilldownIdx = idx;
           titleEl.textContent = `${topic.topic}  (${(topic.sources || []).join(', ')})`;
-
-          /* XSS 방지: textContent 사용 */
           listEl.innerHTML = '';
           const titles = topic.sample_titles?.length ? topic.sample_titles : ['샘플 없음'];
           titles.forEach(t => {
@@ -289,7 +310,6 @@ order: 5
             li.textContent = t;
             listEl.appendChild(li);
           });
-
           panel.classList.add('active');
         },
         plugins: {
@@ -324,15 +344,18 @@ order: 5
             label:           s.topic,
             data:            allDates.map(d => m[d] ?? null),
             borderColor:     PAL[i % PAL.length],
-            backgroundColor: 'transparent',
-            pointRadius:     2,
-            tension:         0.3,
+            backgroundColor: PAL[i % PAL.length] + '18',
+            fill:            true,
+            pointRadius:     3,
+            pointHoverRadius:5,
+            tension:         0.4,
             spanGaps:        false,
           };
         }),
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         scales: {
           y: yAxis({ beginAtZero: true }),
           x: xAxis({ ticks: { color: C.muted, maxTicksLimit: 10, maxRotation: 0 } }),
@@ -360,13 +383,15 @@ order: 5
             borderColor:     PAL[i % PAL.length],
             backgroundColor: 'transparent',
             pointRadius:     3,
-            tension:         0.3,
+            pointHoverRadius:5,
+            tension:         0.4,
             spanGaps:        false,
           };
         }),
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         scales: {
           y: yAxis({ min: 0, max: 10, ticks: { stepSize: 2, color: C.muted } }),
           x: xAxis({ ticks: { color: C.muted, maxTicksLimit: 8, maxRotation: 0 } }),
@@ -389,17 +414,20 @@ order: 5
             data:            costData.map(c => +(c.input_tokens  * 0.80 / 1e6).toFixed(4)),
             backgroundColor: PAL[0] + 'bb',
             stack:           'cost',
+            borderRadius:    { topLeft: 0, topRight: 0, bottomLeft: 3, bottomRight: 3 },
           },
           {
             label:           'Output 비용',
             data:            costData.map(c => +(c.output_tokens * 4.00 / 1e6).toFixed(4)),
             backgroundColor: PAL[1] + 'bb',
             stack:           'cost',
+            borderRadius:    { topLeft: 3, topRight: 3, bottomLeft: 0, bottomRight: 0 },
           },
         ],
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         scales: {
           x: xAxis({ stacked: true }),
           y: yAxis({ stacked: true, ticks: { color: C.muted, callback: v => `$${v.toFixed(3)}` } }),
