@@ -4,7 +4,7 @@ author: gyuhwan
 date: 2026-02-25 09:00:00 +0900
 categories: [Tech Newsletter]
 tags: [digest, auto, codex]
-description: "핵심:** Claude 개발팀이 X(트위터)의 불만 60개를 분석한 결과, 실제 Claude 문제는 20%, 나머지 80%는 사용자가 제대로 된 "설계 없이" 도구를 사용한 것이 원인이었다."
+description: '핵심: Claude 개발팀이 X(트위터)의 불만 60개를 분석한 결과, 실제 Claude 문제는 20%, 나머지 80%는 사용자가 제대로 된 "설계 없이" 도구를 사용한 것이 원인이었다.'
 auto_generated: true
 ---
 
