@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, LLM]
 description: "핵심:** 미국이 2025년 AI에 300억 달러를 투자했지만 골드만삭스와 모건스탠리는 GDP 기여도가 거의 0에 가깝다고 분석했습니다. 이는 AI 기술 자체의 문제가 아니라 반도체 제조의 지정학적 현실 때문입니다."
 auto_generated: true
+permalink: /posts/2026-03-07-llm-digest/
 ---
 
 ## 🕑 Quick Glance

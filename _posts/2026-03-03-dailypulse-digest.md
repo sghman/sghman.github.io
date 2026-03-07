@@ -6,6 +6,7 @@ categories: [Daily Bigtech]
 tags: [digest, auto, bigtech, daily]
 description: "핵심:** 레거시 VPN과 방화벽 중심의 경계 기반 보안에서 벗어나 글로벌 클라우드 기반의 Agile SASE(Secure Access Service Edge) 아키텍처로 전환하는 시대가 도래했습니다."
 auto_generated: true
+permalink: /posts/2026-03-03-dailypulse-digest/
 ---
 
 ## 📋 daily_pulse — 이번 주 핵심 정보

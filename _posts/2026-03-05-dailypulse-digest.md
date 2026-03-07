@@ -6,6 +6,7 @@ categories: [Daily Bigtech]
 tags: [digest, auto, bigtech, daily]
 description: "핵심:** 개발자는 더 이상 단순히 코드를 작성하는 사람이 아니라, AI와 협력하여 시스템을 '이해'하고 '판단'하는 사람으로 변화하고 있습니다."
 auto_generated: true
+permalink: /posts/2026-03-05-dailypulse-digest/
 ---
 
 ## 📋 daily_pulse — 이번 주 핵심 정보

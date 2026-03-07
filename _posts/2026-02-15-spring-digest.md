@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, Spring]
 description: "핵심:** 민감 정보 관리가 개별 프로젝트 책임에서 플랫폼 차원의 중앙 관리로 전환되고 있습니다. 여기어때의 Secrethub 사례는 이러한 변화를 명확히 보여줍니다."
 auto_generated: true
+permalink: /posts/2026-02-15-spring-digest/
 ---
 
 # Spring 기술 동향 리포트

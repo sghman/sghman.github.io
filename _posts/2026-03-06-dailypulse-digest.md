@@ -6,6 +6,7 @@ categories: [Daily Bigtech]
 tags: [digest, auto, bigtech, daily]
 description: "핵심:** GitHub Copilot 코드 리뷰가 1년간 10배 성장하며 6천만 건을 돌파했습니다. 초기의 '철저함'에서 '개발자가 실제로 원하는 고신호 피드백'으로 정의가 변화했으며, 에이전트 아키텍처를 통해 저장소 컨텍스트를 활용한 종합적 검토가 가능해졌습니다."
 auto_generated: true
+permalink: /posts/2026-03-06-dailypulse-digest/
 ---
 
 ## 📋 daily_pulse — 이번 주 핵심 정보

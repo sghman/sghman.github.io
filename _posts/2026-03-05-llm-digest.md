@@ -4,8 +4,9 @@ author: gyuhwan
 date: 2026-03-05 09:00:00 +0900
 categories: [Tech Newsletter]
 tags: [digest, auto, LLM]
-description: "핵심:** Stripe가 llms.txt 파일에 "Instructions for Large Language Model Agents" 섹션을 추가하면서 API 문서의 패러다임이 변했다. 이는 단순한 기계 가독성을 넘어 AI 도구의 행동을 직접 프로그래밍하는 수준으로 진화했다는 의미다."
+description: "핵심:** Stripe가 llms.txt 파일에 \"Instructions for Large Language Model Agents\" 섹션을 추가하면서 API 문서의 패러다임이 변했다. 이는 단순한 기계 가독성을 넘어 AI 도구의 행동을 직접 프로그래밍하는 수준으로 진화했다는 의미다."
 auto_generated: true
+permalink: /posts/2026-03-05-llm-digest/
 ---
 
 ## 🕑 Quick Glance

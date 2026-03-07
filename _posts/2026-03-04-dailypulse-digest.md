@@ -6,6 +6,7 @@ categories: [Daily Bigtech]
 tags: [digest, auto, bigtech, daily]
 description: "핵심:** GitHub Copilot Dev Days 같은 글로벌 이벤트 확산과 Claude Code 플러그인 생태계 성장은 AI 코딩이 개인 도구에서 팀 시스템으로 전환되는 신호입니다. 하지만 같은 LLM을 사용해도 개인별 활용 역량 편차가 극심한 상황입니다."
 auto_generated: true
+permalink: /posts/2026-03-04-dailypulse-digest/
 ---
 
 ## 📋 daily_pulse — 이번 주 핵심 정보

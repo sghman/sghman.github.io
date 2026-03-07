@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, LLM]
 description: "2026-03-01 기준 최근 7일**"
 auto_generated: true
+permalink: /posts/2026-03-01-llm-digest/
 ---
 
 # LLM 기술 동향 분석 리포트

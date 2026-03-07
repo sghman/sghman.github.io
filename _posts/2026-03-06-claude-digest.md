@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, claude]
 description: "핵심:** AI 생성 코드는 로컬 테스트에서는 정상 작동하지만 프로덕션 환경에서 예측 불가능한 장애를 유발한다. 470개 PR 분석 결과 AI 코드는 평균 10.83개 이슈를 생성하며, 인간 작성 코드의 6.45개보다 68% 높다. 특히 48%의 AI 생성 코드가 보안 취약점을 포함한다."
 auto_generated: true
+permalink: /posts/2026-03-06-claude-digest/
 ---
 
 ## 🕑 Quick Glance

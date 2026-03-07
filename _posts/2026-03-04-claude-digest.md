@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, claude]
 description: "핵심:** Claude Code가 단순 코딩 어시스턴트를 넘어 전체 아키텍처 이해 및 멀티스텝 구현이 가능한 에이전틱 도구로 진화했습니다. 2026년 기준 완전한 초보자 가이드부터 팀 협업 가이드까지 체계화된 학습 자료가 확산되고 있습니다."
 auto_generated: true
+permalink: /posts/2026-03-04-claude-digest/
 ---
 
 ## 🕑 Quick Glance

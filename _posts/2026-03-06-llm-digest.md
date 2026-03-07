@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, LLM]
 description: "핵심:** 2025~2026년 프론티어급 오픈소스 LLM들이 Mixture-of-Experts(MoE) 트랜스포머 아키텍처로 수렴하고 있으며, 이는 매개변수 효율성과 계산 비용 최적화의 필연적 결과입니다."
 auto_generated: true
+permalink: /posts/2026-03-06-llm-digest/
 ---
 
 ## 🕑 Quick Glance

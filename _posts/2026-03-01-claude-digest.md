@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, claude]
 description: "핵심:** Claude Code는 더 이상 단순한 코드 생성 도구가 아니라, 전체 아키텍처를 이해하고 다단계 구현을 계획·실행하는 에이전트 개발 환경으로 진화했습니다. 2026년 현재 Claude Code는 개발자의 주요 협업 파트너로 자리잡았으며, 특히 복잡한 아키텍처(Clean Architecture, 마이크로서비스, DDD)를 다루는 개발자들에게 필수 도구가 되었습니다."
 auto_generated: true
+permalink: /posts/2026-03-01-claude-digest/
 ---
 
 # Claude 기술 블로그 포스트

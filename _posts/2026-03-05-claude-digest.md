@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, claude]
 description: "핵심:** Anthropic이 Claude에 경쟁사 AI 챗봇(ChatGPT, Gemini, Copilot)의 기억을 가져오는 기능을 출시했으며, 동시에 OpenClaw 같은 프레임워크에서 Kimi, MiniMax 등 다양한 프로바이더를 통합 관리할 수 있는 표준화된 모델 참조 시스템이 정착되고 있습니다."
 auto_generated: true
+permalink: /posts/2026-03-05-claude-digest/
 ---
 
 ## 🕑 Quick Glance

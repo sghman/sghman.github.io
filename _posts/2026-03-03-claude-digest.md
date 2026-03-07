@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, claude]
 description: "핵심:** Claude Code를 단순 채팅 도구로만 쓰면 기능의 20%만 활용하는 것. CLAUDE.md, Hooks, MCP 서버 연결이라는 3가지 설정으로 완전히 다른 경험을 만들 수 있다."
 auto_generated: true
+permalink: /posts/2026-03-03-claude-digest/
 ---
 
 ## 🕑 Quick Glance

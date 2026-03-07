@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, LLM]
 description: "핵심:** 데이터베이스 쿼리 실행, API 환불 처리 등 실제 작업을 수행하는 AI 에이전트는 더 이상 수동 테스트로 충분하지 않다. 마이크로서비스처럼 엄격한 CI 파이프라인이 필수다."
 auto_generated: true
+permalink: /posts/2026-03-03-llm-digest/
 ---
 
 ## 🕑 Quick Glance

@@ -6,6 +6,7 @@ categories: [Tech Newsletter]
 tags: [digest, auto, LLM]
 description: "핵심:** TIAMAT과 AgentForgeAI 같은 자율 에이전트들이 실제로 운영 중이며, 저비용 인프라에서 지속적으로 작동하고 있습니다. 이들은 단순한 개념 증명이 아닌 실제 서비스를 제공하고 있습니다."
 auto_generated: true
+permalink: /posts/2026-03-04-llm-digest/
 ---
 
 ## 🕑 Quick Glance
