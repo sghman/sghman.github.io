@@ -5,6 +5,7 @@ date: 2026-03-11 09:00:00 +0900
 categories: [Tech Newsletter]
 tags: [digest, auto, LLM]
 description: "핵심:** GPT-4, Llama 3, Claude 같은 기초 모델의 진정한 가치는 조직의 도메인과 데이터에 맞춘 Fine-tuning을 통해 비로소 실현된다. 단순히 API를 호출하는 것이 아니라, 자체 데이터로 모델을 재학습시켜 비즈니스 맥락에 최적화된 AI 시스템을 구축하는 것이 핵심이다."
+permalink: /posts/2026-03-11-llm-digest/
 auto_generated: true
 ---
 

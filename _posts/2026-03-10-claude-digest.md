@@ -5,6 +5,7 @@ date: 2026-03-10 09:00:00 +0900
 categories: [Tech Newsletter]
 tags: [digest, auto, claude]
 description: "핵심:** Claude Code는 단순 코드 작성 도구를 넘어 작업 설명 → 계획 수립 → 구현 → 검증까지 전체 개발 사이클을 자동화하는 에이전트형 AI 코딩 어시스턴트로 진화했습니다."
+permalink: /posts/2026-03-10-claude-digest/
 auto_generated: true
 ---
 

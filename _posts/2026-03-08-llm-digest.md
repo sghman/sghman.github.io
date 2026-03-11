@@ -5,6 +5,7 @@ date: 2026-03-08 09:00:00 +0900
 categories: [Tech Newsletter]
 tags: [digest, auto, LLM]
 description: "핵심:** 자율 에이전트 루프에서 비구조화된 상태 관리로 인한 반복적 오류를 해결하기 위해 명시적인 \"블랙보드\" 구조를 도입하는 기법이 주목받고 있습니다."
+permalink: /posts/2026-03-08-llm-digest/
 auto_generated: true
 ---
 

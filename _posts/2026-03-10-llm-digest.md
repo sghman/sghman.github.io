@@ -5,6 +5,7 @@ date: 2026-03-10 09:00:00 +0900
 categories: [Tech Newsletter]
 tags: [digest, auto, LLM]
 description: "핵심:** 할루시네이션, 모순, 재현 불가능한 출력은 모델 스케일링으로 해결 불가. 대신 LLM이 작동하는 정보 환경 자체를 통제해야 한다."
+permalink: /posts/2026-03-10-llm-digest/
 auto_generated: true
 ---
 

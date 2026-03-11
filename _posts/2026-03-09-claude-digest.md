@@ -5,6 +5,7 @@ date: 2026-03-09 09:00:00 +0900
 categories: [Tech Newsletter]
 tags: [digest, auto, claude]
 description: "핵심:** Anthropic의 Claude Code가 2026년 본격적으로 개발자 생태계에 진입하고 있으며, 터미널 기반의 에이전틱 코딩이 소프트웨어 개발의 미래로 자리잡고 있습니다."
+permalink: /posts/2026-03-09-claude-digest/
 auto_generated: true
 ---
 

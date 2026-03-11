@@ -5,6 +5,7 @@ date: 2026-03-11 09:00:00 +0900
 categories: [Tech Newsletter]
 tags: [digest, auto, claude]
 description: "핵심:** 대화가 길어질수록 Claude의 초기 지시사항이 압축되거나 손실되어 코드 스타일, 네이밍 컨벤션, 주석 언어가 일관성 없이 변한다. 이는 버그가 아니라 LLM의 컨텍스트 윈도우 특성이다."
+permalink: /posts/2026-03-11-claude-digest/
 auto_generated: true
 ---
 

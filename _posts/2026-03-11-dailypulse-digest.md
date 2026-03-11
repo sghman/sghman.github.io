@@ -5,6 +5,7 @@ date: 2026-03-11 09:30:00 +0900
 categories: [Daily Bigtech]
 tags: [digest, auto, bigtech, daily]
 description: "핵심:** GitHub Copilot SDK와 같은 도구들이 \"텍스트 입력 → 텍스트 출력\" 패러다임을 넘어, 에이전트가 직접 파일을 수정하고 명령을 실행하며 오류를 복구하는 자동화 시스템으로 진화하고 있습니다. 이는 단순한 코드 생성 도구에서 실제 소프트웨어 엔지니어링 작업을 자동화하는 도구로의 근본적인 전환입니다."
+permalink: /posts/2026-03-11-dailypulse-digest/
 auto_generated: true
 ---
 
