@@ -1,0 +1,34 @@
+# _data/projects.yml
+# About "Now" 섹션 + Projects 페이지 공용 데이터
+# status: live | dev | plan | idea
+# category: automation | personal | learning
+
+- name: 수집_블로그
+  desc: RSS/Naver/Tavily → Claude AI → Jekyll 자동 기술 블로그 발행
+  status: live
+  category: automation
+  tech: [Python, Claude API, GitHub Actions]
+  url: https://github.com/sghman/sghman.github.io
+
+- name: Trend Dashboard
+  desc: HN/arXiv/GitHub 트렌드 시그널 수집 + Chart.js 시각화
+  status: live
+  category: automation
+  tech: [Supabase, Chart.js]
+
+- name: 라이프로그 시스템
+  desc: AI 대화형 개인 인텔리전스 — 기록은 몇 초, 발견은 매주
+  status: plan
+  category: personal
+  tech: [Next.js, Supabase, Cloudflare Workers]
+
+- name: AI 역량강화
+  desc: Java/Spring 백엔드 → AI 통합 엔지니어 전환 6개월 로드맵
+  status: dev
+  category: learning
+  tech: [Spring AI, RAG, MCP]
+
+- name: AI 플랜 트래커
+  desc: AI 기반 프로젝트 플랜 관리 및 자동 진행 추적
+  status: idea
+  category: personal
