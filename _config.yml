@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Gyu Hwan # the main title
 
-tagline: 끄적끄적 # it will display as the sub-title
+tagline: Building things that automate things # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   기술 트렌드를 수집하고 정리하는 엔지니어링 블로그
@@ -63,7 +63,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
