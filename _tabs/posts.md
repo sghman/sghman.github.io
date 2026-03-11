@@ -69,15 +69,11 @@ order: 1
 </div>
 {% endif %}
 
-<!-- Filter chips: 태그 기반 자동 생성 -->
+<!-- Filter chips: 카테고리 기반 하드코딩 -->
 <div class="filter-bar" style="display:flex;gap:0.4rem;margin-bottom:1.5rem;flex-wrap:wrap">
   <button class="filter-chip active" onclick="filterPosts('all',this)">All</button>
-  {% assign post_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
-  {% for t in post_tags %}
-    {% unless t == 'digest' or t == 'auto' %}
-      <button class="filter-chip" onclick="filterPosts('{{ t }}',this)">{{ t }}</button>
-    {% endunless %}
-  {% endfor %}
+  <button class="filter-chip" onclick="filterPosts('tech',this)">Tech</button>
+  <button class="filter-chip" onclick="filterPosts('daily',this)">Daily</button>
   <button class="filter-chip" onclick="filterPosts('best',this)">Best</button>
 </div>
 
@@ -85,22 +81,17 @@ order: 1
 <div id="post-list">
 {% for post in all_posts %}
   {% assign tag_class = 'tag-infra' %}
-  {% assign main_tag = '' %}
-  {% for t in post.tags %}
-    {% unless t == 'digest' or t == 'auto' %}
-      {% assign main_tag = t %}
-      {% if t == 'claude' or t == 'LLM' %}{% assign tag_class = 'tag-ai' %}
-      {% elsif t == 'daily_pulse' %}{% assign tag_class = 'tag-pulse' %}
-      {% endif %}
-      {% break %}
-    {% endunless %}
-  {% endfor %}
+  {% assign post_cat = 'tech' %}
+  {% if post.categories contains 'Daily Bigtech' %}
+    {% assign post_cat = 'daily' %}
+    {% assign tag_class = 'tag-pulse' %}
+  {% endif %}
 
-  <a class="post-item" href="{{ post.url | relative_url }}" data-tag="{{ main_tag | downcase }}" data-idx="{{ forloop.index }}">
+  <a class="post-item" href="{{ post.url | relative_url }}" data-tag="{{ post_cat }}" data-idx="{{ forloop.index }}">
     <span class="pi-date">{{ post.date | date: "%b %d" }}</span>
     <div><span class="pi-title">{{ post.title | remove: '[Tech] ' | truncate: 80 }}</span></div>
     <div class="pi-right">
-      <span class="tag-pill {{ tag_class }}">{{ main_tag }}</span>
+      <span class="tag-pill {{ tag_class }}">{{ post_cat }}</span>
     </div>
   </a>
 {% endfor %}

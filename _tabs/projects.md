@@ -6,10 +6,8 @@ order: 7
 ---
 
 <style>
-.proj-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-bottom: 2rem; }
-.proj-grid-full { display: grid; grid-template-columns: 1fr; gap: 0.6rem; margin-bottom: 2rem; }
+.proj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
 .pc-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem; }
-@media (max-width: 768px) { .proj-grid { grid-template-columns: 1fr; } }
 </style>
 
 <p style="font-size:0.82rem;color:#555;margin-bottom:2rem">자동화, AI 파이프라인, 개인 도구 — 만들고 있는 것들</p>
@@ -24,7 +22,7 @@ order: 7
 
   {% if cat_projects.size > 0 %}
   <div class="section-label">{{ cat_label }}</div>
-  <div class="{% if cat_projects.size == 1 %}proj-grid-full{% else %}proj-grid{% endif %}">
+  <div class="proj-grid">
     {% for project in cat_projects %}
       {% assign status_label = project.status %}
       {% assign status_class = 'status-idea' %}

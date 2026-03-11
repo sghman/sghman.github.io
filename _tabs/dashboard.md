@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 기술 트렌드 대시보드
+title: Dashboard
 permalink: /dashboard/
 icon: fas fa-chart-line
 order: 6
@@ -185,7 +185,8 @@ order: 6
   gap: 1.5rem;
 }
 .chart-box, .chart-full {
-  background: var(--card-header-bg);
+  background: #0a0a0a;
+  border: 1px solid #151515;
   border-radius: var(--bs-border-radius, 0.625rem);
   padding: 1.25rem;
 }
@@ -323,11 +324,11 @@ order: 6
   <!-- P3: Pipeline Status -->
   <div class="pipeline-status" id="js-pipeline-status"></div>
 
-  <!-- Summary Cards -->
-  <div class="summary-cards" id="js-summary-cards"></div>
-
   <!-- P2: Filter Bar -->
   <div class="filter-bar" id="js-filter-bar"></div>
+
+  <!-- Summary Cards -->
+  <div class="summary-cards" id="js-summary-cards"></div>
 
   <!-- P1: Posts Table (moved to TOP) -->
   <div class="chart-full">
