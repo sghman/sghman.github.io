@@ -372,7 +372,7 @@ order: 5
   const DATA = {{ site.data.dashboard | jsonify }};
   if (!DATA) {
     document.querySelector('.db-grid').innerHTML =
-      '<p style="color:var(--text-muted-color)">dashboard.json 데이터를 찾을 수 없습니다.</p>';
+      '<p style="color:var(--text-muted-color)">dashboard.json 데이터를 찾을 수 없습니다.<\/p>';
     return;
   }
 
@@ -442,9 +442,9 @@ order: 5
     detailParts.push(`키워드 ${allKeywords.length}개 추적 중`);
 
     el.innerHTML = `
-      <span class="status-dot ${statusClass}"></span>
-      <span>${statusText} — 마지막 갱신: ${genAt} UTC</span>
-      <span class="status-detail">${detailParts.join(' · ')}</span>
+      <span class="status-dot ${statusClass}"><\/span>
+      <span>${statusText} — 마지막 갱신: ${genAt} UTC<\/span>
+      <span class="status-detail">${detailParts.join(' · ')}<\/span>
     `;
   })();
 
@@ -486,10 +486,10 @@ order: 5
     ];
     document.getElementById('js-summary-cards').innerHTML = cards.map(c => `
       <div class="summary-card">
-        <div class="summary-card__label">${c.label}</div>
-        <div class="summary-card__value">${c.value}</div>
-        ${c.delta ? `<div class="summary-card__delta ${c.cls}">${c.delta}</div>` : ''}
-      </div>`).join('');
+        <div class="summary-card__label">${c.label}<\/div>
+        <div class="summary-card__value">${c.value}<\/div>
+        ${c.delta ? `<div class="summary-card__delta ${c.cls}">${c.delta}<\/div>` : ''}
+      <\/div>`).join('');
   })();
 
   /* ============================================================
@@ -514,16 +514,16 @@ order: 5
     let html = '';
     // 기간 필터
     [7, 30, 60].forEach(d => {
-      html += `<button class="filter-btn${d === 30 ? ' active' : ''}" data-range="${d}" onclick="window.__dbFilter(${d}, null)">${d}일</button>`;
+      html += `<button class="filter-btn${d === 30 ? ' active' : ''}" data-range="${d}" onclick="window.__dbFilter(${d}, null)">${d}일<\/button>`;
     });
-    html += '<div class="filter-sep"></div>';
+    html += '<div class="filter-sep"><\/div>';
     // 카테고리 필터
     Object.entries(cats).forEach(([cat, kws]) => {
       const color = cat === 'AI' ? '#8ab4f8' : cat === 'Infra' ? '#81c995' : '#fdd663';
       html += `<button class="kw-filter-btn active" data-cat="${cat}" onclick="window.__dbFilterKw(this, '${cat}')">
-        <span class="dot" style="background:${color}"></span>
-        ${cat} <span style="font-size:0.65rem;color:var(--text-muted-color)">(${kws.join(', ')})</span>
-      </button>`;
+        <span class="dot" style="background:${color}"><\/span>
+        ${cat} <span style="font-size:0.65rem;color:var(--text-muted-color)">(${kws.join(', ')})<\/span>
+      <\/button>`;
     });
     bar.innerHTML = html;
   })();
@@ -564,7 +564,7 @@ order: 5
 
     const tbody = document.getElementById('js-posts-tbody');
     if (!filtered.length) {
-      tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--text-muted-color)">해당 기간에 데이터 없음</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--text-muted-color)">해당 기간에 데이터 없음<\/td><\/tr>';
       return;
     }
 
@@ -577,7 +577,7 @@ order: 5
         else if (q < 5.0) { qClass = 'quality-low'; warn = ' ⚠'; }
       }
       const badge = q != null
-        ? `<span class="quality-badge ${qClass}">${q.toFixed(1)}${warn}</span>`
+        ? `<span class="quality-badge ${qClass}">${q.toFixed(1)}${warn}<\/span>`
         : '-';
 
       const cat = kwCategory(p.keyword);
@@ -585,15 +585,15 @@ order: 5
       const kwLabel = cat !== 'etc' ? `${cat} · ${p.keyword}` : p.keyword;
 
       const link = p.post_url
-        ? `<a href="${p.post_url}" target="_blank" rel="noopener" style="color:var(--link-color)" class="summary-cell">${p.one_line_summary || '보기'}</a>`
-        : `<span class="summary-cell">${p.one_line_summary || '-'}</span>`;
+        ? `<a href="${p.post_url}" target="_blank" rel="noopener" style="color:var(--link-color)" class="summary-cell">${p.one_line_summary || '보기'}<\/a>`
+        : `<span class="summary-cell">${p.one_line_summary || '-'}<\/span>`;
 
       return `<tr>
-        <td style="white-space:nowrap">${p.date.slice(5)}</td>
-        <td><span class="kw-badge ${kwClass}">${kwLabel}</span></td>
-        <td>${badge}</td>
-        <td>${link}</td>
-      </tr>`;
+        <td style="white-space:nowrap">${p.date.slice(5)}<\/td>
+        <td><span class="kw-badge ${kwClass}">${kwLabel}<\/span><\/td>
+        <td>${badge}<\/td>
+        <td>${link}<\/td>
+      <\/tr>`;
     }).join('');
   }
   renderPosts();
@@ -693,14 +693,14 @@ order: 5
     const emerging = DATA.emerging_topics?.topics ?? [];
     const grid = document.getElementById('js-emerging-grid');
     if (!emerging.length) {
-      grid.innerHTML = '<span style="color:var(--text-muted-color);font-size:0.8rem">데이터 없음</span>';
+      grid.innerHTML = '<span style="color:var(--text-muted-color);font-size:0.8rem">데이터 없음<\/span>';
       return;
     }
     grid.innerHTML = emerging.slice(0, 12).map((t, i) => `
       <div class="emerging-chip" data-idx="${i}">
-        <span class="name">${t.topic}</span>
-        <span class="count">멘션 ${t.weekly_mentions}</span>
-      </div>
+        <span class="name">${t.topic}<\/span>
+        <span class="count">멘션 ${t.weekly_mentions}<\/span>
+      <\/div>
     `).join('');
 
     // Click drilldown
