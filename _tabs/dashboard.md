@@ -3,7 +3,7 @@ layout: page
 title: 기술 트렌드 대시보드
 permalink: /dashboard/
 icon: fas fa-chart-line
-order: 5
+order: 6
 ---
 
 <style>
