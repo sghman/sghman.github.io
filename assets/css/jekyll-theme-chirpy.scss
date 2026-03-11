@@ -24,15 +24,17 @@ body { -webkit-font-smoothing: antialiased; }
   .site-title {
     font-size: 0.95rem;
     font-weight: 600;
+    /* C (X): identity element = pure #fff, no compromise.
+       "Your name is pure white. There is no off-white for softness." */
     a {
-      color: #ededed !important;
+      color: #fff !important;
       text-decoration: none !important;
       &:hover { color: #fff !important; }
     }
   }
-  /* Increase subtitle visibility: #555 on #000 fails readability.
-     Airbnb guideline: min 3.5:1 for non-critical labels → #767 */
-  .site-subtitle { font-size: 0.72rem; color: #777 !important; }
+  /* D (Airbnb) + C (X) consensus: #888 = 5.32:1 contrast on #000, passes WCAG AA.
+     Also coherent — matches --text-muted-highlight-color already in the design system. */
+  .site-subtitle { font-size: 0.72rem; color: #888 !important; }
 
   .nav-item {
     width: 100%;
@@ -62,9 +64,14 @@ body { -webkit-font-smoothing: antialiased; }
 .card, .card-body { background: #0a0a0a; border-color: #151515; }
 #panel-wrapper { display: none !important; }
 
-/* Layout: cap content width so it doesn't stretch to ~1700px at 1920px.
-   Designer consensus: 860–900px reading column (A: 900px, B: 860px → 880px).
-   Left-anchored after sidebar — intentional right whitespace (Vercel/Linear pattern). */
+/* Layout: C (X) + D (Airbnb) consensus — center the content column in available space.
+   At 1920px: sidebar=240px, available=1680px. 880px column centered → ~400px air each side.
+   "양쪽에 공백을 둬서 가운데 집중되게" — bilateral whitespace, not left-biased.
+   Structure: #main-wrapper > .container > .row.flex-grow-1 > main.col-xl-9 + .col-xl-3(hidden)
+   → Must center .row, not just #main-wrapper. */
+#main-wrapper .row.flex-grow-1 {
+  justify-content: center !important;
+}
 #main-wrapper main.col-xl-9 {
   max-width: 880px !important;
   flex: 0 0 auto !important;
