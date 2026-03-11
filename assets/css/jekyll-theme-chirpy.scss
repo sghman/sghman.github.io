@@ -64,13 +64,18 @@ body { -webkit-font-smoothing: antialiased; }
 .card, .card-body { background: #0a0a0a; border-color: #151515; }
 #panel-wrapper { display: none !important; }
 
-/* Layout: C (X) + D (Airbnb) consensus — center the content column in available space.
-   At 1920px: sidebar=240px, available=1680px. 880px column centered → ~400px air each side.
-   "양쪽에 공백을 둬서 가운데 집중되게" — bilateral whitespace, not left-biased.
-   Structure: #main-wrapper > .container > .row.flex-grow-1 > main.col-xl-9 + .col-xl-3(hidden)
-   → Must center .row, not just #main-wrapper. */
+/* Layout: sidebar(240) + content(880) = 1120px total block, centered in viewport.
+   At 1920px: outer margin = (1920-1120)/2 = 400px each side.
+   sidebar is position:fixed so must move its `left` dynamically.
+   max(0px, ...) prevents negative offset on narrow viewports. */
+#sidebar {
+  left: max(0px, calc((100vw - 1120px) / 2)) !important;
+}
+#main-wrapper {
+  margin-left: calc(max(0px, (100vw - 1120px) / 2) + 240px) !important;
+}
 #main-wrapper .row.flex-grow-1 {
-  justify-content: center !important;
+  justify-content: flex-start !important;
 }
 #main-wrapper main.col-xl-9 {
   max-width: 880px !important;
@@ -80,8 +85,8 @@ body { -webkit-font-smoothing: antialiased; }
 
 /* Tag pills */
 .tag-pill {
-  font-size: 0.6rem;
-  padding: 0.12rem 0.45rem;
+  font-size: 0.72rem;
+  padding: 0.14rem 0.5rem;
   border-radius: 99px;
   font-weight: 500;
 }
@@ -114,9 +119,9 @@ body { -webkit-font-smoothing: antialiased; }
 
 /* Filter chips */
 .filter-chip {
-  padding: 0.28rem 0.75rem;
+  padding: 0.3rem 0.85rem;
   border-radius: 99px;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   border: 1px solid #1a1a1a;
   color: #555;
   cursor: pointer;

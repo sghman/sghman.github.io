@@ -38,7 +38,7 @@ order: 1
   text-decoration: none;
 }
 .post-item:hover { padding-left: 0.3rem; }
-.post-item .pi-date { font-size: 0.78rem; color: #444; font-variant-numeric: tabular-nums; }
+.post-item .pi-date { font-size: 0.85rem; color: #555; font-variant-numeric: tabular-nums; }
 .post-item .pi-title { font-size: 0.95rem; color: #aaa; transition: color 0.12s; line-height: 1.45; }
 .post-item:hover .pi-title { color: #fff; }
 .post-item .pi-right { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
