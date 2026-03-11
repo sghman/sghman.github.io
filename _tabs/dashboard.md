@@ -330,17 +330,6 @@ order: 6
   <!-- Summary Cards -->
   <div class="summary-cards" id="js-summary-cards"></div>
 
-  <!-- P1: Posts Table (moved to TOP) -->
-  <div class="chart-full">
-    <h3>최근 발행 포스트</h3>
-    <table class="posts-table">
-      <thead>
-        <tr><th style="width:70px">날짜</th><th style="width:90px">키워드</th><th style="width:50px">품질</th><th>포스트</th></tr>
-      </thead>
-      <tbody id="js-posts-tbody"></tbody>
-    </table>
-  </div>
-
   <!-- Mentions Chart -->
   <div class="chart-full">
     <h3>키워드 멘션 추이 (최근 30일)</h3>
@@ -389,6 +378,7 @@ order: 6
         </div>
       </div>
     </div>
+  </div>
 
   <div class="chart-full">
     <h3 style="display:flex;justify-content:space-between;align-items:center">
@@ -667,6 +657,13 @@ order: 6
         <td>${link}<\/td>
       <\/tr>`;
     }).join('');
+    const countEl = document.getElementById('js-posts-count');
+    if (countEl) {
+      const total = (DATA.recent_posts || []).length;
+      countEl.textContent = filtered.length < total
+        ? `(${filtered.length}개 표시 / 총 ${total}개)`
+        : `(${total}개)`;
+    }
   }
   renderPosts();
 
@@ -909,38 +906,6 @@ order: 6
     this.classList.toggle('open');
     document.getElementById('js-ops-content').classList.toggle('open');
   });
-
-  /* ── 7. 최근 발행 포스트 테이블 ─────────────────────────── */
-  const posts  = DATA.recent_posts ?? [];
-  const tbody  = document.getElementById('js-posts-tbody');
-  const MAX_POSTS = 20;
-  const displayed = posts.slice(0, MAX_POSTS);
-  const countEl = document.getElementById('js-posts-count');
-  if (countEl) {
-    countEl.textContent = posts.length > MAX_POSTS
-      ? `(최신 ${MAX_POSTS}개 / 총 ${posts.length}개)`
-      : `(${posts.length}개)`;
-  }
-  if (displayed.length) {
-    tbody.innerHTML = displayed.map(p => {
-      const q     = p.quality_score;
-      const color = q >= 8 ? '#81c995' : q >= 6 ? '#fdd663' : '#f28b82';
-      const badge = q != null
-        ? `<span class="quality-badge" style="background:${color}22;color:${color}">${q.toFixed(1)}</span>`
-        : '-';
-      const link  = p.post_url
-        ? `<a href="${p.post_url}" target="_blank" rel="noopener" style="color:var(--link-color)">${p.one_line_summary || '보기'}</a>`
-        : (p.one_line_summary || '-');
-      return `<tr>
-        <td style="white-space:nowrap">${p.date}</td>
-        <td>${p.keyword}</td>
-        <td>${badge}</td>
-        <td>${link}</td>
-      </tr>`;
-    }).join('');
-  } else {
-    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--text-muted-color)">데이터 없음</td></tr>';
-  }
 
   /* Meta */
   if (DATA.generated_at) {
