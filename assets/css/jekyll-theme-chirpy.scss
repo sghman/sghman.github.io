@@ -34,7 +34,7 @@ body { -webkit-font-smoothing: antialiased; }
   }
   /* D (Airbnb) + C (X) consensus: #888 = 5.32:1 contrast on #000, passes WCAG AA.
      Also coherent — matches --text-muted-highlight-color already in the design system. */
-  .site-subtitle { font-size: 0.72rem; color: #888 !important; }
+  .site-subtitle { font-size: 0.83rem; color: #888 !important; }
 
   .nav-item {
     width: 100%;
@@ -44,7 +44,7 @@ body { -webkit-font-smoothing: antialiased; }
       color: #ededed !important;
     }
     .nav-link {
-      font-size: 0.8rem;
+      font-size: 0.92rem;
       /* Wider padding so full-width active highlight contains long labels like DASHBOARD */
       padding: 0.5rem 1rem;
       border-radius: 6px;
@@ -96,7 +96,7 @@ body { -webkit-font-smoothing: antialiased; }
 
 /* Status badges */
 .status-badge {
-  font-size: 0.6rem;
+  font-size: 0.69rem;
   padding: 0.15rem 0.5rem;
   border-radius: 99px;
   font-weight: 500;
@@ -109,7 +109,7 @@ body { -webkit-font-smoothing: antialiased; }
 
 /* Section label */
 .section-label {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   color: #444;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -173,7 +173,7 @@ body { -webkit-font-smoothing: antialiased; }
   }
 }
 .now-tech-tag {
-  font-size: 0.58rem;
+  font-size: 0.67rem;
   padding: 0.1rem 0.4rem;
   border-radius: 3px;
   background: #111;
@@ -242,14 +242,14 @@ body { -webkit-font-smoothing: antialiased; }
   transition: border-color 0.2s;
   cursor: pointer;
   &:hover { border-color: #222; }
-  h3 { font-size: 0.85rem; font-weight: 600; color: #bbb; margin-bottom: 0; }
-  p { font-size: 0.75rem; color: #555; line-height: 1.5; margin-bottom: 0.5rem; }
+  h3 { font-size: 0.98rem; font-weight: 600; color: #bbb; margin-bottom: 0; }
+  p { font-size: 0.86rem; color: #555; line-height: 1.5; margin-bottom: 0.5rem; }
 }
 
 /* Timeline */
 .tl-item {
   display: flex; gap: 0.75rem; padding: 0.5rem 0;
-  font-size: 0.78rem; align-items: flex-start;
+  font-size: 0.90rem; align-items: flex-start;
   .tl-date { color: #2a2a2a; font-variant-numeric: tabular-nums; min-width: 50px; flex-shrink: 0; }
   .tl-dot { width: 5px; height: 5px; border-radius: 50%; background: #222; flex-shrink: 0; margin-top: 0.35rem; }
   .tl-text { color: #777; strong { color: #999; font-weight: 500; } }
