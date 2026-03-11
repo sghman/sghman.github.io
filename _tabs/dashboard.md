@@ -248,6 +248,32 @@ order: 5
 .drilldown-panel.active { display: block; }
 .drilldown-panel ul { margin: 0.5rem 0 0; padding-left: 1.2rem; }
 
+/* ===== Posts Scroll Wrapper ===== */
+.posts-scroll-wrap {
+  max-height: 320px;
+  overflow-y: auto;
+  border-radius: 0.375rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--main-border-color) transparent;
+}
+.posts-scroll-wrap::-webkit-scrollbar { width: 6px; }
+.posts-scroll-wrap::-webkit-scrollbar-track { background: transparent; }
+.posts-scroll-wrap::-webkit-scrollbar-thumb {
+  background: var(--main-border-color);
+  border-radius: 3px;
+}
+.posts-scroll-wrap .posts-table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--card-header-bg);
+  z-index: 1;
+}
+
+.posts-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.posts-table th {
+  text-align: left;
+}
+
 /* ===== P1: Ops Panel (collapsible) ===== */
 .ops-toggle {
   display: flex;
@@ -361,6 +387,20 @@ order: 5
           </div>
         </div>
       </div>
+    </div>
+
+  <div class="chart-full">
+    <h3 style="display:flex;justify-content:space-between;align-items:center">
+      <span>최근 발행 포스트 <small id="js-posts-count" style="font-size:0.75rem;font-weight:400;color:var(--text-muted-color)"></small></span>
+      <a href="/" style="font-size:0.78rem;color:var(--link-color);font-weight:400;text-decoration:none">→ 전체 보기</a>
+    </h3>
+    <div class="posts-scroll-wrap">
+      <table class="posts-table">
+        <thead>
+          <tr><th>날짜</th><th>키워드</th><th>품질</th><th>포스트</th></tr>
+        </thead>
+        <tbody id="js-posts-tbody"></tbody>
+      </table>
     </div>
   </div>
 
@@ -833,6 +873,38 @@ order: 5
     this.classList.toggle('open');
     document.getElementById('js-ops-content').classList.toggle('open');
   });
+
+  /* ── 7. 최근 발행 포스트 테이블 ─────────────────────────── */
+  const posts  = DATA.recent_posts ?? [];
+  const tbody  = document.getElementById('js-posts-tbody');
+  const MAX_POSTS = 20;
+  const displayed = posts.slice(0, MAX_POSTS);
+  const countEl = document.getElementById('js-posts-count');
+  if (countEl) {
+    countEl.textContent = posts.length > MAX_POSTS
+      ? `(최신 ${MAX_POSTS}개 / 총 ${posts.length}개)`
+      : `(${posts.length}개)`;
+  }
+  if (displayed.length) {
+    tbody.innerHTML = displayed.map(p => {
+      const q     = p.quality_score;
+      const color = q >= 8 ? '#81c995' : q >= 6 ? '#fdd663' : '#f28b82';
+      const badge = q != null
+        ? `<span class="quality-badge" style="background:${color}22;color:${color}">${q.toFixed(1)}</span>`
+        : '-';
+      const link  = p.post_url
+        ? `<a href="${p.post_url}" target="_blank" rel="noopener" style="color:var(--link-color)">${p.one_line_summary || '보기'}</a>`
+        : (p.one_line_summary || '-');
+      return `<tr>
+        <td style="white-space:nowrap">${p.date}</td>
+        <td>${p.keyword}</td>
+        <td>${badge}</td>
+        <td>${link}</td>
+      </tr>`;
+    }).join('');
+  } else {
+    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--text-muted-color)">데이터 없음</td></tr>';
+  }
 
   /* Meta */
   if (DATA.generated_at) {
