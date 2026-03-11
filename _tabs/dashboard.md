@@ -431,12 +431,43 @@ order: 6
   Chart.defaults.borderColor = C.border;
   Chart.defaults.layout.padding = 10;
 
+  const tooltipDefaults = {
+    backgroundColor: '#111',
+    borderColor: '#1a1a1a',
+    borderWidth: 1,
+    titleColor: '#ededed',
+    bodyColor: '#999',
+    cornerRadius: 6,
+    padding: 10,
+    titleFont: { weight: '500', size: 11 },
+    bodyFont: { size: 10 },
+  };
+
   function xAxis(extra) {
-    return Object.assign({ ticks: { color: C.muted, maxRotation: 0 }, grid: { color: C.border } }, extra);
+    return Object.assign({ ticks: { color: C.muted, maxRotation: 0 }, grid: { display: false } }, extra);
   }
   function yAxis(extra) {
-    return Object.assign({ ticks: { color: C.muted }, grid: { color: C.border } }, extra);
+    return Object.assign({ ticks: { color: C.muted }, grid: { color: '#0d0d0d', drawBorder: false } }, extra);
   }
+
+  const inlineLabelsPlugin = {
+    id: 'inlineLabels',
+    afterDraw(chart) {
+      const ctx = chart.ctx;
+      chart.data.datasets.forEach((ds, i) => {
+        const meta = chart.getDatasetMeta(i);
+        if (meta.hidden) return;
+        const last = meta.data[meta.data.length - 1];
+        if (!last) return;
+        ctx.save();
+        ctx.fillStyle = ds.borderColor;
+        ctx.font = '500 9px Inter, sans-serif';
+        ctx.textAlign = 'left';
+        ctx.fillText(ds.label, last.x + 6, last.y + 3);
+        ctx.restore();
+      });
+    }
+  };
   function barHeight(count) {
     return Math.min(350, Math.max(120, count * 40 + 60));
   }
@@ -684,8 +715,12 @@ order: 6
           y: yAxis({ beginAtZero: true }),
           x: xAxis({ ticks: { color: C.muted, maxTicksLimit: 10, maxRotation: 0 } }),
         },
-        plugins: { legend: { labels: { color: C.text, boxWidth: 12 } } },
+        plugins: {
+          legend: { labels: { color: C.text, boxWidth: 12 } },
+          tooltip: tooltipDefaults,
+        },
       },
+      plugins: [inlineLabelsPlugin],
     });
   }
   renderMentionsChart();
@@ -716,7 +751,7 @@ order: 6
         maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { callbacks: { label: ctx => ` ${ctx.parsed.x}건` } },
+          tooltip: { ...tooltipDefaults, callbacks: { label: ctx => ` ${ctx.parsed.x}건` } },
         },
         scales: {
           x: xAxis({ beginAtZero: true }),

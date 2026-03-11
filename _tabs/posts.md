@@ -50,7 +50,7 @@ order: 1
 {% assign best_post = all_posts | first %}
 
 {% if best_post %}
-<a class="todays-pick" href="{{ best_post.url | relative_url }}">
+<div class="todays-pick" onclick="location.href='{{ best_post.url | relative_url }}'" style="cursor:pointer">
   <div class="pick-label">Today's Pick</div>
   <div class="pick-title">{{ best_post.title }}</div>
   <div class="pick-excerpt">{{ best_post.description | default: best_post.excerpt | strip_html | truncate: 120 }}</div>
@@ -66,7 +66,7 @@ order: 1
       {% endif %}
     {% endfor %}
   </div>
-</a>
+</div>
 {% endif %}
 
 <!-- Filter chips: 태그 기반 자동 생성 -->
