@@ -8,6 +8,6 @@
 $font-family-base: 'Geist', 'Inter', -apple-system, sans-serif;
 $font-family-heading: 'Geist', 'Inter', -apple-system, sans-serif;
 
-// Sidebar
-$sidebar-width: 200px;
-$sidebar-width-large: 200px;
+// Sidebar — wider to prevent "DASHBOARD" active state clipping
+$sidebar-width: 240px;
+$sidebar-width-large: 240px;

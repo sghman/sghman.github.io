@@ -14,32 +14,32 @@ order: 1
 }
 .todays-pick:hover { border-color: #222; }
 .todays-pick .pick-label {
-  font-size: 0.6rem; color: #8ab4f8; text-transform: uppercase;
+  font-size: 0.65rem; color: #8ab4f8; text-transform: uppercase;
   letter-spacing: 0.08em; margin-bottom: 0.6rem; font-weight: 500;
 }
 .todays-pick .pick-title {
-  font-size: 1.05rem; font-weight: 600; color: #ededed;
-  margin-bottom: 0.4rem; line-height: 1.4;
+  font-size: 1.2rem; font-weight: 600; color: #ededed;
+  margin-bottom: 0.5rem; line-height: 1.4;
 }
 .todays-pick .pick-excerpt {
-  font-size: 0.8rem; color: #555; line-height: 1.6; margin-bottom: 0.6rem;
+  font-size: 0.88rem; color: #666; line-height: 1.65; margin-bottom: 0.6rem;
 }
 .todays-pick .pick-meta {
   display: flex; gap: 0.75rem; align-items: center;
-  font-size: 0.7rem; color: #333;
+  font-size: 0.75rem; color: #444;
 }
 .todays-pick .pick-score { color: #81c995; font-weight: 600; }
 
 /* Post list */
 .post-item {
-  display: grid; grid-template-columns: 70px 1fr auto;
-  gap: 1rem; padding: 0.9rem 0; border-bottom: 1px solid #090909;
+  display: grid; grid-template-columns: 76px 1fr auto;
+  gap: 1.25rem; padding: 1rem 0; border-bottom: 1px solid #0d0d0d;
   align-items: center; transition: all 0.12s; cursor: pointer;
   text-decoration: none;
 }
-.post-item:hover { padding-left: 0.25rem; }
-.post-item .pi-date { font-size: 0.72rem; color: #333; font-variant-numeric: tabular-nums; }
-.post-item .pi-title { font-size: 0.88rem; color: #aaa; transition: color 0.12s; line-height: 1.45; }
+.post-item:hover { padding-left: 0.3rem; }
+.post-item .pi-date { font-size: 0.78rem; color: #444; font-variant-numeric: tabular-nums; }
+.post-item .pi-title { font-size: 0.95rem; color: #aaa; transition: color 0.12s; line-height: 1.45; }
 .post-item:hover .pi-title { color: #fff; }
 .post-item .pi-right { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
 </style>

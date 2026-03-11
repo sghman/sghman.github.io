@@ -19,17 +19,38 @@ body { -webkit-font-smoothing: antialiased; }
   background: #000 !important;
   border-right: 1px solid #0d0d0d;
 
-  .site-title { font-size: 0.9rem; font-weight: 600; }
-  .site-subtitle { font-size: 0.68rem; color: #555; }
+  /* Fix: site-title is an <a> tag that inherits --link-color (#8ab4f8 blue).
+     Force it to use the intended white/ivory color. */
+  .site-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    a {
+      color: #ededed !important;
+      text-decoration: none !important;
+      &:hover { color: #fff !important; }
+    }
+  }
+  /* Increase subtitle visibility: #555 on #000 fails readability.
+     Airbnb guideline: min 3.5:1 for non-critical labels → #767 */
+  .site-subtitle { font-size: 0.72rem; color: #777 !important; }
 
   .nav-item {
+    width: 100%;
+    /* active class is on <li>, not <a> — must target .nav-item.active .nav-link */
+    &.active .nav-link {
+      background: #111 !important;
+      color: #ededed !important;
+    }
     .nav-link {
-      font-size: 0.78rem;
-      padding: 0.45rem 0.65rem;
-      border-radius: 5px;
+      font-size: 0.8rem;
+      /* Wider padding so full-width active highlight contains long labels like DASHBOARD */
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
       transition: all 0.15s;
-      &:hover { background: #080808; }
-      &.active { background: #0d0d0d; color: #ededed; }
+      width: 100%;
+      display: flex;
+      align-items: center;
+      &:hover { background: #0a0a0a !important; color: #ccc; }
     }
   }
 }
@@ -40,9 +61,14 @@ body { -webkit-font-smoothing: antialiased; }
 /* Card & panel backgrounds */
 .card, .card-body { background: #0a0a0a; border-color: #151515; }
 #panel-wrapper { display: none !important; }
+
+/* Layout: cap content width so it doesn't stretch to ~1700px at 1920px.
+   Designer consensus: 860–900px reading column (A: 900px, B: 860px → 880px).
+   Left-anchored after sidebar — intentional right whitespace (Vercel/Linear pattern). */
 #main-wrapper main.col-xl-9 {
-  max-width: 100% !important;
-  flex: 0 0 100% !important;
+  max-width: 880px !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
 }
 
 /* Tag pills */
@@ -71,8 +97,8 @@ body { -webkit-font-smoothing: antialiased; }
 
 /* Section label */
 .section-label {
-  font-size: 0.62rem;
-  color: #333;
+  font-size: 0.65rem;
+  color: #444;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1.25rem;
