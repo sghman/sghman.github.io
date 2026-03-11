@@ -50,7 +50,8 @@ order: 6
   gap: 1rem;
 }
 .summary-card {
-  background: var(--card-header-bg);
+  background: #0a0a0a;
+  border: 1px solid #151515;
   border-radius: var(--bs-border-radius, 0.625rem);
   padding: 1rem 1.25rem;
 }
