@@ -485,7 +485,7 @@ order: 6
     const posts = DATA.recent_posts || [];
     const genAt = DATA.generated_at || '';
 
-    // 오늘/어제 날짜로 최근 실행 상태 추정
+    /* 오늘/어제 날짜로 최근 실행 상태 추정 */
     const today = new Date().toISOString().slice(0, 10);
     const todayPosts = posts.filter(p => p.date === today);
     const allKeywords = [...new Set(posts.map(p => p.keyword))];
@@ -518,7 +518,7 @@ order: 6
     const s = DATA.summary || {};
     const posts = DATA.recent_posts || [];
 
-    // 이번 주 발행 수 계산
+    /* 이번 주 발행 수 계산 */
     const today = new Date();
     const weekAgo = new Date(today); weekAgo.setDate(today.getDate() - 7);
     const weekAgoStr = weekAgo.toISOString().slice(0, 10);
@@ -527,7 +527,7 @@ order: 6
     const prevWeek = posts.filter(p => p.date >= twoWeeksAgoStr && p.date < weekAgoStr).length;
     const weekDelta = thisWeek - prevWeek;
 
-    // 키워드별 카테고리 그룹
+    /* 키워드별 카테고리 그룹 */
     const kwSet = [...new Set(posts.map(p => p.keyword))];
     const catGroups = {};
     kwSet.forEach(k => {
@@ -558,14 +558,14 @@ order: 6
   /* ============================================================
    * P2: Filter Bar
    * ============================================================ */
-  let activeRange = 30;   // days
-  let activeKeywords = null; // null = all
+  let activeRange = 30;   /* days */
+  let activeKeywords = null; /* null = all */
 
   (function renderFilterBar() {
     const posts = DATA.recent_posts || [];
     const allKw = [...new Set(posts.map(p => p.keyword))];
 
-    // 카테고리별 그룹핑
+    /* 카테고리별 그룹핑 */
     const cats = {};
     allKw.forEach(kw => {
       const cat = kwCategory(kw);
@@ -575,12 +575,12 @@ order: 6
 
     const bar = document.getElementById('js-filter-bar');
     let html = '';
-    // 기간 필터
+    /* 기간 필터 */
     [7, 30, 60].forEach(d => {
       html += `<button class="filter-btn${d === 30 ? ' active' : ''}" data-range="${d}" onclick="window.__dbFilter(${d}, null)">${d}일<\/button>`;
     });
     html += '<div class="filter-sep"><\/div>';
-    // 카테고리 필터
+    /* 카테고리 필터 */
     Object.entries(cats).forEach(([cat, kws]) => {
       const color = cat === 'AI' ? '#8ab4f8' : cat === 'Infra' ? '#81c995' : '#fdd663';
       html += `<button class="kw-filter-btn active" data-cat="${cat}" onclick="window.__dbFilterKw(this, '${cat}')">
@@ -591,7 +591,7 @@ order: 6
     bar.innerHTML = html;
   })();
 
-  // 활성 카테고리 추적
+  /* 활성 카테고리 추적 */
   const activeCats = new Set(Object.keys({AI:1, Infra:1, etc:1}));
 
   window.__dbFilter = function(range) {
@@ -777,7 +777,7 @@ order: 6
       <\/div>
     `).join('');
 
-    // Click drilldown
+    /* Click drilldown */
     grid.querySelectorAll('.emerging-chip').forEach(chip => {
       chip.addEventListener('click', () => {
         const idx = +chip.dataset.idx;
@@ -807,7 +807,7 @@ order: 6
   /* ============================================================
    * Quality Trend + Cost Chart (inside ops panel)
    * ============================================================ */
-  // Quality
+  /* Quality */
   (function() {
     const qualSeries = DATA.knowledge_trend?.series ?? [];
     if (!qualSeries.length) return;
@@ -819,7 +819,7 @@ order: 6
       data: {
         labels: allQDates,
         datasets: [
-          // 품질 임계값 선 (5.0)
+          /* 품질 임계값 선 (5.0) */
           {
             label: '임계값 5.0',
             data: allQDates.map(() => 5.0),
@@ -856,7 +856,7 @@ order: 6
     });
   })();
 
-  // Cost
+  /* Cost */
   (function() {
     const costData = DATA.monthly_cost ?? [];
     if (!costData.length) return;
