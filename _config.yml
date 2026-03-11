@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Gyu Hwan # the main title
 
-tagline: Building things that automate things # it will display as the sub-title
+tagline: just do it # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   기술 트렌드를 수집하고 정리하는 엔지니어링 블로그
