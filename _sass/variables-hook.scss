@@ -1,3 +1,13 @@
 /*
   Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
 */
+
+/* ── Minimal Dark Design System Override ── */
+
+// Typography
+$font-family-base: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+$font-family-heading: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+
+// Sidebar
+$sidebar-width: 200px;
+$sidebar-width-large: 200px;
