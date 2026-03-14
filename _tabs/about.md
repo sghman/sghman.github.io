@@ -106,7 +106,7 @@ order: 5
 
   <!-- Social -->
   <div class="social-row">
-    <a href="https://github.com/sghman" class="social-link" target="_blank">→ GitHub</a>
+    <a href="https://github.com/simgyuhwan" class="social-link" target="_blank">→ GitHub</a>
   </div>
 
 </div>
