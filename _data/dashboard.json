@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-17T03:41:43",
+  "generated_at": "2026-03-18T03:46:31",
   "summary": {
-    "total_posts": 30,
+    "total_posts": 32,
     "total_keywords": 3,
     "avg_quality_score": 6.3,
-    "monthly_cost_usd": 0.5813
+    "monthly_cost_usd": 0.6102
   },
   "tracked_trend": {
     "series": [
@@ -74,6 +74,10 @@
           {
             "date": "2026-03-17",
             "mentions": 35
+          },
+          {
+            "date": "2026-03-18",
+            "mentions": 25
           }
         ]
       },
@@ -143,6 +147,10 @@
           {
             "date": "2026-03-17",
             "mentions": 19
+          },
+          {
+            "date": "2026-03-18",
+            "mentions": 21
           }
         ]
       }
@@ -382,6 +390,10 @@
           {
             "date": "2026-03-17",
             "quality_score": 6.57
+          },
+          {
+            "date": "2026-03-18",
+            "quality_score": 6.85
           }
         ]
       },
@@ -443,6 +455,10 @@
           {
             "date": "2026-03-17",
             "quality_score": 6.43
+          },
+          {
+            "date": "2026-03-18",
+            "quality_score": 7.45
           }
         ]
       },
@@ -474,12 +490,26 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 247570,
-      "output_tokens": 95806,
-      "cost_usd": 0.5813
+      "input_tokens": 259770,
+      "output_tokens": 100594,
+      "cost_usd": 0.6102
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-18",
+      "keyword": "claude",
+      "quality_score": 6.85,
+      "post_url": "https://sghman.github.io/posts/2026-03-18-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 세션이 리셋될 때마다 이전 작업 내용을 잃어버린다. 2시간 이상의 긴 작업에서는 매번 같은 내용을 다시 설명해야 하는 비효율이 발생한다."
+    },
+    {
+      "date": "2026-03-18",
+      "keyword": "LLM",
+      "quality_score": 7.45,
+      "post_url": "https://sghman.github.io/posts/2026-03-18-llm-digest/",
+      "one_line_summary": "핵심: 클라우드 기반 메모리 시스템(Mem0, Zep)과 로컬 우선 시스템(SuperLocalMemory)의 성능 격차가 생각보다 작다. 로컬 시스템이 LoCoMo 벤치마크에서 74.8%를 달성하며 클라우드 기반 66%를 상회했다."
+    },
     {
       "date": "2026-03-17",
       "keyword": "claude",
@@ -605,20 +635,6 @@
       "quality_score": 5.73,
       "post_url": "https://sghman.github.io/posts/2026-03-09-claude-digest/",
       "one_line_summary": "핵심: Anthropic의 Claude Code가 2026년 본격적으로 개발자 생태계에 진입하고 있으며, 터미널 기반의 에이전틱 코딩이 소프트웨어 개발의 미래로 자리잡고 있습니다."
-    },
-    {
-      "date": "2026-03-08",
-      "keyword": "LLM",
-      "quality_score": 5.94,
-      "post_url": "https://sghman.github.io/posts/2026-03-08-llm-digest/",
-      "one_line_summary": "핵심: 자율 에이전트 루프에서 비구조화된 상태 관리로 인한 반복적 오류를 해결하기 위해 명시적인 \"블랙보드\" 구조를 도입하는 기법이 주목받고 있습니다."
-    },
-    {
-      "date": "2026-03-08",
-      "keyword": "LLM",
-      "quality_score": 7.13,
-      "post_url": "https://sghman.github.io/posts/2026-03-08-llm-digest/",
-      "one_line_summary": "핵심: 비구조화된 상태 파일 읽기는 LLM 에이전트 루프에서 반복적인 결정 오류를 야기한다. 명시적인 스키마와 지속성 규칙을 정의한 \"블랙보딩\" 패턴이 이를 해결한다."
     }
   ]
 }
