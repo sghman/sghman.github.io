@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-19T03:46:33",
+  "generated_at": "2026-03-20T03:36:20",
   "summary": {
-    "total_posts": 33,
+    "total_posts": 35,
     "total_keywords": 3,
     "avg_quality_score": 6.3,
-    "monthly_cost_usd": 0.6375
+    "monthly_cost_usd": 0.6706
   },
   "tracked_trend": {
     "series": [
@@ -82,6 +82,10 @@
           {
             "date": "2026-03-19",
             "mentions": 33
+          },
+          {
+            "date": "2026-03-20",
+            "mentions": 27
           }
         ]
       },
@@ -159,6 +163,10 @@
           {
             "date": "2026-03-19",
             "mentions": 25
+          },
+          {
+            "date": "2026-03-20",
+            "mentions": 17
           }
         ]
       }
@@ -166,13 +174,13 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 222,
+        "mentions": 226,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "claude",
-        "mentions": 182,
+        "mentions": 178,
         "rank": 2,
         "rank_change": 0
       }
@@ -444,6 +452,10 @@
           {
             "date": "2026-03-19",
             "quality_score": 6.02
+          },
+          {
+            "date": "2026-03-20",
+            "quality_score": 5.56
           }
         ]
       },
@@ -509,6 +521,10 @@
           {
             "date": "2026-03-18",
             "quality_score": 7.45
+          },
+          {
+            "date": "2026-03-20",
+            "quality_score": 7.5
           }
         ]
       },
@@ -540,12 +556,26 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 270418,
-      "output_tokens": 105300,
-      "cost_usd": 0.6375
+      "input_tokens": 287018,
+      "output_tokens": 110255,
+      "cost_usd": 0.6706
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-20",
+      "keyword": "claude",
+      "quality_score": 5.56,
+      "post_url": "https://sghman.github.io/posts/2026-03-20-claude-digest/",
+      "one_line_summary": "핵심: Claude Cowork에 추가된 Dispatch 기능은 스마트폰에서 업무 지시를 내리면 PC에서 자동으로 실행되는 비동기 작업 방식을 제공한다. 출근길 지하철에서 보고서 작성을 지시하면 사무실 도착 시 완성된 결과물을 받을 수 있다."
+    },
+    {
+      "date": "2026-03-20",
+      "keyword": "LLM",
+      "quality_score": 7.5,
+      "post_url": "https://sghman.github.io/posts/2026-03-20-llm-digest/",
+      "one_line_summary": "핵심: 토스 보안팀이 공개한 사례에서 LLM의 취약점 분석 능력은 3개월 만에 급격히 향상되었으며, 단순 패턴 매칭을 넘어 구조적 코드 이해가 가능해졌습니다. 핵심은 AI에게 IDE 수준의 코드 탐색 능력을 부여하는 것입니다."
+    },
     {
       "date": "2026-03-19",
       "keyword": "claude",
@@ -671,20 +701,6 @@
       "quality_score": 7.25,
       "post_url": "https://sghman.github.io/posts/2026-03-11-llm-digest/",
       "one_line_summary": "핵심: GPT-4, Llama 3, Claude 같은 기초 모델의 진정한 가치는 조직의 도메인과 데이터에 맞춘 Fine-tuning을 통해 비로소 실현된다. 단순히 API를 호출하는 것이 아니라, 자체 데이터로 모델을 재학습시켜 비즈니스 맥락에 최적화된 AI 시스템을 구축하는 것이 핵심이다."
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "claude",
-      "quality_score": 5.5,
-      "post_url": "https://sghman.github.io/posts/2026-03-10-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순 코드 작성 도구를 넘어 작업 설명 → 계획 수립 → 구현 → 검증까지 전체 개발 사이클을 자동화하는 에이전트형 AI 코딩 어시스턴트로 진화했습니다."
-    },
-    {
-      "date": "2026-03-10",
-      "keyword": "LLM",
-      "quality_score": 6.73,
-      "post_url": "https://sghman.github.io/posts/2026-03-10-llm-digest/",
-      "one_line_summary": "핵심: 할루시네이션, 모순, 재현 불가능한 출력은 모델 스케일링으로 해결 불가. 대신 LLM이 작동하는 정보 환경 자체를 통제해야 한다."
     }
   ]
 }
