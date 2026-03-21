@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-20T03:36:20",
+  "generated_at": "2026-03-21T03:27:35",
   "summary": {
-    "total_posts": 35,
+    "total_posts": 36,
     "total_keywords": 3,
     "avg_quality_score": 6.3,
-    "monthly_cost_usd": 0.6706
+    "monthly_cost_usd": 0.6841
   },
   "tracked_trend": {
     "series": [
@@ -85,6 +85,10 @@
           },
           {
             "date": "2026-03-20",
+            "mentions": 27
+          },
+          {
+            "date": "2026-03-21",
             "mentions": 27
           }
         ]
@@ -167,6 +171,10 @@
           {
             "date": "2026-03-20",
             "mentions": 17
+          },
+          {
+            "date": "2026-03-21",
+            "mentions": 16
           }
         ]
       }
@@ -174,13 +182,13 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 226,
+        "mentions": 227,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "claude",
-        "mentions": 178,
+        "mentions": 167,
         "rank": 2,
         "rank_change": 0
       }
@@ -391,6 +399,79 @@
   "knowledge_trend": {
     "series": [
       {
+        "keyword": "LLM",
+        "data_points": [
+          {
+            "date": "2026-03-04",
+            "quality_score": 7.08
+          },
+          {
+            "date": "2026-03-05",
+            "quality_score": 7.0
+          },
+          {
+            "date": "2026-03-06",
+            "quality_score": 6.96
+          },
+          {
+            "date": "2026-03-07",
+            "quality_score": 4.05
+          },
+          {
+            "date": "2026-03-08",
+            "quality_score": 5.94
+          },
+          {
+            "date": "2026-03-08",
+            "quality_score": 7.13
+          },
+          {
+            "date": "2026-03-10",
+            "quality_score": 6.73
+          },
+          {
+            "date": "2026-03-11",
+            "quality_score": 7.25
+          },
+          {
+            "date": "2026-03-12",
+            "quality_score": 7.2
+          },
+          {
+            "date": "2026-03-14",
+            "quality_score": 6.03
+          },
+          {
+            "date": "2026-03-15",
+            "quality_score": 6.43
+          },
+          {
+            "date": "2026-03-15",
+            "quality_score": 6.08
+          },
+          {
+            "date": "2026-03-16",
+            "quality_score": 5.73
+          },
+          {
+            "date": "2026-03-17",
+            "quality_score": 6.43
+          },
+          {
+            "date": "2026-03-18",
+            "quality_score": 7.45
+          },
+          {
+            "date": "2026-03-20",
+            "quality_score": 7.5
+          },
+          {
+            "date": "2026-03-21",
+            "quality_score": 6.25
+          }
+        ]
+      },
+      {
         "keyword": "claude",
         "data_points": [
           {
@@ -460,75 +541,6 @@
         ]
       },
       {
-        "keyword": "LLM",
-        "data_points": [
-          {
-            "date": "2026-03-04",
-            "quality_score": 7.08
-          },
-          {
-            "date": "2026-03-05",
-            "quality_score": 7.0
-          },
-          {
-            "date": "2026-03-06",
-            "quality_score": 6.96
-          },
-          {
-            "date": "2026-03-07",
-            "quality_score": 4.05
-          },
-          {
-            "date": "2026-03-08",
-            "quality_score": 5.94
-          },
-          {
-            "date": "2026-03-08",
-            "quality_score": 7.13
-          },
-          {
-            "date": "2026-03-10",
-            "quality_score": 6.73
-          },
-          {
-            "date": "2026-03-11",
-            "quality_score": 7.25
-          },
-          {
-            "date": "2026-03-12",
-            "quality_score": 7.2
-          },
-          {
-            "date": "2026-03-14",
-            "quality_score": 6.03
-          },
-          {
-            "date": "2026-03-15",
-            "quality_score": 6.43
-          },
-          {
-            "date": "2026-03-15",
-            "quality_score": 6.08
-          },
-          {
-            "date": "2026-03-16",
-            "quality_score": 5.73
-          },
-          {
-            "date": "2026-03-17",
-            "quality_score": 6.43
-          },
-          {
-            "date": "2026-03-18",
-            "quality_score": 7.45
-          },
-          {
-            "date": "2026-03-20",
-            "quality_score": 7.5
-          }
-        ]
-      },
-      {
         "keyword": "kubernetes",
         "data_points": [
           {
@@ -556,12 +568,19 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 287018,
-      "output_tokens": 110255,
-      "cost_usd": 0.6706
+      "input_tokens": 293107,
+      "output_tokens": 112395,
+      "cost_usd": 0.6841
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-21",
+      "keyword": "LLM",
+      "quality_score": 6.25,
+      "post_url": "https://sghman.github.io/posts/2026-03-21-llm-digest/",
+      "one_line_summary": "핵심: 단일 모델 구성 대신 46개 모델, 8개 제공자를 지능형 라우터로 관리하면 API 비용을 획기적으로 절감할 수 있습니다. 요청의 복잡도에 따라 최적 모델을 1ms 이내에 선택하는 기술이 실제 프로덕션에서 검증되었습니다."
+    },
     {
       "date": "2026-03-20",
       "keyword": "claude",
@@ -694,13 +713,6 @@
       "quality_score": 5.79,
       "post_url": "https://sghman.github.io/posts/2026-03-11-claude-digest/",
       "one_line_summary": "핵심: 대화가 길어질수록 Claude의 초기 지시사항이 압축되거나 손실되어 코드 스타일, 네이밍 컨벤션, 주석 언어가 일관성 없이 변한다. 이는 버그가 아니라 LLM의 컨텍스트 윈도우 특성이다."
-    },
-    {
-      "date": "2026-03-11",
-      "keyword": "LLM",
-      "quality_score": 7.25,
-      "post_url": "https://sghman.github.io/posts/2026-03-11-llm-digest/",
-      "one_line_summary": "핵심: GPT-4, Llama 3, Claude 같은 기초 모델의 진정한 가치는 조직의 도메인과 데이터에 맞춘 Fine-tuning을 통해 비로소 실현된다. 단순히 API를 호출하는 것이 아니라, 자체 데이터로 모델을 재학습시켜 비즈니스 맥락에 최적화된 AI 시스템을 구축하는 것이 핵심이다."
     }
   ]
 }
