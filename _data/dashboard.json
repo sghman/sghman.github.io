@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-21T03:27:35",
+  "generated_at": "2026-03-22T03:45:24",
   "summary": {
-    "total_posts": 36,
+    "total_posts": 40,
     "total_keywords": 3,
-    "avg_quality_score": 6.3,
-    "monthly_cost_usd": 0.6841
+    "avg_quality_score": 6.2,
+    "monthly_cost_usd": 0.7859
   },
   "tracked_trend": {
     "series": [
@@ -90,6 +90,10 @@
           {
             "date": "2026-03-21",
             "mentions": 27
+          },
+          {
+            "date": "2026-03-22",
+            "mentions": 28
           }
         ]
       },
@@ -175,6 +179,10 @@
           {
             "date": "2026-03-21",
             "mentions": 16
+          },
+          {
+            "date": "2026-03-22",
+            "mentions": 19
           }
         ]
       }
@@ -182,13 +190,13 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 227,
+        "mentions": 236,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "claude",
-        "mentions": 167,
+        "mentions": 165,
         "rank": 2,
         "rank_change": 0
       }
@@ -399,6 +407,83 @@
   "knowledge_trend": {
     "series": [
       {
+        "keyword": "claude",
+        "data_points": [
+          {
+            "date": "2026-03-04",
+            "quality_score": 5.18
+          },
+          {
+            "date": "2026-03-05",
+            "quality_score": 7.03
+          },
+          {
+            "date": "2026-03-06",
+            "quality_score": 6.23
+          },
+          {
+            "date": "2026-03-09",
+            "quality_score": 5.73
+          },
+          {
+            "date": "2026-03-10",
+            "quality_score": 5.5
+          },
+          {
+            "date": "2026-03-11",
+            "quality_score": 6.32
+          },
+          {
+            "date": "2026-03-11",
+            "quality_score": 5.79
+          },
+          {
+            "date": "2026-03-12",
+            "quality_score": 6.19
+          },
+          {
+            "date": "2026-03-13",
+            "quality_score": 6.74
+          },
+          {
+            "date": "2026-03-14",
+            "quality_score": 7.88
+          },
+          {
+            "date": "2026-03-15",
+            "quality_score": 5.88
+          },
+          {
+            "date": "2026-03-15",
+            "quality_score": 6.02
+          },
+          {
+            "date": "2026-03-17",
+            "quality_score": 6.57
+          },
+          {
+            "date": "2026-03-18",
+            "quality_score": 6.85
+          },
+          {
+            "date": "2026-03-19",
+            "quality_score": 6.02
+          },
+          {
+            "date": "2026-03-20",
+            "quality_score": 5.56
+          },
+          {
+            "date": "2026-03-22",
+            "quality_score": 4.51
+          },
+          {
+            "date": "2026-03-22",
+            "quality_score": 4.63
+          }
+        ]
+      },
+      {
         "keyword": "LLM",
         "data_points": [
           {
@@ -468,75 +553,14 @@
           {
             "date": "2026-03-21",
             "quality_score": 6.25
-          }
-        ]
-      },
-      {
-        "keyword": "claude",
-        "data_points": [
-          {
-            "date": "2026-03-04",
-            "quality_score": 5.18
           },
           {
-            "date": "2026-03-05",
-            "quality_score": 7.03
+            "date": "2026-03-22",
+            "quality_score": 6.47
           },
           {
-            "date": "2026-03-06",
-            "quality_score": 6.23
-          },
-          {
-            "date": "2026-03-09",
-            "quality_score": 5.73
-          },
-          {
-            "date": "2026-03-10",
-            "quality_score": 5.5
-          },
-          {
-            "date": "2026-03-11",
-            "quality_score": 6.32
-          },
-          {
-            "date": "2026-03-11",
-            "quality_score": 5.79
-          },
-          {
-            "date": "2026-03-12",
-            "quality_score": 6.19
-          },
-          {
-            "date": "2026-03-13",
-            "quality_score": 6.74
-          },
-          {
-            "date": "2026-03-14",
-            "quality_score": 7.88
-          },
-          {
-            "date": "2026-03-15",
-            "quality_score": 5.88
-          },
-          {
-            "date": "2026-03-15",
-            "quality_score": 6.02
-          },
-          {
-            "date": "2026-03-17",
-            "quality_score": 6.57
-          },
-          {
-            "date": "2026-03-18",
-            "quality_score": 6.85
-          },
-          {
-            "date": "2026-03-19",
-            "quality_score": 6.02
-          },
-          {
-            "date": "2026-03-20",
-            "quality_score": 5.56
+            "date": "2026-03-22",
+            "quality_score": 6.62
           }
         ]
       },
@@ -568,12 +592,40 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 293107,
-      "output_tokens": 112395,
-      "cost_usd": 0.6841
+      "input_tokens": 339444,
+      "output_tokens": 128592,
+      "cost_usd": 0.7859
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-22",
+      "keyword": "claude",
+      "quality_score": 4.51,
+      "post_url": "https://sghman.github.io/posts/2026-03-22-claude-digest/",
+      "one_line_summary": "핵심: Claude Opus 4.6 기반의 Claude Code는 단순 채팅 인터페이스를 벗어나 터미널 기반의 에이전트 어시스턴트로 진화했다. 전체 코드베이스를 인덱싱하고 멀티파일 작업을 자동화하며, GitHub PR까지 자동 생성한다. Claude Cowork는 코딩 지식이 없는 일반인도 AI 비서를 활용할 수 있도록 낮춘 진입장벽이다."
+    },
+    {
+      "date": "2026-03-22",
+      "keyword": "claude",
+      "quality_score": 4.63,
+      "post_url": "https://sghman.github.io/posts/2026-03-22-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순 채팅 인터페이스를 벗어나 전체 코드베이스를 이해하고 멀티파일 작업을 자동화하는 에이전트형 어시스턴트로 진화했습니다. Claude Opus 4.6과 Sonnet 4.6 기반으로 Git 커밋, PR 생성, 병렬 작업 실행까지 터미널 네이티브 환경에서 처리합니다."
+    },
+    {
+      "date": "2026-03-22",
+      "keyword": "LLM",
+      "quality_score": 6.47,
+      "post_url": "https://sghman.github.io/posts/2026-03-22-llm-digest/",
+      "one_line_summary": "핵심: Google DeepMind의 Gemini 3.1 Flash-Lite와 OpenAI의 GPT-5.4 mini/nano 같은 소형 모델들이 추론 속도와 효율성을 개선하면서 엣지 디바이스와 실시간 애플리케이션 배포가 현실화되고 있습니다."
+    },
+    {
+      "date": "2026-03-22",
+      "keyword": "LLM",
+      "quality_score": 6.62,
+      "post_url": "https://sghman.github.io/posts/2026-03-22-llm-digest/",
+      "one_line_summary": "핵심: Google DeepMind의 Gemini 3.1 Flash-Lite와 OpenAI의 GPT-5.4 mini/nano 같은 소형 모델들이 추론 성능을 유지하면서 리소스 소비를 대폭 줄였다. 이는 엣지 디바이스, 실시간 챗봇, 비용 효율적인 API 사용을 가능하게 한다."
+    },
     {
       "date": "2026-03-21",
       "keyword": "LLM",
@@ -685,34 +737,6 @@
       "quality_score": 6.74,
       "post_url": "https://sghman.github.io/posts/2026-03-13-claude-digest/",
       "one_line_summary": "핵심: Claude와 같은 AI 에이전트가 밤새 수십 개의 PR을 자동 생성하고 코드를 리팩토링하는 현상이 일상화되고 있습니다. 개발자는 아침에 깨어나 AI가 작성한 코드를 검토해야 하는 새로운 업무 패턴에 직면했습니다."
-    },
-    {
-      "date": "2026-03-12",
-      "keyword": "claude",
-      "quality_score": 6.19,
-      "post_url": "https://sghman.github.io/posts/2026-03-12-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 공개한 Claude 에이전트 팀 기능은 단순한 성능 업그레이드를 넘어 AI와의 협업 방식을 근본적으로 변화시켰다. 여러 AI 에이전트가 서로 협력하며 복잡한 작업을 자동으로 처리할 수 있게 되었다."
-    },
-    {
-      "date": "2026-03-12",
-      "keyword": "LLM",
-      "quality_score": 7.2,
-      "post_url": "https://sghman.github.io/posts/2026-03-12-llm-digest/",
-      "one_line_summary": "핵심: 무신사 O4O 팀이 설 연휴 온콜 중 발생한 데이터 정합성 이슈를 해결하기 위해 Claude Code의 Agent Teams 기능을 활용해 반나절 만에 실시간 모니터링 시스템을 구축했습니다. 리드 에이전트가 전체 아키텍처를 설계하고 BE/FE 워커 에이전트가 병렬로 작업을 진행하는 방식으로 개발 속도를 극대화했습니다."
-    },
-    {
-      "date": "2026-03-11",
-      "keyword": "claude",
-      "quality_score": 6.32,
-      "post_url": "https://sghman.github.io/posts/2026-03-11-claude-digest/",
-      "one_line_summary": "핵심: 리드 에이전트가 전체 아키텍처를 설계한 후 독립된 워커 에이전트들이 BE API와 FE를 동시에 개발하는 구조로, 기존 순차 개발보다 개발 시간을 대폭 단축할 수 있다."
-    },
-    {
-      "date": "2026-03-11",
-      "keyword": "claude",
-      "quality_score": 5.79,
-      "post_url": "https://sghman.github.io/posts/2026-03-11-claude-digest/",
-      "one_line_summary": "핵심: 대화가 길어질수록 Claude의 초기 지시사항이 압축되거나 손실되어 코드 스타일, 네이밍 컨벤션, 주석 언어가 일관성 없이 변한다. 이는 버그가 아니라 LLM의 컨텍스트 윈도우 특성이다."
     }
   ]
 }
