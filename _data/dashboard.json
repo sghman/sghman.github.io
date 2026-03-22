@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T03:45:24",
+  "generated_at": "2026-03-22T03:45:39",
   "summary": {
     "total_posts": 40,
     "total_keywords": 3,
@@ -230,6 +230,20 @@
   "emerging_topics": {
     "topics": [
       {
+        "topic": "Diffusion Models",
+        "weekly_mentions": 2,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "BiGain: Unified Token Compression for Joint Generation and Classification",
+          "FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance",
+          "Spectrally-Guided Diffusion Noise Schedules",
+          "D5P4: Partition Determinantal Point Process for Diversity in Parallel Discrete Diffusion Decoding"
+        ]
+      },
+      {
         "topic": "AI Agents",
         "weekly_mentions": 1,
         "peak_score": 0,
@@ -275,18 +289,6 @@
         "sample_titles": [
           "The Latent Color Subspace: Emergent Order in High-Dimensional Chaos",
           "GlyphBanana: Advancing Precise Text Rendering Through Agentic Workflows"
-        ]
-      },
-      {
-        "topic": "Diffusion Models",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "BiGain: Unified Token Compression for Joint Generation and Classification",
-          "FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance"
         ]
       },
       {
