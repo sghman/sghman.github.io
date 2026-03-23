@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-22T03:45:39",
+  "generated_at": "2026-03-23T03:50:03",
   "summary": {
-    "total_posts": 40,
+    "total_posts": 42,
     "total_keywords": 3,
-    "avg_quality_score": 6.2,
-    "monthly_cost_usd": 0.7859
+    "avg_quality_score": 6.3,
+    "monthly_cost_usd": 0.8446
   },
   "tracked_trend": {
     "series": [
@@ -94,6 +94,10 @@
           {
             "date": "2026-03-22",
             "mentions": 28
+          },
+          {
+            "date": "2026-03-23",
+            "mentions": 29
           }
         ]
       },
@@ -183,6 +187,10 @@
           {
             "date": "2026-03-22",
             "mentions": 19
+          },
+          {
+            "date": "2026-03-23",
+            "mentions": 19
           }
         ]
       }
@@ -190,13 +198,13 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 236,
+        "mentions": 239,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "claude",
-        "mentions": 165,
+        "mentions": 159,
         "rank": 2,
         "rank_change": 0
       }
@@ -205,12 +213,14 @@
       "weeks": [
         "2026-W10",
         "2026-W11",
-        "2026-W12"
+        "2026-W12",
+        "2026-W13"
       ],
       "series": [
         {
           "topic": "LLM",
           "ranks": [
+            1,
             1,
             1,
             1
@@ -219,6 +229,7 @@
         {
           "topic": "claude",
           "ranks": [
+            2,
             2,
             2,
             2
@@ -230,178 +241,179 @@
   "emerging_topics": {
     "topics": [
       {
-        "topic": "Diffusion Models",
-        "weekly_mentions": 2,
+        "topic": "AI Agent Framework",
+        "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "BiGain: Unified Token Compression for Joint Generation and Classification",
-          "FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance",
+          "OpenCode – Open source AI coding agent",
+          "autoresearch AI agents running research on single-GPU nanochat training automatically",
+          "CLI-Anything: Making ALL Software Agent-Native"
+        ]
+      },
+      {
+        "topic": "Vision-Language Models",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Do VLMs Need Vision Transformers? Evaluating State Space Models as Vision Encoders",
+          "NavTrust: Benchmarking Trustworthiness for Embodied Navigation"
+        ]
+      },
+      {
+        "topic": "Mixture of Experts (MoE)",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation",
+          "DyMoE: Dynamic Expert Orchestration with Mixed-Precision Quantization for Efficient MoE Inference on Edge"
+        ]
+      },
+      {
+        "topic": "Diffusion Models",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
           "Spectrally-Guided Diffusion Noise Schedules",
           "D5P4: Partition Determinantal Point Process for Diversity in Parallel Discrete Diffusion Decoding"
         ]
       },
       {
-        "topic": "AI Agents",
+        "topic": "WebGPU & WASM",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Show HN: GitAgent – An open standard that turns any Git repo into an AI agent",
-          "Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas"
+          "Professional video editing, right in the browser with WebGPU and WASM",
+          "We rewrote our Rust WASM parser in TypeScript and it got faster"
         ]
       },
       {
-        "topic": "MCP (Model Context Protocol)",
+        "topic": "Graph Database",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "MCP is dead; long live MCP",
-          "context-mode MCP is the protocol for tool access"
+          "Grafeo – A fast, lean, embeddable graph database built in Rust"
         ]
       },
       {
-        "topic": "Vision Transformers",
+        "topic": "Multilingual Models",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training",
-          "HiAP: A Multi-Granular Stochastic Auto-Pruning Framework for Vision Transformers"
+          "Meta's Omnilingual MT for 1,600 Languages",
+          "F2LLM-v2: Inclusive, Performant, and Efficient Embeddings for a Multilingual World"
         ]
       },
       {
-        "topic": "Text-to-Image Generation",
+        "topic": "3D Generation & Reconstruction",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "The Latent Color Subspace: Emergent Order in High-Dimensional Chaos",
-          "GlyphBanana: Advancing Precise Text Rendering Through Agentic Workflows"
+          "DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding",
+          "DreamPartGen: Semantically Grounded Part-Level 3D Generation via Collaborative Latent Denoising"
         ]
       },
       {
-        "topic": "Neural Network Verification",
+        "topic": "GPU Kernel Optimization",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Incremental Neural Network Verification via Learned Conflicts"
+          "SOL-ExecBench: Speed-of-Light Benchmarking for Real-World GPU Kernels Against Hardware Limits",
+          "cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization"
         ]
       },
       {
-        "topic": "Differential Privacy",
+        "topic": "Autonomous Driving Systems",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Understanding Disclosure Risk in Differential Privacy with Applications to Noise Calibration and Auditing"
+          "DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding"
         ]
       },
       {
-        "topic": "Reinforcement Learning from Human Feedback (RLHF)",
+        "topic": "Embodied Navigation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training",
-          "OpenClaw-RL: Train any agent simply by talking"
+          "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
+          "Meanings and Measurements: Multi-Agent Probabilistic Grounding for Vision-Language Navigation"
         ]
       },
       {
-        "topic": "Long-Context Language Models",
+        "topic": "Medical AI & Neural Networks",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
-          "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse"
+          "ARIADNE: A Perception-Reasoning Synergy Framework for Trustworthy Coronary Angiography Analysis",
+          "Rigorous Error Certification for Neural PDE Solvers"
         ]
       },
       {
-        "topic": "Machine-Learned Interatomic Potentials",
+        "topic": "Rust Graph Database",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Proof-Carrying Materials: Falsifiable Safety Certificates for Machine-Learned Interatomic Potentials"
+          "Grafeo – A fast, lean, embeddable graph database built in Rust"
         ]
       },
       {
-        "topic": "Test-Time Training",
+        "topic": "Financial Reasoning Benchmarks",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training"
+          "FinTradeBench: A Financial Reasoning Benchmark for LLMs"
         ]
       },
       {
-        "topic": "World Models",
+        "topic": "EV Charging Technology",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Temporal Straightening for Latent Planning"
-        ]
-      },
-      {
-        "topic": "Automated Planning and Scheduling",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "WORKSWORLD: A Domain for Integrated Numeric Planning and Scheduling of Distributed Pipelined Workflows"
-        ]
-      },
-      {
-        "topic": "OpenClaw Operating System",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "openfang Open-source Agent Operating System",
-          "edict 🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System"
-        ]
-      },
-      {
-        "topic": "Token Compression",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "BiGain: Unified Token Compression for Joint Generation and Classification"
+          "How BYD got EV chargers to work almost as fast as gas pumps"
         ]
       }
     ]
@@ -482,6 +494,10 @@
           {
             "date": "2026-03-22",
             "quality_score": 4.63
+          },
+          {
+            "date": "2026-03-23",
+            "quality_score": 6.93
           }
         ]
       },
@@ -563,6 +579,10 @@
           {
             "date": "2026-03-22",
             "quality_score": 6.62
+          },
+          {
+            "date": "2026-03-23",
+            "quality_score": 6.2
           }
         ]
       },
@@ -594,12 +614,26 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 339444,
-      "output_tokens": 128592,
-      "cost_usd": 0.7859
+      "input_tokens": 362671,
+      "output_tokens": 138606,
+      "cost_usd": 0.8446
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-23",
+      "keyword": "claude",
+      "quality_score": 6.93,
+      "post_url": "https://sghman.github.io/posts/2026-03-23-claude-digest/",
+      "one_line_summary": "핵심: Claude Code를 포함한 AI 에이전트는 기본적으로 상태 모니터링이 없어 파일 시스템, 환경 변수, API 등에 무제한 접근할 수 있다. 개발자가 명시적으로 제한하지 않으면 AI가 `.env` 파일 같은 민감한 정보를 자동으로 읽을 수 있다."
+    },
+    {
+      "date": "2026-03-23",
+      "keyword": "LLM",
+      "quality_score": 6.2,
+      "post_url": "https://sghman.github.io/posts/2026-03-23-llm-digest/",
+      "one_line_summary": "핵심: LangGraph, CrewAI, AutoGen 같은 에이전트 프레임워크가 더 이상 실험 단계가 아니라 프로덕션 환경에서 실제로 작동하고 있습니다. 이미지, 텍스트, 코드를 한 번의 에이전트 호출로 처리하는 멀티모달 에이전트가 표준화되고 있습니다."
+    },
     {
       "date": "2026-03-22",
       "keyword": "claude",
@@ -725,20 +759,6 @@
       "quality_score": 7.88,
       "post_url": "https://sghman.github.io/posts/2026-03-14-claude-digest/",
       "one_line_summary": "핵심: 무신사의 AI 네이티브 엔지니어 채용 사례에서 보듯, 기업들은 \"AI 사용을 금지하거나 무시하거나 동결\"하는 3가지 반응 중 하나를 보이고 있다. 하지만 올바른 질문은 \"AI를 진짜 잘 쓰는 사람을 어떻게 찾을 것인가\"이다."
-    },
-    {
-      "date": "2026-03-14",
-      "keyword": "LLM",
-      "quality_score": 6.03,
-      "post_url": "https://sghman.github.io/posts/2026-03-14-llm-digest/",
-      "one_line_summary": "핵심: Agentic AI는 단순히 프롬프트에 응답하는 수동형 AI를 넘어, 목표를 스스로 분해하고 도구를 호출하며 결과를 반영하는 자율형 에이전트로 진화했다. 이는 LLM에 장기 메모리, 도구 사용 능력, 계획 및 반성 루프를 결합한 형태다."
-    },
-    {
-      "date": "2026-03-13",
-      "keyword": "claude",
-      "quality_score": 6.74,
-      "post_url": "https://sghman.github.io/posts/2026-03-13-claude-digest/",
-      "one_line_summary": "핵심: Claude와 같은 AI 에이전트가 밤새 수십 개의 PR을 자동 생성하고 코드를 리팩토링하는 현상이 일상화되고 있습니다. 개발자는 아침에 깨어나 AI가 작성한 코드를 검토해야 하는 새로운 업무 패턴에 직면했습니다."
     }
   ]
 }
