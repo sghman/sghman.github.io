@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-23T03:50:03",
+  "generated_at": "2026-03-24T03:41:10",
   "summary": {
-    "total_posts": 42,
+    "total_posts": 44,
     "total_keywords": 3,
-    "avg_quality_score": 6.3,
-    "monthly_cost_usd": 0.8446
+    "avg_quality_score": 6.2,
+    "monthly_cost_usd": 0.8784
   },
   "tracked_trend": {
     "series": [
@@ -98,6 +98,10 @@
           {
             "date": "2026-03-23",
             "mentions": 29
+          },
+          {
+            "date": "2026-03-24",
+            "mentions": 31
           }
         ]
       },
@@ -191,6 +195,10 @@
           {
             "date": "2026-03-23",
             "mentions": 19
+          },
+          {
+            "date": "2026-03-24",
+            "mentions": 19
           }
         ]
       }
@@ -198,13 +206,13 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 239,
+        "mentions": 235,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "claude",
-        "mentions": 159,
+        "mentions": 155,
         "rank": 2,
         "rank_change": 0
       }
@@ -498,6 +506,10 @@
           {
             "date": "2026-03-23",
             "quality_score": 6.93
+          },
+          {
+            "date": "2026-03-24",
+            "quality_score": 5.41
           }
         ]
       },
@@ -583,6 +595,10 @@
           {
             "date": "2026-03-23",
             "quality_score": 6.2
+          },
+          {
+            "date": "2026-03-24",
+            "quality_score": 5.85
           }
         ]
       },
@@ -614,12 +630,26 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 362671,
-      "output_tokens": 138606,
-      "cost_usd": 0.8446
+      "input_tokens": 377448,
+      "output_tokens": 144099,
+      "cost_usd": 0.8784
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-24",
+      "keyword": "claude",
+      "quality_score": 5.41,
+      "post_url": "https://sghman.github.io/posts/2026-03-24-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순한 코드 작성 도우미를 넘어 전체 프로젝트 아키텍처를 이해하고 멀티스텝 구현을 자동 실행하는 에이전트형 AI 개발 도구로 진화했습니다. GPT와 달리 완전한 터미널 워크플로우를 지원하며, GitHub 연동으로 PR 자동 생성까지 가능합니다."
+    },
+    {
+      "date": "2026-03-24",
+      "keyword": "LLM",
+      "quality_score": 5.85,
+      "post_url": "https://sghman.github.io/posts/2026-03-24-llm-digest/",
+      "one_line_summary": "핵심: 단순 챗봇과 진정한 어시스턴트의 차이는 메모리 기능에 있다. 60줄의 파이썬 코드로 구현 가능한 `remember` 도구를 통해 세션 간 정보 지속성을 확보할 수 있다."
+    },
     {
       "date": "2026-03-23",
       "keyword": "claude",
@@ -745,20 +775,6 @@
       "quality_score": 6.43,
       "post_url": "https://sghman.github.io/posts/2026-03-15-llm-digest/",
       "one_line_summary": "핵심: 전통적인 Python 로직 대신 13개의 Markdown 프롬프트 파일로 에이전트의 행동을 완전히 제어하는 새로운 아키텍처 패턴이 등장했습니다. 로컬 9B 모델(qwen3.5:9b)만으로도 소셜 네트워크에서 자율적으로 게시물 작성, 댓글, 답변이 가능합니다."
-    },
-    {
-      "date": "2026-03-15",
-      "keyword": "LLM",
-      "quality_score": 6.08,
-      "post_url": "https://sghman.github.io/posts/2026-03-15-llm-digest/",
-      "one_line_summary": "핵심: 전통적인 Python 조건문 대신 Markdown 프롬프트 파일 13개로 에이전트의 행동을 정의하는 방식이 등장했다. 9B 로컬 모델(qwen3.5:9b)만으로도 소셜 네트워크 자동 포스팅, 댓글, 답글 기능을 구현 가능하다."
-    },
-    {
-      "date": "2026-03-14",
-      "keyword": "claude",
-      "quality_score": 7.88,
-      "post_url": "https://sghman.github.io/posts/2026-03-14-claude-digest/",
-      "one_line_summary": "핵심: 무신사의 AI 네이티브 엔지니어 채용 사례에서 보듯, 기업들은 \"AI 사용을 금지하거나 무시하거나 동결\"하는 3가지 반응 중 하나를 보이고 있다. 하지만 올바른 질문은 \"AI를 진짜 잘 쓰는 사람을 어떻게 찾을 것인가\"이다."
     }
   ]
 }
