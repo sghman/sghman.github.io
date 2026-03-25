@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-24T03:41:10",
+  "generated_at": "2026-03-25T03:44:43",
   "summary": {
-    "total_posts": 44,
+    "total_posts": 46,
     "total_keywords": 3,
     "avg_quality_score": 6.2,
-    "monthly_cost_usd": 0.8784
+    "monthly_cost_usd": 0.9376
   },
   "tracked_trend": {
     "series": [
@@ -102,6 +102,10 @@
           {
             "date": "2026-03-24",
             "mentions": 31
+          },
+          {
+            "date": "2026-03-25",
+            "mentions": 33
           }
         ]
       },
@@ -199,6 +203,10 @@
           {
             "date": "2026-03-24",
             "mentions": 19
+          },
+          {
+            "date": "2026-03-25",
+            "mentions": 24
           }
         ]
       }
@@ -206,13 +214,13 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 235,
+        "mentions": 233,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "claude",
-        "mentions": 155,
+        "mentions": 160,
         "rank": 2,
         "rank_change": 0
       }
@@ -510,6 +518,10 @@
           {
             "date": "2026-03-24",
             "quality_score": 5.41
+          },
+          {
+            "date": "2026-03-25",
+            "quality_score": 6.3
           }
         ]
       },
@@ -599,6 +611,10 @@
           {
             "date": "2026-03-24",
             "quality_score": 5.85
+          },
+          {
+            "date": "2026-03-25",
+            "quality_score": 6.87
           }
         ]
       },
@@ -630,12 +646,26 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 377448,
-      "output_tokens": 144099,
-      "cost_usd": 0.8784
+      "input_tokens": 401744,
+      "output_tokens": 154063,
+      "cost_usd": 0.9376
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-25",
+      "keyword": "claude",
+      "quality_score": 6.3,
+      "post_url": "https://sghman.github.io/posts/2026-03-25-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Code에 더 많은 자율 제어 권한을 부여하면서도 안전장치를 유지하는 방향으로 업데이트했습니다. AI가 스스로 어떤 행동을 안전하게 수행할지 판단하는 능력이 강화되었습니다."
+    },
+    {
+      "date": "2026-03-25",
+      "keyword": "LLM",
+      "quality_score": 6.87,
+      "post_url": "https://sghman.github.io/posts/2026-03-25-llm-digest/",
+      "one_line_summary": "핵심: 코드 리뷰는 현대 소프트웨어 개발의 가장 큰 병목이며, AI 어시스턴트와 MCP가 가장 높은 임팩트를 낼 수 있는 영역. SonarQube MCP(442 스타)가 가장 성숙한 솔루션으로 자리잡았고, 2026년 3월 SonarQube Cloud는 Docker/JDK 없이 네이티브 MCP 서버를 출시했음."
+    },
     {
       "date": "2026-03-24",
       "keyword": "claude",
@@ -761,20 +791,6 @@
       "quality_score": 5.88,
       "post_url": "https://sghman.github.io/posts/2026-03-15-claude-digest/",
       "one_line_summary": "핵심: Claude가 단순 챗봇을 넘어 \"에이전트형 코딩 어시스턴트\"로 진화했으며, 실제 프로젝트에서 개발 속도를 획기적으로 단축할 수 있음이 입증됨."
-    },
-    {
-      "date": "2026-03-15",
-      "keyword": "claude",
-      "quality_score": 6.02,
-      "post_url": "https://sghman.github.io/posts/2026-03-15-claude-digest/",
-      "one_line_summary": "핵심: 음성 파일 업로드 → 자동 자막 생성 → 번역 → AI 음성 합성으로 더빙 오디오를 생성하는 프로젝트가 Claude의 협력으로 완성됨. 개발자가 모든 코드를 직접 작성하지 않고 Claude와 반복적으로 상호작용하며 기능을 구현."
-    },
-    {
-      "date": "2026-03-15",
-      "keyword": "LLM",
-      "quality_score": 6.43,
-      "post_url": "https://sghman.github.io/posts/2026-03-15-llm-digest/",
-      "one_line_summary": "핵심: 전통적인 Python 로직 대신 13개의 Markdown 프롬프트 파일로 에이전트의 행동을 완전히 제어하는 새로운 아키텍처 패턴이 등장했습니다. 로컬 9B 모델(qwen3.5:9b)만으로도 소셜 네트워크에서 자율적으로 게시물 작성, 댓글, 답변이 가능합니다."
     }
   ]
 }
