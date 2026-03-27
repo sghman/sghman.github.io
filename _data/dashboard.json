@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-26T03:53:46",
+  "generated_at": "2026-03-27T03:55:32",
   "summary": {
-    "total_posts": 48,
+    "total_posts": 50,
     "total_keywords": 3,
-    "avg_quality_score": 6.3,
-    "monthly_cost_usd": 0.9697
+    "avg_quality_score": 6.2,
+    "monthly_cost_usd": 1.015
   },
   "tracked_trend": {
     "series": [
@@ -110,6 +110,10 @@
           {
             "date": "2026-03-26",
             "mentions": 24
+          },
+          {
+            "date": "2026-03-27",
+            "mentions": 16
           }
         ]
       },
@@ -215,6 +219,10 @@
           {
             "date": "2026-03-26",
             "mentions": 24
+          },
+          {
+            "date": "2026-03-27",
+            "mentions": 25
           }
         ]
       }
@@ -222,7 +230,7 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 232,
+        "mentions": 215,
         "rank": 1,
         "rank_change": 0
       },
@@ -534,6 +542,10 @@
           {
             "date": "2026-03-26",
             "quality_score": 7.07
+          },
+          {
+            "date": "2026-03-27",
+            "quality_score": 5.97
           }
         ]
       },
@@ -631,6 +643,10 @@
           {
             "date": "2026-03-26",
             "quality_score": 5.81
+          },
+          {
+            "date": "2026-03-27",
+            "quality_score": 5.58
           }
         ]
       },
@@ -662,12 +678,26 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 415853,
-      "output_tokens": 159264,
-      "cost_usd": 0.9697
+      "input_tokens": 435720,
+      "output_tokens": 166597,
+      "cost_usd": 1.015
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-27",
+      "keyword": "claude",
+      "quality_score": 5.97,
+      "post_url": "https://sghman.github.io/posts/2026-03-27-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순 챗봇이 아닌 터미널 기반 에이전트로, 전체 코드베이스를 이해하고 다단계 구현을 자동 실행할 수 있습니다. 특히 auto-fix 기능으로 PR의 CI 실패를 자동 감지하고 수정합니다."
+    },
+    {
+      "date": "2026-03-27",
+      "keyword": "LLM",
+      "quality_score": 5.58,
+      "post_url": "https://sghman.github.io/posts/2026-03-27-llm-digest/",
+      "one_line_summary": "핵심: 대형 모델 중심에서 벗어나 소형 모델이 엣지 배포를 현실화하고 있으며, 단순 텍스트 처리를 넘어 이미지·코드·웹 브라우징을 통합하는 멀티모달 에이전트가 프로덕션 환경에 진입했다."
+    },
     {
       "date": "2026-03-26",
       "keyword": "claude",
@@ -793,20 +823,6 @@
       "quality_score": 7.45,
       "post_url": "https://sghman.github.io/posts/2026-03-18-llm-digest/",
       "one_line_summary": "핵심: 클라우드 기반 메모리 시스템(Mem0, Zep)과 로컬 우선 시스템(SuperLocalMemory)의 성능 격차가 생각보다 작다. 로컬 시스템이 LoCoMo 벤치마크에서 74.8%를 달성하며 클라우드 기반 66%를 상회했다."
-    },
-    {
-      "date": "2026-03-17",
-      "keyword": "claude",
-      "quality_score": 6.57,
-      "post_url": "https://sghman.github.io/posts/2026-03-17-claude-digest/",
-      "one_line_summary": "핵심: Andrej Karpathy가 정의한 Software 3.0 패러다임에서 LLM은 단순한 모델이 아닌 '에이전트'로 진화하고 있습니다. Claude Code는 이러한 LLM의 능력을 실제 업무에 연결하는 '하네스(harness)' 역할을 수행합니다."
-    },
-    {
-      "date": "2026-03-17",
-      "keyword": "LLM",
-      "quality_score": 6.43,
-      "post_url": "https://sghman.github.io/posts/2026-03-17-llm-digest/",
-      "one_line_summary": "핵심: Agent와의 대화를 종료해도 기억하도록 세션 메타데이터와 메시지를 디스크에 저장하고, LLM 토큰 한계에 대비해 이중 방어 전략(요약 + 절단)으로 컨텍스트를 압축하는 기법."
     }
   ]
 }
