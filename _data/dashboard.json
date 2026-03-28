@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-27T03:55:32",
+  "generated_at": "2026-03-28T03:43:08",
   "summary": {
-    "total_posts": 50,
+    "total_posts": 52,
     "total_keywords": 3,
     "avg_quality_score": 6.2,
-    "monthly_cost_usd": 1.015
+    "monthly_cost_usd": 1.0641
   },
   "tracked_trend": {
     "series": [
@@ -114,6 +114,10 @@
           {
             "date": "2026-03-27",
             "mentions": 16
+          },
+          {
+            "date": "2026-03-28",
+            "mentions": 27
           }
         ]
       },
@@ -223,6 +227,10 @@
           {
             "date": "2026-03-27",
             "mentions": 25
+          },
+          {
+            "date": "2026-03-28",
+            "mentions": 29
           }
         ]
       }
@@ -236,7 +244,7 @@
       },
       {
         "topic": "claude",
-        "mentions": 163,
+        "mentions": 175,
         "rank": 2,
         "rank_change": 0
       }
@@ -477,11 +485,11 @@
           },
           {
             "date": "2026-03-11",
-            "quality_score": 6.32
+            "quality_score": 5.79
           },
           {
             "date": "2026-03-11",
-            "quality_score": 5.79
+            "quality_score": 6.32
           },
           {
             "date": "2026-03-12",
@@ -546,6 +554,10 @@
           {
             "date": "2026-03-27",
             "quality_score": 5.97
+          },
+          {
+            "date": "2026-03-28",
+            "quality_score": 5.39
           }
         ]
       },
@@ -570,11 +582,11 @@
           },
           {
             "date": "2026-03-08",
-            "quality_score": 5.94
+            "quality_score": 7.13
           },
           {
             "date": "2026-03-08",
-            "quality_score": 7.13
+            "quality_score": 5.94
           },
           {
             "date": "2026-03-10",
@@ -594,11 +606,11 @@
           },
           {
             "date": "2026-03-15",
-            "quality_score": 6.43
+            "quality_score": 6.08
           },
           {
             "date": "2026-03-15",
-            "quality_score": 6.08
+            "quality_score": 6.43
           },
           {
             "date": "2026-03-16",
@@ -622,11 +634,11 @@
           },
           {
             "date": "2026-03-22",
-            "quality_score": 6.47
+            "quality_score": 6.62
           },
           {
             "date": "2026-03-22",
-            "quality_score": 6.62
+            "quality_score": 6.47
           },
           {
             "date": "2026-03-23",
@@ -647,6 +659,10 @@
           {
             "date": "2026-03-27",
             "quality_score": 5.58
+          },
+          {
+            "date": "2026-03-28",
+            "quality_score": 4.98
           }
         ]
       },
@@ -678,12 +694,26 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 435720,
-      "output_tokens": 166597,
-      "cost_usd": 1.015
+      "input_tokens": 454367,
+      "output_tokens": 175150,
+      "cost_usd": 1.0641
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-28",
+      "keyword": "claude",
+      "quality_score": 5.39,
+      "post_url": "https://sghman.github.io/posts/2026-03-28-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순 채봇을 넘어 로컬 파일을 직접 읽고, 프로젝트 구조를 인덱싱하고, 명령을 실행하는 완전한 에이전트 시스템으로 진화했습니다. 사용자가 모든 파일 변경과 명령 실행을 승인하는 권한 기반 시스템으로 작동합니다."
+    },
+    {
+      "date": "2026-03-28",
+      "keyword": "LLM",
+      "quality_score": 4.98,
+      "post_url": "https://sghman.github.io/posts/2026-03-28-llm-digest/",
+      "one_line_summary": "핵심: MiniMax M2.5가 2월 12일 출시되며 프론티어급 LLM의 가격 경쟁이 본격화됐다. 230B 파라미터(10B 활성)의 MoE 아키텍처로 Claude Opus 4.6 대비 1/20 비용에 동등 수준의 코딩 성능(SWE-Bench Verified 80.2%)을 제공한다."
+    },
     {
       "date": "2026-03-27",
       "keyword": "claude",
@@ -728,17 +758,17 @@
     },
     {
       "date": "2026-03-24",
-      "keyword": "claude",
-      "quality_score": 5.41,
-      "post_url": "https://sghman.github.io/posts/2026-03-24-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순한 코드 작성 도우미를 넘어 전체 프로젝트 아키텍처를 이해하고 멀티스텝 구현을 자동 실행하는 에이전트형 AI 개발 도구로 진화했습니다. GPT와 달리 완전한 터미널 워크플로우를 지원하며, GitHub 연동으로 PR 자동 생성까지 가능합니다."
-    },
-    {
-      "date": "2026-03-24",
       "keyword": "LLM",
       "quality_score": 5.85,
       "post_url": "https://sghman.github.io/posts/2026-03-24-llm-digest/",
       "one_line_summary": "핵심: 단순 챗봇과 진정한 어시스턴트의 차이는 메모리 기능에 있다. 60줄의 파이썬 코드로 구현 가능한 `remember` 도구를 통해 세션 간 정보 지속성을 확보할 수 있다."
+    },
+    {
+      "date": "2026-03-24",
+      "keyword": "claude",
+      "quality_score": 5.41,
+      "post_url": "https://sghman.github.io/posts/2026-03-24-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순한 코드 작성 도우미를 넘어 전체 프로젝트 아키텍처를 이해하고 멀티스텝 구현을 자동 실행하는 에이전트형 AI 개발 도구로 진화했습니다. GPT와 달리 완전한 터미널 워크플로우를 지원하며, GitHub 연동으로 PR 자동 생성까지 가능합니다."
     },
     {
       "date": "2026-03-23",
@@ -753,6 +783,13 @@
       "quality_score": 6.2,
       "post_url": "https://sghman.github.io/posts/2026-03-23-llm-digest/",
       "one_line_summary": "핵심: LangGraph, CrewAI, AutoGen 같은 에이전트 프레임워크가 더 이상 실험 단계가 아니라 프로덕션 환경에서 실제로 작동하고 있습니다. 이미지, 텍스트, 코드를 한 번의 에이전트 호출로 처리하는 멀티모달 에이전트가 표준화되고 있습니다."
+    },
+    {
+      "date": "2026-03-22",
+      "keyword": "LLM",
+      "quality_score": 6.62,
+      "post_url": "https://sghman.github.io/posts/2026-03-22-llm-digest/",
+      "one_line_summary": "핵심: Google DeepMind의 Gemini 3.1 Flash-Lite와 OpenAI의 GPT-5.4 mini/nano 같은 소형 모델들이 추론 성능을 유지하면서 리소스 소비를 대폭 줄였다. 이는 엣지 디바이스, 실시간 챗봇, 비용 효율적인 API 사용을 가능하게 한다."
     },
     {
       "date": "2026-03-22",
@@ -776,25 +813,11 @@
       "one_line_summary": "핵심: Google DeepMind의 Gemini 3.1 Flash-Lite와 OpenAI의 GPT-5.4 mini/nano 같은 소형 모델들이 추론 속도와 효율성을 개선하면서 엣지 디바이스와 실시간 애플리케이션 배포가 현실화되고 있습니다."
     },
     {
-      "date": "2026-03-22",
-      "keyword": "LLM",
-      "quality_score": 6.62,
-      "post_url": "https://sghman.github.io/posts/2026-03-22-llm-digest/",
-      "one_line_summary": "핵심: Google DeepMind의 Gemini 3.1 Flash-Lite와 OpenAI의 GPT-5.4 mini/nano 같은 소형 모델들이 추론 성능을 유지하면서 리소스 소비를 대폭 줄였다. 이는 엣지 디바이스, 실시간 챗봇, 비용 효율적인 API 사용을 가능하게 한다."
-    },
-    {
       "date": "2026-03-21",
       "keyword": "LLM",
       "quality_score": 6.25,
       "post_url": "https://sghman.github.io/posts/2026-03-21-llm-digest/",
       "one_line_summary": "핵심: 단일 모델 구성 대신 46개 모델, 8개 제공자를 지능형 라우터로 관리하면 API 비용을 획기적으로 절감할 수 있습니다. 요청의 복잡도에 따라 최적 모델을 1ms 이내에 선택하는 기술이 실제 프로덕션에서 검증되었습니다."
-    },
-    {
-      "date": "2026-03-20",
-      "keyword": "claude",
-      "quality_score": 5.56,
-      "post_url": "https://sghman.github.io/posts/2026-03-20-claude-digest/",
-      "one_line_summary": "핵심: Claude Cowork에 추가된 Dispatch 기능은 스마트폰에서 업무 지시를 내리면 PC에서 자동으로 실행되는 비동기 작업 방식을 제공한다. 출근길 지하철에서 보고서 작성을 지시하면 사무실 도착 시 완성된 결과물을 받을 수 있다."
     },
     {
       "date": "2026-03-20",
@@ -804,25 +827,18 @@
       "one_line_summary": "핵심: 토스 보안팀이 공개한 사례에서 LLM의 취약점 분석 능력은 3개월 만에 급격히 향상되었으며, 단순 패턴 매칭을 넘어 구조적 코드 이해가 가능해졌습니다. 핵심은 AI에게 IDE 수준의 코드 탐색 능력을 부여하는 것입니다."
     },
     {
+      "date": "2026-03-20",
+      "keyword": "claude",
+      "quality_score": 5.56,
+      "post_url": "https://sghman.github.io/posts/2026-03-20-claude-digest/",
+      "one_line_summary": "핵심: Claude Cowork에 추가된 Dispatch 기능은 스마트폰에서 업무 지시를 내리면 PC에서 자동으로 실행되는 비동기 작업 방식을 제공한다. 출근길 지하철에서 보고서 작성을 지시하면 사무실 도착 시 완성된 결과물을 받을 수 있다."
+    },
+    {
       "date": "2026-03-19",
       "keyword": "claude",
       "quality_score": 6.02,
       "post_url": "https://sghman.github.io/posts/2026-03-19-claude-digest/",
       "one_line_summary": "핵심: 단일 모델(Sonnet)로 전체 파이프라인을 구성하면 월 $300이 소요되지만, 작업 특성에 맞춰 Haiku(클러스터링)와 Sonnet(스코링)을 분리하면 월 $30 수준으로 비용 절감 가능."
-    },
-    {
-      "date": "2026-03-18",
-      "keyword": "claude",
-      "quality_score": 6.85,
-      "post_url": "https://sghman.github.io/posts/2026-03-18-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 세션이 리셋될 때마다 이전 작업 내용을 잃어버린다. 2시간 이상의 긴 작업에서는 매번 같은 내용을 다시 설명해야 하는 비효율이 발생한다."
-    },
-    {
-      "date": "2026-03-18",
-      "keyword": "LLM",
-      "quality_score": 7.45,
-      "post_url": "https://sghman.github.io/posts/2026-03-18-llm-digest/",
-      "one_line_summary": "핵심: 클라우드 기반 메모리 시스템(Mem0, Zep)과 로컬 우선 시스템(SuperLocalMemory)의 성능 격차가 생각보다 작다. 로컬 시스템이 LoCoMo 벤치마크에서 74.8%를 달성하며 클라우드 기반 66%를 상회했다."
     }
   ]
 }
