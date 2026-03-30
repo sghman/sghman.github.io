@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-29T04:09:29",
+  "generated_at": "2026-03-30T04:13:25",
   "summary": {
-    "total_posts": 56,
+    "total_posts": 58,
     "total_keywords": 3,
-    "avg_quality_score": 6.2,
-    "monthly_cost_usd": 1.1381
+    "avg_quality_score": 6.1,
+    "monthly_cost_usd": 1.1665
   },
   "tracked_trend": {
     "series": [
@@ -121,6 +121,10 @@
           },
           {
             "date": "2026-03-29",
+            "mentions": 16
+          },
+          {
+            "date": "2026-03-30",
             "mentions": 16
           }
         ]
@@ -239,30 +243,34 @@
           {
             "date": "2026-03-29",
             "mentions": 31
+          },
+          {
+            "date": "2026-03-30",
+            "mentions": 24
           }
         ]
       }
     ],
     "weekly_rank": [
       {
-        "topic": "LLM",
-        "mentions": 204,
+        "topic": "claude",
+        "mentions": 195,
         "rank": 1,
-        "rank_change": 0
+        "rank_change": 1
       },
       {
-        "topic": "claude",
-        "mentions": 190,
+        "topic": "LLM",
+        "mentions": 192,
         "rank": 2,
-        "rank_change": 0
+        "rank_change": -1
       }
     ],
     "bump_chart": {
       "weeks": [
-        "2026-W10",
         "2026-W11",
         "2026-W12",
-        "2026-W13"
+        "2026-W13",
+        "2026-W14"
       ],
       "series": [
         {
@@ -271,7 +279,7 @@
             1,
             1,
             1,
-            1
+            2
           ]
         },
         {
@@ -280,7 +288,7 @@
             2,
             2,
             2,
-            2
+            1
           ]
         }
       ]
@@ -289,179 +297,178 @@
   "emerging_topics": {
     "topics": [
       {
-        "topic": "AI Agent Framework",
+        "topic": "AI Agents & Multi-Agent Systems",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "OpenCode – Open source AI coding agent",
-          "autoresearch AI agents running research on single-GPU nanochat training automatically",
-          "CLI-Anything: Making ALL Software Agent-Native"
+          "Go hard on agents, not on your filesystem",
+          "ClawTeam: Agent Swarm Intelligence"
         ]
       },
       {
-        "topic": "Vision-Language Models",
+        "topic": "FPGA-based AI Models",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Do VLMs Need Vision Transformers? Evaluating State Space Models as Vision Encoders",
-          "NavTrust: Benchmarking Trustworthiness for Embodied Navigation"
+          "CERN uses ultra-compact AI models on FPGAs for real-time LHC data filtering"
         ]
       },
       {
-        "topic": "Mixture of Experts (MoE)",
+        "topic": "Git & Version Control Tools",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation",
-          "DyMoE: Dynamic Expert Orchestration with Mixed-Precision Quantization for Efficient MoE Inference on Edge"
+          "Improved Git Diffs with Delta, Fzf and a Little Shell Scripting",
+          "Spanish legislation as a Git repo"
         ]
       },
       {
-        "topic": "Diffusion Models",
+        "topic": "macOS/Linux Compatibility",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Spectrally-Guided Diffusion Noise Schedules",
-          "D5P4: Partition Determinantal Point Process for Diversity in Parallel Discrete Diffusion Decoding"
+          "Cocoa-Way – Native macOS Wayland compositor for running Linux apps seamlessly",
+          "Make macOS consistently bad unironically"
         ]
       },
       {
-        "topic": "WebGPU & WASM",
+        "topic": "Hardware Optimization & Emulation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Professional video editing, right in the browser with WebGPU and WASM",
-          "We rewrote our Rust WASM parser in TypeScript and it got faster"
+          "Velxio 2.0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser",
+          "Running Tesla Model 3's computer on my desk"
         ]
       },
       {
-        "topic": "Graph Database",
+        "topic": "Retro Computing & Emulation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Grafeo – A fast, lean, embeddable graph database built in Rust"
+          "Paper Tape Is All You Need – Training a Transformer on a 1976 Minicomputer",
+          "Hacking old hardware by renaming to .zip"
         ]
       },
       {
-        "topic": "Multilingual Models",
+        "topic": "ARM Processors",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Meta's Omnilingual MT for 1,600 Languages",
-          "F2LLM-v2: Inclusive, Performant, and Efficient Embeddings for a Multilingual World"
+          "Arm releases first in-house chip, with Meta as debut customer",
+          "AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache"
         ]
       },
       {
-        "topic": "3D Generation & Reconstruction",
+        "topic": "Display Technology Innovation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding",
-          "DreamPartGen: Semantically Grounded Part-Level 3D Generation via Collaborative Latent Denoising"
+          "LG's new 1Hz display is the secret behind a new laptop's battery life"
         ]
       },
       {
-        "topic": "GPU Kernel Optimization",
+        "topic": "Let's Encrypt & TLS Automation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "SOL-ExecBench: Speed-of-Light Benchmarking for Real-World GPU Kernels Against Hardware Limits",
-          "cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization"
+          "Installing a Let's Encrypt TLS certificate on a Brother printer with Certbot"
         ]
       },
       {
-        "topic": "Autonomous Driving Systems",
+        "topic": "Screen Recording & Video Tools",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding"
+          "Recordly - open-source screen recorder and editor"
         ]
       },
       {
-        "topic": "Embodied Navigation",
+        "topic": "Web Scraping & Automation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
-          "Meanings and Measurements: Multi-Agent Probabilistic Grounding for Vision-Language Navigation"
+          "ai-website-cloner-template - Clone any website with one command"
         ]
       },
       {
-        "topic": "Medical AI & Neural Networks",
+        "topic": "Autonomous Research Systems",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "ARIADNE: A Perception-Reasoning Synergy Framework for Trustworthy Coronary Angiography Analysis",
-          "Rigorous Error Certification for Neural PDE Solvers"
+          "AutoResearchClaw - Fully autonomous research from idea to paper",
+          "pi-autoresearch - Autonomous experiment loop extension"
         ]
       },
       {
-        "topic": "Rust Graph Database",
+        "topic": "Supply Chain Security",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Grafeo – A fast, lean, embeddable graph database built in Rust"
+          "Telnyx package compromised on PyPI",
+          "Iran-linked hackers breach FBI director's personal email"
         ]
       },
       {
-        "topic": "Financial Reasoning Benchmarks",
+        "topic": "Solar Panel Integration",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "FinTradeBench: A Financial Reasoning Benchmark for LLMs"
+          "South Korea Mandates Solar Panels for Public Parking Lots",
+          "Europeans building mini solar farms"
         ]
       },
       {
-        "topic": "EV Charging Technology",
+        "topic": "Open-Source Game Engines",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "How BYD got EV chargers to work almost as fast as gas pumps"
+          "I Built an Open-World Engine for the N64",
+          "OpenCiv1 – open-source rewrite of Civ1"
         ]
       }
     ]
@@ -574,6 +581,10 @@
           {
             "date": "2026-03-29",
             "quality_score": 5.34
+          },
+          {
+            "date": "2026-03-30",
+            "quality_score": 6.68
           }
         ]
       },
@@ -598,11 +609,11 @@
           },
           {
             "date": "2026-03-08",
-            "quality_score": 5.94
+            "quality_score": 7.13
           },
           {
             "date": "2026-03-08",
-            "quality_score": 7.13
+            "quality_score": 5.94
           },
           {
             "date": "2026-03-10",
@@ -687,6 +698,10 @@
           {
             "date": "2026-03-29",
             "quality_score": 5.51
+          },
+          {
+            "date": "2026-03-30",
+            "quality_score": 4.81
           }
         ]
       },
@@ -718,12 +733,33 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 488772,
-      "output_tokens": 186780,
-      "cost_usd": 1.1381
+      "input_tokens": 500988,
+      "output_tokens": 191424,
+      "cost_usd": 1.1665
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-03-30",
+      "keyword": "claude",
+      "quality_score": 6.68,
+      "post_url": "https://sghman.github.io/posts/2026-03-30-claude-digest/",
+      "one_line_summary": "핵심: Google이 2026년 3월 공식 출시한 Colab MCP Server는 Claude Code가 브라우저 없이 터미널에서 직접 Colab의 GPU를 제어할 수 있게 해줍니다. 데이터 전처리부터 모델 학습, 평가, 변환까지 전체 파이프라인을 자동화할 수 있습니다."
+    },
+    {
+      "date": "2026-03-30",
+      "keyword": "LLM",
+      "quality_score": 4.81,
+      "post_url": "https://sghman.github.io/posts/2026-03-30-llm-digest/",
+      "one_line_summary": "핵심: 실제 운영 환경에서 AI 에이전트는 API 레이트 제한, 네트워크 타임아웃, JSON 파싱 오류 등으로 지속적으로 실패한다. 단순 검증 추가가 아닌 실패 패턴을 감지하고 자동으로 복구하는 아키텍처가 필수다."
+    },
+    {
+      "date": "2026-03-29",
+      "keyword": "LLM",
+      "quality_score": 5.51,
+      "post_url": "https://sghman.github.io/posts/2026-03-29-llm-digest/",
+      "one_line_summary": "핵심: GPT4All, LM Studio, Jan.ai 같은 오픈소스 도구들이 OpenAI 호환 API를 제공하면서 클라우드 비용 없이 로컬에서 LLM을 운영할 수 있는 환경이 완성되었습니다."
+    },
     {
       "date": "2026-03-29",
       "keyword": "claude",
@@ -746,11 +782,11 @@
       "one_line_summary": "핵심: GPT4All, LM Studio, Jan.ai 같은 오픈소스 도구들이 OpenAI 호환 API를 제공하면서 클라우드 비용 없이 로컬에서 LLM을 운영할 수 있는 환경이 완성되었습니다."
     },
     {
-      "date": "2026-03-29",
-      "keyword": "LLM",
-      "quality_score": 5.51,
-      "post_url": "https://sghman.github.io/posts/2026-03-29-llm-digest/",
-      "one_line_summary": "핵심: GPT4All, LM Studio, Jan.ai 같은 오픈소스 도구들이 OpenAI 호환 API를 제공하면서 클라우드 비용 없이 로컬에서 LLM을 운영할 수 있는 환경이 완성되었습니다."
+      "date": "2026-03-28",
+      "keyword": "claude",
+      "quality_score": 5.39,
+      "post_url": "https://sghman.github.io/posts/2026-03-28-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순 채봇을 넘어 로컬 파일을 직접 읽고, 프로젝트 구조를 인덱싱하고, 명령을 실행하는 완전한 에이전트 시스템으로 진화했습니다. 사용자가 모든 파일 변경과 명령 실행을 승인하는 권한 기반 시스템으로 작동합니다."
     },
     {
       "date": "2026-03-28",
@@ -758,13 +794,6 @@
       "quality_score": 4.98,
       "post_url": "https://sghman.github.io/posts/2026-03-28-llm-digest/",
       "one_line_summary": "핵심: MiniMax M2.5가 2월 12일 출시되며 프론티어급 LLM의 가격 경쟁이 본격화됐다. 230B 파라미터(10B 활성)의 MoE 아키텍처로 Claude Opus 4.6 대비 1/20 비용에 동등 수준의 코딩 성능(SWE-Bench Verified 80.2%)을 제공한다."
-    },
-    {
-      "date": "2026-03-28",
-      "keyword": "claude",
-      "quality_score": 5.39,
-      "post_url": "https://sghman.github.io/posts/2026-03-28-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순 채봇을 넘어 로컬 파일을 직접 읽고, 프로젝트 구조를 인덱싱하고, 명령을 실행하는 완전한 에이전트 시스템으로 진화했습니다. 사용자가 모든 파일 변경과 명령 실행을 승인하는 권한 기반 시스템으로 작동합니다."
     },
     {
       "date": "2026-03-27",
@@ -796,17 +825,17 @@
     },
     {
       "date": "2026-03-25",
-      "keyword": "claude",
-      "quality_score": 6.3,
-      "post_url": "https://sghman.github.io/posts/2026-03-25-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 Claude Code에 더 많은 자율 제어 권한을 부여하면서도 안전장치를 유지하는 방향으로 업데이트했습니다. AI가 스스로 어떤 행동을 안전하게 수행할지 판단하는 능력이 강화되었습니다."
-    },
-    {
-      "date": "2026-03-25",
       "keyword": "LLM",
       "quality_score": 6.87,
       "post_url": "https://sghman.github.io/posts/2026-03-25-llm-digest/",
       "one_line_summary": "핵심: 코드 리뷰는 현대 소프트웨어 개발의 가장 큰 병목이며, AI 어시스턴트와 MCP가 가장 높은 임팩트를 낼 수 있는 영역. SonarQube MCP(442 스타)가 가장 성숙한 솔루션으로 자리잡았고, 2026년 3월 SonarQube Cloud는 Docker/JDK 없이 네이티브 MCP 서버를 출시했음."
+    },
+    {
+      "date": "2026-03-25",
+      "keyword": "claude",
+      "quality_score": 6.3,
+      "post_url": "https://sghman.github.io/posts/2026-03-25-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Code에 더 많은 자율 제어 권한을 부여하면서도 안전장치를 유지하는 방향으로 업데이트했습니다. AI가 스스로 어떤 행동을 안전하게 수행할지 판단하는 능력이 강화되었습니다."
     },
     {
       "date": "2026-03-24",
@@ -824,17 +853,17 @@
     },
     {
       "date": "2026-03-23",
-      "keyword": "claude",
-      "quality_score": 6.93,
-      "post_url": "https://sghman.github.io/posts/2026-03-23-claude-digest/",
-      "one_line_summary": "핵심: Claude Code를 포함한 AI 에이전트는 기본적으로 상태 모니터링이 없어 파일 시스템, 환경 변수, API 등에 무제한 접근할 수 있다. 개발자가 명시적으로 제한하지 않으면 AI가 `.env` 파일 같은 민감한 정보를 자동으로 읽을 수 있다."
-    },
-    {
-      "date": "2026-03-23",
       "keyword": "LLM",
       "quality_score": 6.2,
       "post_url": "https://sghman.github.io/posts/2026-03-23-llm-digest/",
       "one_line_summary": "핵심: LangGraph, CrewAI, AutoGen 같은 에이전트 프레임워크가 더 이상 실험 단계가 아니라 프로덕션 환경에서 실제로 작동하고 있습니다. 이미지, 텍스트, 코드를 한 번의 에이전트 호출로 처리하는 멀티모달 에이전트가 표준화되고 있습니다."
+    },
+    {
+      "date": "2026-03-23",
+      "keyword": "claude",
+      "quality_score": 6.93,
+      "post_url": "https://sghman.github.io/posts/2026-03-23-claude-digest/",
+      "one_line_summary": "핵심: Claude Code를 포함한 AI 에이전트는 기본적으로 상태 모니터링이 없어 파일 시스템, 환경 변수, API 등에 무제한 접근할 수 있다. 개발자가 명시적으로 제한하지 않으면 AI가 `.env` 파일 같은 민감한 정보를 자동으로 읽을 수 있다."
     },
     {
       "date": "2026-03-22",
@@ -849,20 +878,6 @@
       "quality_score": 4.51,
       "post_url": "https://sghman.github.io/posts/2026-03-22-claude-digest/",
       "one_line_summary": "핵심: Claude Opus 4.6 기반의 Claude Code는 단순 채팅 인터페이스를 벗어나 터미널 기반의 에이전트 어시스턴트로 진화했다. 전체 코드베이스를 인덱싱하고 멀티파일 작업을 자동화하며, GitHub PR까지 자동 생성한다. Claude Cowork는 코딩 지식이 없는 일반인도 AI 비서를 활용할 수 있도록 낮춘 진입장벽이다."
-    },
-    {
-      "date": "2026-03-22",
-      "keyword": "claude",
-      "quality_score": 4.63,
-      "post_url": "https://sghman.github.io/posts/2026-03-22-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순 채팅 인터페이스를 벗어나 전체 코드베이스를 이해하고 멀티파일 작업을 자동화하는 에이전트형 어시스턴트로 진화했습니다. Claude Opus 4.6과 Sonnet 4.6 기반으로 Git 커밋, PR 생성, 병렬 작업 실행까지 터미널 네이티브 환경에서 처리합니다."
-    },
-    {
-      "date": "2026-03-22",
-      "keyword": "LLM",
-      "quality_score": 6.47,
-      "post_url": "https://sghman.github.io/posts/2026-03-22-llm-digest/",
-      "one_line_summary": "핵심: Google DeepMind의 Gemini 3.1 Flash-Lite와 OpenAI의 GPT-5.4 mini/nano 같은 소형 모델들이 추론 속도와 효율성을 개선하면서 엣지 디바이스와 실시간 애플리케이션 배포가 현실화되고 있습니다."
     }
   ]
 }
