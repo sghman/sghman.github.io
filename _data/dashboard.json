@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-30T04:13:25",
+  "generated_at": "2026-03-31T03:56:14",
   "summary": {
-    "total_posts": 58,
+    "total_posts": 60,
     "total_keywords": 3,
     "avg_quality_score": 6.1,
-    "monthly_cost_usd": 1.1665
+    "monthly_cost_usd": 1.2124
   },
   "tracked_trend": {
     "series": [
@@ -126,6 +126,10 @@
           {
             "date": "2026-03-30",
             "mentions": 16
+          },
+          {
+            "date": "2026-03-31",
+            "mentions": 24
           }
         ]
       },
@@ -247,6 +251,10 @@
           {
             "date": "2026-03-30",
             "mentions": 24
+          },
+          {
+            "date": "2026-03-31",
+            "mentions": 20
           }
         ]
       }
@@ -254,13 +262,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 195,
+        "mentions": 196,
         "rank": 1,
         "rank_change": 1
       },
       {
         "topic": "LLM",
-        "mentions": 192,
+        "mentions": 187,
         "rank": 2,
         "rank_change": -1
       }
@@ -500,11 +508,11 @@
           },
           {
             "date": "2026-03-11",
-            "quality_score": 5.79
+            "quality_score": 6.32
           },
           {
             "date": "2026-03-11",
-            "quality_score": 6.32
+            "quality_score": 5.79
           },
           {
             "date": "2026-03-12",
@@ -585,6 +593,10 @@
           {
             "date": "2026-03-30",
             "quality_score": 6.68
+          },
+          {
+            "date": "2026-03-31",
+            "quality_score": 7.02
           }
         ]
       },
@@ -609,11 +621,11 @@
           },
           {
             "date": "2026-03-08",
-            "quality_score": 7.13
+            "quality_score": 5.94
           },
           {
             "date": "2026-03-08",
-            "quality_score": 5.94
+            "quality_score": 7.13
           },
           {
             "date": "2026-03-10",
@@ -702,6 +714,10 @@
           {
             "date": "2026-03-30",
             "quality_score": 4.81
+          },
+          {
+            "date": "2026-03-31",
+            "quality_score": 4.98
           }
         ]
       },
@@ -733,18 +749,25 @@
     },
     {
       "month": "2026-03",
-      "input_tokens": 500988,
-      "output_tokens": 191424,
-      "cost_usd": 1.1665
+      "input_tokens": 523402,
+      "output_tokens": 198418,
+      "cost_usd": 1.2124
     }
   ],
   "recent_posts": [
     {
-      "date": "2026-03-30",
+      "date": "2026-03-31",
       "keyword": "claude",
-      "quality_score": 6.68,
-      "post_url": "https://sghman.github.io/posts/2026-03-30-claude-digest/",
-      "one_line_summary": "핵심: Google이 2026년 3월 공식 출시한 Colab MCP Server는 Claude Code가 브라우저 없이 터미널에서 직접 Colab의 GPU를 제어할 수 있게 해줍니다. 데이터 전처리부터 모델 학습, 평가, 변환까지 전체 파이프라인을 자동화할 수 있습니다."
+      "quality_score": 7.02,
+      "post_url": "https://sghman.github.io/posts/2026-03-31-claude-digest/",
+      "one_line_summary": "핵심: Claude Mobile이 Figma, Canva, Slack, Amplitude 같은 엔터프라이즈 도구를 스크린샷이 아닌 실시간 상호작용 가능한 캔버스로 직접 통합했다. 이는 단순 데이터 조회(플러그인)와 완전한 작업 공간(임베디드 도구)의 근본적 차이를 보여준다."
+    },
+    {
+      "date": "2026-03-31",
+      "keyword": "LLM",
+      "quality_score": 4.98,
+      "post_url": "https://sghman.github.io/posts/2026-03-31-llm-digest/",
+      "one_line_summary": "핵심: 2026년 기준 단일 GPU로 7B 파라미터 모델을 $5 이하에 몇 시간 내 파인튜닝 가능해졌다. 과거 수주 소요되던 작업이 수시간으로 단축되면서 개인 개발자도 커스텀 LLM 구축이 현실화됐다."
     },
     {
       "date": "2026-03-30",
@@ -752,6 +775,13 @@
       "quality_score": 4.81,
       "post_url": "https://sghman.github.io/posts/2026-03-30-llm-digest/",
       "one_line_summary": "핵심: 실제 운영 환경에서 AI 에이전트는 API 레이트 제한, 네트워크 타임아웃, JSON 파싱 오류 등으로 지속적으로 실패한다. 단순 검증 추가가 아닌 실패 패턴을 감지하고 자동으로 복구하는 아키텍처가 필수다."
+    },
+    {
+      "date": "2026-03-30",
+      "keyword": "claude",
+      "quality_score": 6.68,
+      "post_url": "https://sghman.github.io/posts/2026-03-30-claude-digest/",
+      "one_line_summary": "핵심: Google이 2026년 3월 공식 출시한 Colab MCP Server는 Claude Code가 브라우저 없이 터미널에서 직접 Colab의 GPU를 제어할 수 있게 해줍니다. 데이터 전처리부터 모델 학습, 평가, 변환까지 전체 파이프라인을 자동화할 수 있습니다."
     },
     {
       "date": "2026-03-29",
@@ -825,17 +855,17 @@
     },
     {
       "date": "2026-03-25",
-      "keyword": "LLM",
-      "quality_score": 6.87,
-      "post_url": "https://sghman.github.io/posts/2026-03-25-llm-digest/",
-      "one_line_summary": "핵심: 코드 리뷰는 현대 소프트웨어 개발의 가장 큰 병목이며, AI 어시스턴트와 MCP가 가장 높은 임팩트를 낼 수 있는 영역. SonarQube MCP(442 스타)가 가장 성숙한 솔루션으로 자리잡았고, 2026년 3월 SonarQube Cloud는 Docker/JDK 없이 네이티브 MCP 서버를 출시했음."
-    },
-    {
-      "date": "2026-03-25",
       "keyword": "claude",
       "quality_score": 6.3,
       "post_url": "https://sghman.github.io/posts/2026-03-25-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 Claude Code에 더 많은 자율 제어 권한을 부여하면서도 안전장치를 유지하는 방향으로 업데이트했습니다. AI가 스스로 어떤 행동을 안전하게 수행할지 판단하는 능력이 강화되었습니다."
+    },
+    {
+      "date": "2026-03-25",
+      "keyword": "LLM",
+      "quality_score": 6.87,
+      "post_url": "https://sghman.github.io/posts/2026-03-25-llm-digest/",
+      "one_line_summary": "핵심: 코드 리뷰는 현대 소프트웨어 개발의 가장 큰 병목이며, AI 어시스턴트와 MCP가 가장 높은 임팩트를 낼 수 있는 영역. SonarQube MCP(442 스타)가 가장 성숙한 솔루션으로 자리잡았고, 2026년 3월 SonarQube Cloud는 Docker/JDK 없이 네이티브 MCP 서버를 출시했음."
     },
     {
       "date": "2026-03-24",
@@ -853,31 +883,17 @@
     },
     {
       "date": "2026-03-23",
-      "keyword": "LLM",
-      "quality_score": 6.2,
-      "post_url": "https://sghman.github.io/posts/2026-03-23-llm-digest/",
-      "one_line_summary": "핵심: LangGraph, CrewAI, AutoGen 같은 에이전트 프레임워크가 더 이상 실험 단계가 아니라 프로덕션 환경에서 실제로 작동하고 있습니다. 이미지, 텍스트, 코드를 한 번의 에이전트 호출로 처리하는 멀티모달 에이전트가 표준화되고 있습니다."
-    },
-    {
-      "date": "2026-03-23",
       "keyword": "claude",
       "quality_score": 6.93,
       "post_url": "https://sghman.github.io/posts/2026-03-23-claude-digest/",
       "one_line_summary": "핵심: Claude Code를 포함한 AI 에이전트는 기본적으로 상태 모니터링이 없어 파일 시스템, 환경 변수, API 등에 무제한 접근할 수 있다. 개발자가 명시적으로 제한하지 않으면 AI가 `.env` 파일 같은 민감한 정보를 자동으로 읽을 수 있다."
     },
     {
-      "date": "2026-03-22",
+      "date": "2026-03-23",
       "keyword": "LLM",
-      "quality_score": 6.62,
-      "post_url": "https://sghman.github.io/posts/2026-03-22-llm-digest/",
-      "one_line_summary": "핵심: Google DeepMind의 Gemini 3.1 Flash-Lite와 OpenAI의 GPT-5.4 mini/nano 같은 소형 모델들이 추론 성능을 유지하면서 리소스 소비를 대폭 줄였다. 이는 엣지 디바이스, 실시간 챗봇, 비용 효율적인 API 사용을 가능하게 한다."
-    },
-    {
-      "date": "2026-03-22",
-      "keyword": "claude",
-      "quality_score": 4.51,
-      "post_url": "https://sghman.github.io/posts/2026-03-22-claude-digest/",
-      "one_line_summary": "핵심: Claude Opus 4.6 기반의 Claude Code는 단순 채팅 인터페이스를 벗어나 터미널 기반의 에이전트 어시스턴트로 진화했다. 전체 코드베이스를 인덱싱하고 멀티파일 작업을 자동화하며, GitHub PR까지 자동 생성한다. Claude Cowork는 코딩 지식이 없는 일반인도 AI 비서를 활용할 수 있도록 낮춘 진입장벽이다."
+      "quality_score": 6.2,
+      "post_url": "https://sghman.github.io/posts/2026-03-23-llm-digest/",
+      "one_line_summary": "핵심: LangGraph, CrewAI, AutoGen 같은 에이전트 프레임워크가 더 이상 실험 단계가 아니라 프로덕션 환경에서 실제로 작동하고 있습니다. 이미지, 텍스트, 코드를 한 번의 에이전트 호출로 처리하는 멀티모달 에이전트가 표준화되고 있습니다."
     }
   ]
 }
