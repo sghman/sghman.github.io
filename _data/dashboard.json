@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-01T04:17:50",
+  "generated_at": "2026-04-02T03:50:48",
   "summary": {
-    "total_posts": 62,
+    "total_posts": 64,
     "total_keywords": 3,
     "avg_quality_score": 6.1,
-    "monthly_cost_usd": 0.0457
+    "monthly_cost_usd": 0.1054
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-02",
-            "mentions": 27
-          },
           {
             "date": "2026-03-03",
             "mentions": 29
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-01",
             "mentions": 26
+          },
+          {
+            "date": "2026-04-02",
+            "mentions": 29
           }
         ]
       },
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-02",
-            "mentions": 25
-          },
           {
             "date": "2026-03-03",
             "mentions": 19
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-01",
             "mentions": 32
+          },
+          {
+            "date": "2026-04-02",
+            "mentions": 41
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 209,
+        "mentions": 226,
         "rank": 1,
         "rank_change": 1
       },
       {
         "topic": "LLM",
-        "mentions": 182,
+        "mentions": 178,
         "rank": 2,
         "rank_change": -1
       }
@@ -609,6 +609,10 @@
           {
             "date": "2026-04-01",
             "quality_score": 5.16
+          },
+          {
+            "date": "2026-04-02",
+            "quality_score": 5.14
           }
         ]
       },
@@ -657,11 +661,11 @@
           },
           {
             "date": "2026-03-15",
-            "quality_score": 6.08
+            "quality_score": 6.43
           },
           {
             "date": "2026-03-15",
-            "quality_score": 6.43
+            "quality_score": 6.08
           },
           {
             "date": "2026-03-16",
@@ -734,6 +738,10 @@
           {
             "date": "2026-04-01",
             "quality_score": 6.08
+          },
+          {
+            "date": "2026-04-02",
+            "quality_score": 5.49
           }
         ]
       },
@@ -771,12 +779,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 19199,
-      "output_tokens": 7583,
-      "cost_usd": 0.0457
+      "input_tokens": 43851,
+      "output_tokens": 17572,
+      "cost_usd": 0.1054
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-02",
+      "keyword": "claude",
+      "quality_score": 5.14,
+      "post_url": "https://sghman.github.io/posts/2026-04-02-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순히 파일 하나씩 수정하는 도구가 아니다. 올바른 프롬프트 구조와 컨텍스트 관리로 대규모 리팩토링을 자동화할 수 있다."
+    },
+    {
+      "date": "2026-04-02",
+      "keyword": "LLM",
+      "quality_score": 5.49,
+      "post_url": "https://sghman.github.io/posts/2026-04-02-llm-digest/",
+      "one_line_summary": "핵심: 2026년부터 LLM 파인튜닝이 대중화 수준으로 진입했습니다. 단일 GPU로 7B 파라미터 모델을 $5 이하 비용으로 몇 시간 내에 학습 가능해졌으며, LoRA 같은 경량화 기법이 표준화되었습니다."
+    },
     {
       "date": "2026-04-01",
       "keyword": "claude",
@@ -793,24 +815,17 @@
     },
     {
       "date": "2026-03-31",
-      "keyword": "claude",
-      "quality_score": 7.02,
-      "post_url": "https://sghman.github.io/posts/2026-03-31-claude-digest/",
-      "one_line_summary": "핵심: Claude Mobile이 Figma, Canva, Slack, Amplitude 같은 엔터프라이즈 도구를 스크린샷이 아닌 실시간 상호작용 가능한 캔버스로 직접 통합했다. 이는 단순 데이터 조회(플러그인)와 완전한 작업 공간(임베디드 도구)의 근본적 차이를 보여준다."
-    },
-    {
-      "date": "2026-03-31",
       "keyword": "LLM",
       "quality_score": 4.98,
       "post_url": "https://sghman.github.io/posts/2026-03-31-llm-digest/",
       "one_line_summary": "핵심: 2026년 기준 단일 GPU로 7B 파라미터 모델을 $5 이하에 몇 시간 내 파인튜닝 가능해졌다. 과거 수주 소요되던 작업이 수시간으로 단축되면서 개인 개발자도 커스텀 LLM 구축이 현실화됐다."
     },
     {
-      "date": "2026-03-30",
-      "keyword": "LLM",
-      "quality_score": 4.81,
-      "post_url": "https://sghman.github.io/posts/2026-03-30-llm-digest/",
-      "one_line_summary": "핵심: 실제 운영 환경에서 AI 에이전트는 API 레이트 제한, 네트워크 타임아웃, JSON 파싱 오류 등으로 지속적으로 실패한다. 단순 검증 추가가 아닌 실패 패턴을 감지하고 자동으로 복구하는 아키텍처가 필수다."
+      "date": "2026-03-31",
+      "keyword": "claude",
+      "quality_score": 7.02,
+      "post_url": "https://sghman.github.io/posts/2026-03-31-claude-digest/",
+      "one_line_summary": "핵심: Claude Mobile이 Figma, Canva, Slack, Amplitude 같은 엔터프라이즈 도구를 스크린샷이 아닌 실시간 상호작용 가능한 캔버스로 직접 통합했다. 이는 단순 데이터 조회(플러그인)와 완전한 작업 공간(임베디드 도구)의 근본적 차이를 보여준다."
     },
     {
       "date": "2026-03-30",
@@ -818,6 +833,13 @@
       "quality_score": 6.68,
       "post_url": "https://sghman.github.io/posts/2026-03-30-claude-digest/",
       "one_line_summary": "핵심: Google이 2026년 3월 공식 출시한 Colab MCP Server는 Claude Code가 브라우저 없이 터미널에서 직접 Colab의 GPU를 제어할 수 있게 해줍니다. 데이터 전처리부터 모델 학습, 평가, 변환까지 전체 파이프라인을 자동화할 수 있습니다."
+    },
+    {
+      "date": "2026-03-30",
+      "keyword": "LLM",
+      "quality_score": 4.81,
+      "post_url": "https://sghman.github.io/posts/2026-03-30-llm-digest/",
+      "one_line_summary": "핵심: 실제 운영 환경에서 AI 에이전트는 API 레이트 제한, 네트워크 타임아웃, JSON 파싱 오류 등으로 지속적으로 실패한다. 단순 검증 추가가 아닌 실패 패턴을 감지하고 자동으로 복구하는 아키텍처가 필수다."
     },
     {
       "date": "2026-03-29",
@@ -902,20 +924,6 @@
       "quality_score": 6.87,
       "post_url": "https://sghman.github.io/posts/2026-03-25-llm-digest/",
       "one_line_summary": "핵심: 코드 리뷰는 현대 소프트웨어 개발의 가장 큰 병목이며, AI 어시스턴트와 MCP가 가장 높은 임팩트를 낼 수 있는 영역. SonarQube MCP(442 스타)가 가장 성숙한 솔루션으로 자리잡았고, 2026년 3월 SonarQube Cloud는 Docker/JDK 없이 네이티브 MCP 서버를 출시했음."
-    },
-    {
-      "date": "2026-03-24",
-      "keyword": "claude",
-      "quality_score": 5.41,
-      "post_url": "https://sghman.github.io/posts/2026-03-24-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순한 코드 작성 도우미를 넘어 전체 프로젝트 아키텍처를 이해하고 멀티스텝 구현을 자동 실행하는 에이전트형 AI 개발 도구로 진화했습니다. GPT와 달리 완전한 터미널 워크플로우를 지원하며, GitHub 연동으로 PR 자동 생성까지 가능합니다."
-    },
-    {
-      "date": "2026-03-24",
-      "keyword": "LLM",
-      "quality_score": 5.85,
-      "post_url": "https://sghman.github.io/posts/2026-03-24-llm-digest/",
-      "one_line_summary": "핵심: 단순 챗봇과 진정한 어시스턴트의 차이는 메모리 기능에 있다. 60줄의 파이썬 코드로 구현 가능한 `remember` 도구를 통해 세션 간 정보 지속성을 확보할 수 있다."
     }
   ]
 }
