@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T03:59:35",
+  "generated_at": "2026-04-05T03:59:59",
   "summary": {
     "total_posts": 72,
     "total_keywords": 3,
@@ -313,6 +313,20 @@
   "emerging_topics": {
     "topics": [
       {
+        "topic": "Supply Chain Security",
+        "weekly_mentions": 2,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Telnyx package compromised on PyPI",
+          "Iran-linked hackers breach FBI director's personal email",
+          "Post Mortem: axios NPM supply chain compromise",
+          "OpenClaw privilege escalation vulnerability"
+        ]
+      },
+      {
         "topic": "AI Agents & Multi-Agent Systems",
         "weekly_mentions": 1,
         "peak_score": 0,
@@ -449,18 +463,6 @@
         "sample_titles": [
           "AutoResearchClaw - Fully autonomous research from idea to paper",
           "pi-autoresearch - Autonomous experiment loop extension"
-        ]
-      },
-      {
-        "topic": "Supply Chain Security",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Telnyx package compromised on PyPI",
-          "Iran-linked hackers breach FBI director's personal email"
         ]
       },
       {
