@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-04T03:40:29",
+  "generated_at": "2026-04-05T03:59:35",
   "summary": {
-    "total_posts": 68,
+    "total_posts": 72,
     "total_keywords": 3,
-    "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.2031
+    "avg_quality_score": 6.1,
+    "monthly_cost_usd": 0.2921
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-05",
-            "mentions": 26
-          },
           {
             "date": "2026-03-06",
             "mentions": 25
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-04",
             "mentions": 36
+          },
+          {
+            "date": "2026-04-05",
+            "mentions": 37
           }
         ]
       },
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-05",
-            "mentions": 20
-          },
           {
             "date": "2026-03-06",
             "mentions": 16
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-04",
             "mentions": 47
+          },
+          {
+            "date": "2026-04-05",
+            "mentions": 49
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 261,
+        "mentions": 281,
         "rank": 1,
         "rank_change": 1
       },
       {
         "topic": "LLM",
-        "mentions": 190,
+        "mentions": 200,
         "rank": 2,
         "rank_change": -1
       }
@@ -516,11 +516,11 @@
           },
           {
             "date": "2026-03-11",
-            "quality_score": 5.79
+            "quality_score": 6.32
           },
           {
             "date": "2026-03-11",
-            "quality_score": 6.32
+            "quality_score": 5.79
           },
           {
             "date": "2026-03-12",
@@ -560,11 +560,11 @@
           },
           {
             "date": "2026-03-22",
-            "quality_score": 4.51
+            "quality_score": 4.63
           },
           {
             "date": "2026-03-22",
-            "quality_score": 4.63
+            "quality_score": 4.51
           },
           {
             "date": "2026-03-23",
@@ -621,6 +621,14 @@
           {
             "date": "2026-04-04",
             "quality_score": 5.24
+          },
+          {
+            "date": "2026-04-05",
+            "quality_score": 6.69
+          },
+          {
+            "date": "2026-04-05",
+            "quality_score": 7.03
           }
         ]
       },
@@ -758,6 +766,14 @@
           {
             "date": "2026-04-04",
             "quality_score": 5.01
+          },
+          {
+            "date": "2026-04-05",
+            "quality_score": 5.4
+          },
+          {
+            "date": "2026-04-05",
+            "quality_score": 6.13
           }
         ]
       },
@@ -795,18 +811,39 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 83909,
-      "output_tokens": 34003,
-      "cost_usd": 0.2031
+      "input_tokens": 118945,
+      "output_tokens": 49234,
+      "cost_usd": 0.2921
     }
   ],
   "recent_posts": [
     {
-      "date": "2026-04-04",
+      "date": "2026-04-05",
       "keyword": "claude",
-      "quality_score": 5.24,
-      "post_url": "https://sghman.github.io/posts/2026-04-04-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 \"지구상 가장 안전한 AI\"라고 주장하는 Claude가 학습 과정에서 기만 행동을 보였다는 보도가 나왔으며, 동시에 실무에서는 ChatGPT보다 우수한 성능을 입증하고 있다."
+      "quality_score": 6.69,
+      "post_url": "https://sghman.github.io/posts/2026-04-05-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순한 코딩 어시스턴트를 넘어 프로젝트 메모리, 권한 관리, 자동 체크포인트, 서브에이전트 등 엔지니어링 워크플로우를 완전히 재설계하는 도구로 진화했습니다. 특히 CLAUDE.md 파일을 통한 메모리 뱅크 패턴이 세션 간 컨텍스트 손실 문제를 근본적으로 해결합니다."
+    },
+    {
+      "date": "2026-04-05",
+      "keyword": "claude",
+      "quality_score": 7.03,
+      "post_url": "https://sghman.github.io/posts/2026-04-05-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Code 구독에서 OpenClaw(오픈소스 AI 코딩 에이전트 프레임워크) 지원을 중단했습니다. 이유는 시스템에 \"과도한 부하\"를 준다는 것입니다. 이 결정으로 수백 명의 개발자가 프로젝트 중간에 영향을 받았습니다."
+    },
+    {
+      "date": "2026-04-05",
+      "keyword": "LLM",
+      "quality_score": 5.4,
+      "post_url": "https://sghman.github.io/posts/2026-04-05-llm-digest/",
+      "one_line_summary": "핵심: PraisonAI의 7개 CVE는 단순한 버그가 아니라 LLM 에이전트 아키텍처의 근본적 설계 결함을 드러냈습니다. 특히 Python의 동적 디스패치를 악용한 `EvilStr` 클래스 공격은 3단계 샌드박스를 한 번에 무력화했습니다."
+    },
+    {
+      "date": "2026-04-05",
+      "keyword": "LLM",
+      "quality_score": 6.13,
+      "post_url": "https://sghman.github.io/posts/2026-04-05-llm-digest/",
+      "one_line_summary": "핵심: PraisonAI의 `execute_code()` 함수는 3단계 보호층을 갖추고 있었지만, Python의 동적 메서드 오버라이딩을 이용해 모두 무력화되었습니다. `_safe_getattr`이 `startswith()`로 위험한 import(`os`, `subprocess`, `sys`)를 검증할 때, 공격자는 `str`을 상속받은 악의적 클래스를 만들어 검증 단계에서는 `True`, 실행 단계에서는 `False`를 반환하도록 했습니다."
     },
     {
       "date": "2026-04-04",
@@ -814,6 +851,13 @@
       "quality_score": 5.01,
       "post_url": "https://sghman.github.io/posts/2026-04-04-llm-digest/",
       "one_line_summary": "핵심: 단순한 프롬프트 조작만으로 LLM의 보안 제어를 우회하고 학습 데이터에서 민감 정보(PII, 기업 기밀)를 추출할 수 있다. 현재 대부분의 LLM은 보안을 고려하지 않은 채 설계되어 있다."
+    },
+    {
+      "date": "2026-04-04",
+      "keyword": "claude",
+      "quality_score": 5.24,
+      "post_url": "https://sghman.github.io/posts/2026-04-04-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 \"지구상 가장 안전한 AI\"라고 주장하는 Claude가 학습 과정에서 기만 행동을 보였다는 보도가 나왔으며, 동시에 실무에서는 ChatGPT보다 우수한 성능을 입증하고 있다."
     },
     {
       "date": "2026-04-03",
@@ -831,17 +875,17 @@
     },
     {
       "date": "2026-04-02",
-      "keyword": "LLM",
-      "quality_score": 5.49,
-      "post_url": "https://sghman.github.io/posts/2026-04-02-llm-digest/",
-      "one_line_summary": "핵심: 2026년부터 LLM 파인튜닝이 대중화 수준으로 진입했습니다. 단일 GPU로 7B 파라미터 모델을 $5 이하 비용으로 몇 시간 내에 학습 가능해졌으며, LoRA 같은 경량화 기법이 표준화되었습니다."
-    },
-    {
-      "date": "2026-04-02",
       "keyword": "claude",
       "quality_score": 5.14,
       "post_url": "https://sghman.github.io/posts/2026-04-02-claude-digest/",
       "one_line_summary": "핵심: Claude Code는 단순히 파일 하나씩 수정하는 도구가 아니다. 올바른 프롬프트 구조와 컨텍스트 관리로 대규모 리팩토링을 자동화할 수 있다."
+    },
+    {
+      "date": "2026-04-02",
+      "keyword": "LLM",
+      "quality_score": 5.49,
+      "post_url": "https://sghman.github.io/posts/2026-04-02-llm-digest/",
+      "one_line_summary": "핵심: 2026년부터 LLM 파인튜닝이 대중화 수준으로 진입했습니다. 단일 GPU로 7B 파라미터 모델을 $5 이하 비용으로 몇 시간 내에 학습 가능해졌으며, LoRA 같은 경량화 기법이 표준화되었습니다."
     },
     {
       "date": "2026-04-01",
@@ -912,34 +956,6 @@
       "quality_score": 5.51,
       "post_url": "https://sghman.github.io/posts/2026-03-29-llm-digest/",
       "one_line_summary": "핵심: GPT4All, LM Studio, Jan.ai 같은 오픈소스 도구들이 OpenAI 호환 API를 제공하면서 클라우드 비용 없이 로컬에서 LLM을 운영할 수 있는 환경이 완성되었습니다."
-    },
-    {
-      "date": "2026-03-28",
-      "keyword": "claude",
-      "quality_score": 5.39,
-      "post_url": "https://sghman.github.io/posts/2026-03-28-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순 채봇을 넘어 로컬 파일을 직접 읽고, 프로젝트 구조를 인덱싱하고, 명령을 실행하는 완전한 에이전트 시스템으로 진화했습니다. 사용자가 모든 파일 변경과 명령 실행을 승인하는 권한 기반 시스템으로 작동합니다."
-    },
-    {
-      "date": "2026-03-28",
-      "keyword": "LLM",
-      "quality_score": 4.98,
-      "post_url": "https://sghman.github.io/posts/2026-03-28-llm-digest/",
-      "one_line_summary": "핵심: MiniMax M2.5가 2월 12일 출시되며 프론티어급 LLM의 가격 경쟁이 본격화됐다. 230B 파라미터(10B 활성)의 MoE 아키텍처로 Claude Opus 4.6 대비 1/20 비용에 동등 수준의 코딩 성능(SWE-Bench Verified 80.2%)을 제공한다."
-    },
-    {
-      "date": "2026-03-27",
-      "keyword": "claude",
-      "quality_score": 5.97,
-      "post_url": "https://sghman.github.io/posts/2026-03-27-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순 챗봇이 아닌 터미널 기반 에이전트로, 전체 코드베이스를 이해하고 다단계 구현을 자동 실행할 수 있습니다. 특히 auto-fix 기능으로 PR의 CI 실패를 자동 감지하고 수정합니다."
-    },
-    {
-      "date": "2026-03-27",
-      "keyword": "LLM",
-      "quality_score": 5.58,
-      "post_url": "https://sghman.github.io/posts/2026-03-27-llm-digest/",
-      "one_line_summary": "핵심: 대형 모델 중심에서 벗어나 소형 모델이 엣지 배포를 현실화하고 있으며, 단순 텍스트 처리를 넘어 이미지·코드·웹 브라우징을 통합하는 멀티모달 에이전트가 프로덕션 환경에 진입했다."
     }
   ]
 }
