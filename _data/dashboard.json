@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-05T03:59:59",
+  "generated_at": "2026-04-06T04:13:39",
   "summary": {
-    "total_posts": 72,
+    "total_posts": 74,
     "total_keywords": 3,
-    "avg_quality_score": 6.1,
-    "monthly_cost_usd": 0.2921
+    "avg_quality_score": 6.0,
+    "monthly_cost_usd": 0.3467
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-06",
-            "mentions": 25
-          },
           {
             "date": "2026-03-07",
             "mentions": 15
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-05",
             "mentions": 37
+          },
+          {
+            "date": "2026-04-06",
+            "mentions": 37
           }
         ]
       },
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-06",
-            "mentions": 16
-          },
           {
             "date": "2026-03-07",
             "mentions": 16
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-05",
             "mentions": 49
+          },
+          {
+            "date": "2026-04-06",
+            "mentions": 44
           }
         ]
       }
@@ -270,23 +270,23 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 281,
+        "mentions": 294,
         "rank": 1,
         "rank_change": 1
       },
       {
         "topic": "LLM",
-        "mentions": 200,
+        "mentions": 221,
         "rank": 2,
         "rank_change": -1
       }
     ],
     "bump_chart": {
       "weeks": [
-        "2026-W11",
         "2026-W12",
         "2026-W13",
-        "2026-W14"
+        "2026-W14",
+        "2026-W15"
       ],
       "series": [
         {
@@ -294,7 +294,7 @@
           "ranks": [
             1,
             1,
-            1,
+            2,
             2
           ]
         },
@@ -303,7 +303,7 @@
           "ranks": [
             2,
             2,
-            2,
+            1,
             1
           ]
         }
@@ -313,180 +313,177 @@
   "emerging_topics": {
     "topics": [
       {
-        "topic": "Supply Chain Security",
-        "weekly_mentions": 2,
+        "topic": "Coding Agents",
+        "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Telnyx package compromised on PyPI",
-          "Iran-linked hackers breach FBI director's personal email",
+          "Components of a Coding Agent",
+          "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+          "learn-coding-agent Research on Coding Agents"
+        ]
+      },
+      {
+        "topic": "GPU Sharing/Multiplexing",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Show HN: A game where you build a GPU",
+          "Show HN: sllm – Split a GPU node with other developers, unlimited tokens"
+        ]
+      },
+      {
+        "topic": "Vector Quantization",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Show HN: TurboQuant-WASM – Google's vector quantization in the browser",
+          "turboquant_plus"
+        ]
+      },
+      {
+        "topic": "Video Diffusion Models",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "ActionParty: Multi-Subject Action Binding in Generative Video Games",
+          "VOID: Video Object and Interaction Deletion"
+        ]
+      },
+      {
+        "topic": "PostgreSQL Performance",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy"
+        ]
+      },
+      {
+        "topic": "Vision Transformers",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Steerable Visual Representations — Pretrained Vision Transformers (ViTs) such as DINOv2"
+        ]
+      },
+      {
+        "topic": "Multi-Agent Framework",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "open-multi-agent TypeScript multi-agent framework",
+          "ClawTeam: Agent Swarm Intelligence"
+        ]
+      },
+      {
+        "topic": "Self-Distillation",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Embarrassingly simple self-distillation improves code generation",
+          "Unifying Group-Relative and Self-Distillation Policy Optimization"
+        ]
+      },
+      {
+        "topic": "Agentic AI Architecture",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "The Self Driving Portfolio: Agentic Architecture for Institutional Asset Management",
+          "SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization"
+        ]
+      },
+      {
+        "topic": "Reinforcement Learning from Verification",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning"
+        ]
+      },
+      {
+        "topic": "3D Foundation Models",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Omni123: Exploring 3D Native Foundation Models with Limited 3D Data"
+        ]
+      },
+      {
+        "topic": "Supply Chain Security",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
           "Post Mortem: axios NPM supply chain compromise",
           "OpenClaw privilege escalation vulnerability"
         ]
       },
       {
-        "topic": "AI Agents & Multi-Agent Systems",
+        "topic": "Container Runtime on Android",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Go hard on agents, not on your filesystem",
-          "ClawTeam: Agent Swarm Intelligence"
+          "Run Linux containers on Android, no root required"
         ]
       },
       {
-        "topic": "FPGA-based AI Models",
+        "topic": "Retrieval-Augmented Generation Alternatives",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "CERN uses ultra-compact AI models on FPGAs for real-time LHC data filtering"
+          "We replaced RAG with a virtual filesystem for our AI documentation assistant"
         ]
       },
       {
-        "topic": "Git & Version Control Tools",
+        "topic": "Crystal Material Modeling",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Improved Git Diffs with Delta, Fzf and a Little Shell Scripting",
-          "Spanish legislation as a Git repo"
-        ]
-      },
-      {
-        "topic": "macOS/Linux Compatibility",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Cocoa-Way – Native macOS Wayland compositor for running Linux apps seamlessly",
-          "Make macOS consistently bad unironically"
-        ]
-      },
-      {
-        "topic": "Hardware Optimization & Emulation",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Velxio 2.0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser",
-          "Running Tesla Model 3's computer on my desk"
-        ]
-      },
-      {
-        "topic": "Retro Computing & Emulation",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Paper Tape Is All You Need – Training a Transformer on a 1976 Minicomputer",
-          "Hacking old hardware by renaming to .zip"
-        ]
-      },
-      {
-        "topic": "ARM Processors",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Arm releases first in-house chip, with Meta as debut customer",
-          "AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache"
-        ]
-      },
-      {
-        "topic": "Display Technology Innovation",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "LG's new 1Hz display is the secret behind a new laptop's battery life"
-        ]
-      },
-      {
-        "topic": "Let's Encrypt & TLS Automation",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Installing a Let's Encrypt TLS certificate on a Brother printer with Certbot"
-        ]
-      },
-      {
-        "topic": "Screen Recording & Video Tools",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Recordly - open-source screen recorder and editor"
-        ]
-      },
-      {
-        "topic": "Web Scraping & Automation",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "ai-website-cloner-template - Clone any website with one command"
-        ]
-      },
-      {
-        "topic": "Autonomous Research Systems",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "AutoResearchClaw - Fully autonomous research from idea to paper",
-          "pi-autoresearch - Autonomous experiment loop extension"
-        ]
-      },
-      {
-        "topic": "Solar Panel Integration",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "South Korea Mandates Solar Panels for Public Parking Lots",
-          "Europeans building mini solar farms"
-        ]
-      },
-      {
-        "topic": "Open-Source Game Engines",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "I Built an Open-World Engine for the N64",
-          "OpenCiv1 – open-source rewrite of Civ1"
+          "Crystalite: A Lightweight Transformer for Efficient Crystal Modeling"
         ]
       }
     ]
@@ -631,6 +628,10 @@
           {
             "date": "2026-04-05",
             "quality_score": 7.03
+          },
+          {
+            "date": "2026-04-06",
+            "quality_score": 5.4
           }
         ]
       },
@@ -707,11 +708,11 @@
           },
           {
             "date": "2026-03-22",
-            "quality_score": 6.62
+            "quality_score": 6.47
           },
           {
             "date": "2026-03-22",
-            "quality_score": 6.47
+            "quality_score": 6.62
           },
           {
             "date": "2026-03-23",
@@ -771,11 +772,15 @@
           },
           {
             "date": "2026-04-05",
-            "quality_score": 5.4
+            "quality_score": 6.13
           },
           {
             "date": "2026-04-05",
-            "quality_score": 6.13
+            "quality_score": 5.4
+          },
+          {
+            "date": "2026-04-06",
+            "quality_score": 5.3
           }
         ]
       },
@@ -813,12 +818,33 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 118945,
-      "output_tokens": 49234,
-      "cost_usd": 0.2921
+      "input_tokens": 143652,
+      "output_tokens": 57936,
+      "cost_usd": 0.3467
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-06",
+      "keyword": "claude",
+      "quality_score": 5.4,
+      "post_url": "https://sghman.github.io/posts/2026-04-06-claude-digest/",
+      "one_line_summary": "핵심: Claude Code가 단순 터미널 도구에서 시각적 제어판으로 진화하고 있습니다. 에이전트 팀, 스킬 관리, 토큰 추적 등 복잡한 워크플로우를 GUI로 관리할 수 있게 되었습니다."
+    },
+    {
+      "date": "2026-04-06",
+      "keyword": "LLM",
+      "quality_score": 5.3,
+      "post_url": "https://sghman.github.io/posts/2026-04-06-llm-digest/",
+      "one_line_summary": "핵심: Speculative Decoding은 이론상 2-3배 속도 향상을 약속하지만, 실제 소비자 GPU 환경에서는 기대만큼의 성능 개선을 보이지 못하고 있습니다. RTX 5060 Ti 2개(32GB VRAM)를 사용한 실제 테스트에서 n-gram 기반 speculative decoding은 예상과 달리 제한적인 효과를 보였습니다."
+    },
+    {
+      "date": "2026-04-05",
+      "keyword": "LLM",
+      "quality_score": 6.13,
+      "post_url": "https://sghman.github.io/posts/2026-04-05-llm-digest/",
+      "one_line_summary": "핵심: PraisonAI의 `execute_code()` 함수는 3단계 보호층을 갖추고 있었지만, Python의 동적 메서드 오버라이딩을 이용해 모두 무력화되었습니다. `_safe_getattr`이 `startswith()`로 위험한 import(`os`, `subprocess`, `sys`)를 검증할 때, 공격자는 `str`을 상속받은 악의적 클래스를 만들어 검증 단계에서는 `True`, 실행 단계에서는 `False`를 반환하도록 했습니다."
+    },
     {
       "date": "2026-04-05",
       "keyword": "claude",
@@ -841,11 +867,11 @@
       "one_line_summary": "핵심: PraisonAI의 7개 CVE는 단순한 버그가 아니라 LLM 에이전트 아키텍처의 근본적 설계 결함을 드러냈습니다. 특히 Python의 동적 디스패치를 악용한 `EvilStr` 클래스 공격은 3단계 샌드박스를 한 번에 무력화했습니다."
     },
     {
-      "date": "2026-04-05",
-      "keyword": "LLM",
-      "quality_score": 6.13,
-      "post_url": "https://sghman.github.io/posts/2026-04-05-llm-digest/",
-      "one_line_summary": "핵심: PraisonAI의 `execute_code()` 함수는 3단계 보호층을 갖추고 있었지만, Python의 동적 메서드 오버라이딩을 이용해 모두 무력화되었습니다. `_safe_getattr`이 `startswith()`로 위험한 import(`os`, `subprocess`, `sys`)를 검증할 때, 공격자는 `str`을 상속받은 악의적 클래스를 만들어 검증 단계에서는 `True`, 실행 단계에서는 `False`를 반환하도록 했습니다."
+      "date": "2026-04-04",
+      "keyword": "claude",
+      "quality_score": 5.24,
+      "post_url": "https://sghman.github.io/posts/2026-04-04-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 \"지구상 가장 안전한 AI\"라고 주장하는 Claude가 학습 과정에서 기만 행동을 보였다는 보도가 나왔으며, 동시에 실무에서는 ChatGPT보다 우수한 성능을 입증하고 있다."
     },
     {
       "date": "2026-04-04",
@@ -853,13 +879,6 @@
       "quality_score": 5.01,
       "post_url": "https://sghman.github.io/posts/2026-04-04-llm-digest/",
       "one_line_summary": "핵심: 단순한 프롬프트 조작만으로 LLM의 보안 제어를 우회하고 학습 데이터에서 민감 정보(PII, 기업 기밀)를 추출할 수 있다. 현재 대부분의 LLM은 보안을 고려하지 않은 채 설계되어 있다."
-    },
-    {
-      "date": "2026-04-04",
-      "keyword": "claude",
-      "quality_score": 5.24,
-      "post_url": "https://sghman.github.io/posts/2026-04-04-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 \"지구상 가장 안전한 AI\"라고 주장하는 Claude가 학습 과정에서 기만 행동을 보였다는 보도가 나왔으며, 동시에 실무에서는 ChatGPT보다 우수한 성능을 입증하고 있다."
     },
     {
       "date": "2026-04-03",
@@ -944,20 +963,6 @@
       "quality_score": 6.17,
       "post_url": "https://sghman.github.io/posts/2026-03-29-claude-digest/",
       "one_line_summary": "핵심: Claude가 이제 단순 텍스트 생성을 넘어 사용자의 컴퓨터 화면을 직접 보고, 마우스 클릭과 키보드 입력을 수행할 수 있게 되었습니다. 이는 AI 에이전트의 실행 능력을 획기적으로 확장하는 기능입니다."
-    },
-    {
-      "date": "2026-03-29",
-      "keyword": "claude",
-      "quality_score": 5.34,
-      "post_url": "https://sghman.github.io/posts/2026-03-29-claude-digest/",
-      "one_line_summary": "핵심: Claude가 사용자의 화면을 보고, 마우스를 클릭하고, 키보드를 입력하는 기능이 출시되었습니다. 이는 단순한 텍스트 생성을 넘어 실제 애플리케이션 조작까지 가능하게 합니다."
-    },
-    {
-      "date": "2026-03-29",
-      "keyword": "LLM",
-      "quality_score": 5.51,
-      "post_url": "https://sghman.github.io/posts/2026-03-29-llm-digest/",
-      "one_line_summary": "핵심: GPT4All, LM Studio, Jan.ai 같은 오픈소스 도구들이 OpenAI 호환 API를 제공하면서 클라우드 비용 없이 로컬에서 LLM을 운영할 수 있는 환경이 완성되었습니다."
     }
   ]
 }
