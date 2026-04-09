@@ -1,149 +1,16 @@
 {
-  "generated_at": "2026-04-08T03:57:00",
+  "generated_at": "2026-04-09T03:54:12",
   "summary": {
-    "total_posts": 78,
+    "total_posts": 80,
     "total_keywords": 3,
-    "avg_quality_score": 6.1,
-    "monthly_cost_usd": 0.4229
+    "avg_quality_score": 6.0,
+    "monthly_cost_usd": 0.4622
   },
   "tracked_trend": {
     "series": [
       {
-        "topic": "LLM",
-        "data_points": [
-          {
-            "date": "2026-03-09",
-            "mentions": 36
-          },
-          {
-            "date": "2026-03-10",
-            "mentions": 25
-          },
-          {
-            "date": "2026-03-11",
-            "mentions": 26
-          },
-          {
-            "date": "2026-03-12",
-            "mentions": 23
-          },
-          {
-            "date": "2026-03-13",
-            "mentions": 26
-          },
-          {
-            "date": "2026-03-14",
-            "mentions": 19
-          },
-          {
-            "date": "2026-03-15",
-            "mentions": 26
-          },
-          {
-            "date": "2026-03-16",
-            "mentions": 35
-          },
-          {
-            "date": "2026-03-17",
-            "mentions": 35
-          },
-          {
-            "date": "2026-03-18",
-            "mentions": 25
-          },
-          {
-            "date": "2026-03-19",
-            "mentions": 33
-          },
-          {
-            "date": "2026-03-20",
-            "mentions": 27
-          },
-          {
-            "date": "2026-03-21",
-            "mentions": 27
-          },
-          {
-            "date": "2026-03-22",
-            "mentions": 28
-          },
-          {
-            "date": "2026-03-23",
-            "mentions": 29
-          },
-          {
-            "date": "2026-03-24",
-            "mentions": 31
-          },
-          {
-            "date": "2026-03-25",
-            "mentions": 33
-          },
-          {
-            "date": "2026-03-26",
-            "mentions": 24
-          },
-          {
-            "date": "2026-03-27",
-            "mentions": 16
-          },
-          {
-            "date": "2026-03-28",
-            "mentions": 27
-          },
-          {
-            "date": "2026-03-29",
-            "mentions": 16
-          },
-          {
-            "date": "2026-03-30",
-            "mentions": 16
-          },
-          {
-            "date": "2026-03-31",
-            "mentions": 24
-          },
-          {
-            "date": "2026-04-01",
-            "mentions": 26
-          },
-          {
-            "date": "2026-04-02",
-            "mentions": 29
-          },
-          {
-            "date": "2026-04-03",
-            "mentions": 16
-          },
-          {
-            "date": "2026-04-04",
-            "mentions": 36
-          },
-          {
-            "date": "2026-04-05",
-            "mentions": 37
-          },
-          {
-            "date": "2026-04-06",
-            "mentions": 37
-          },
-          {
-            "date": "2026-04-07",
-            "mentions": 32
-          },
-          {
-            "date": "2026-04-08",
-            "mentions": 33
-          }
-        ]
-      },
-      {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-09",
-            "mentions": 16
-          },
           {
             "date": "2026-03-10",
             "mentions": 21
@@ -263,6 +130,139 @@
           {
             "date": "2026-04-08",
             "mentions": 44
+          },
+          {
+            "date": "2026-04-09",
+            "mentions": 38
+          }
+        ]
+      },
+      {
+        "topic": "LLM",
+        "data_points": [
+          {
+            "date": "2026-03-10",
+            "mentions": 25
+          },
+          {
+            "date": "2026-03-11",
+            "mentions": 26
+          },
+          {
+            "date": "2026-03-12",
+            "mentions": 23
+          },
+          {
+            "date": "2026-03-13",
+            "mentions": 26
+          },
+          {
+            "date": "2026-03-14",
+            "mentions": 19
+          },
+          {
+            "date": "2026-03-15",
+            "mentions": 26
+          },
+          {
+            "date": "2026-03-16",
+            "mentions": 35
+          },
+          {
+            "date": "2026-03-17",
+            "mentions": 35
+          },
+          {
+            "date": "2026-03-18",
+            "mentions": 25
+          },
+          {
+            "date": "2026-03-19",
+            "mentions": 33
+          },
+          {
+            "date": "2026-03-20",
+            "mentions": 27
+          },
+          {
+            "date": "2026-03-21",
+            "mentions": 27
+          },
+          {
+            "date": "2026-03-22",
+            "mentions": 28
+          },
+          {
+            "date": "2026-03-23",
+            "mentions": 29
+          },
+          {
+            "date": "2026-03-24",
+            "mentions": 31
+          },
+          {
+            "date": "2026-03-25",
+            "mentions": 33
+          },
+          {
+            "date": "2026-03-26",
+            "mentions": 24
+          },
+          {
+            "date": "2026-03-27",
+            "mentions": 16
+          },
+          {
+            "date": "2026-03-28",
+            "mentions": 27
+          },
+          {
+            "date": "2026-03-29",
+            "mentions": 16
+          },
+          {
+            "date": "2026-03-30",
+            "mentions": 16
+          },
+          {
+            "date": "2026-03-31",
+            "mentions": 24
+          },
+          {
+            "date": "2026-04-01",
+            "mentions": 26
+          },
+          {
+            "date": "2026-04-02",
+            "mentions": 29
+          },
+          {
+            "date": "2026-04-03",
+            "mentions": 16
+          },
+          {
+            "date": "2026-04-04",
+            "mentions": 36
+          },
+          {
+            "date": "2026-04-05",
+            "mentions": 37
+          },
+          {
+            "date": "2026-04-06",
+            "mentions": 37
+          },
+          {
+            "date": "2026-04-07",
+            "mentions": 32
+          },
+          {
+            "date": "2026-04-08",
+            "mentions": 33
+          },
+          {
+            "date": "2026-04-09",
+            "mentions": 30
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 336,
+        "mentions": 342,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 246,
+        "mentions": 250,
         "rank": 2,
         "rank_change": 0
       }
@@ -290,21 +290,21 @@
       ],
       "series": [
         {
-          "topic": "LLM",
-          "ranks": [
-            1,
-            1,
-            2,
-            2
-          ]
-        },
-        {
           "topic": "claude",
           "ranks": [
             2,
             2,
             1,
             1
+          ]
+        },
+        {
+          "topic": "LLM",
+          "ranks": [
+            1,
+            1,
+            2,
+            2
           ]
         }
       ]
@@ -515,11 +515,11 @@
           },
           {
             "date": "2026-03-11",
-            "quality_score": 5.79
+            "quality_score": 6.32
           },
           {
             "date": "2026-03-11",
-            "quality_score": 6.32
+            "quality_score": 5.79
           },
           {
             "date": "2026-03-12",
@@ -640,6 +640,10 @@
           {
             "date": "2026-04-08",
             "quality_score": 6.9
+          },
+          {
+            "date": "2026-04-09",
+            "quality_score": 5.06
           }
         ]
       },
@@ -716,11 +720,11 @@
           },
           {
             "date": "2026-03-22",
-            "quality_score": 6.62
+            "quality_score": 6.47
           },
           {
             "date": "2026-03-22",
-            "quality_score": 6.47
+            "quality_score": 6.62
           },
           {
             "date": "2026-03-23",
@@ -780,11 +784,11 @@
           },
           {
             "date": "2026-04-05",
-            "quality_score": 6.13
+            "quality_score": 5.4
           },
           {
             "date": "2026-04-05",
-            "quality_score": 5.4
+            "quality_score": 6.13
           },
           {
             "date": "2026-04-06",
@@ -797,6 +801,10 @@
           {
             "date": "2026-04-08",
             "quality_score": 6.35
+          },
+          {
+            "date": "2026-04-09",
+            "quality_score": 5.26
           }
         ]
       },
@@ -834,12 +842,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 177461,
-      "output_tokens": 70243,
-      "cost_usd": 0.4229
+      "input_tokens": 192958,
+      "output_tokens": 76960,
+      "cost_usd": 0.4622
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-09",
+      "keyword": "claude",
+      "quality_score": 5.06,
+      "post_url": "https://sghman.github.io/posts/2026-04-09-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Code에 Ultraplan 기능을 추가하고 Google MCP 연동을 강화하면서, 단순 코딩 어시스턴트에서 완전한 업무 자동화 플랫폼으로 진화 중입니다."
+    },
+    {
+      "date": "2026-04-09",
+      "keyword": "LLM",
+      "quality_score": 5.26,
+      "post_url": "https://sghman.github.io/posts/2026-04-09-llm-digest/",
+      "one_line_summary": "핵심: LLM 파운데이션 모델이 사라지지 않고 AGI 시스템의 핵심 구성요소로 남되, 그 위에 메모리, 추론, 멀티모달 등 추가 요소가 계층적으로 쌓이는 구조로 진화 중입니다. 병목은 컴퓨트이지만 기회는 메모리 최적화에 있다는 점이 주목됩니다."
+    },
     {
       "date": "2026-04-08",
       "keyword": "claude",
@@ -856,17 +878,17 @@
     },
     {
       "date": "2026-04-07",
-      "keyword": "claude",
-      "quality_score": 5.66,
-      "post_url": "https://sghman.github.io/posts/2026-04-07-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순한 터미널 도구에서 벗어나 `/simplify` 명령어, 에이전트 팀 기능, 자동 문서화 등 고급 기능을 갖춘 개발 플랫폼으로 진화했습니다. 2026년 기준 Sonnet 4.6과 Opus 4.6 모델을 탑재하고 있으며, 프로젝트 관리 기능까지 제공합니다."
-    },
-    {
-      "date": "2026-04-07",
       "keyword": "LLM",
       "quality_score": 5.98,
       "post_url": "https://sghman.github.io/posts/2026-04-07-llm-digest/",
       "one_line_summary": "핵심: Chroma의 2025년 연구에 따르면 GPT-4.1, Claude, Gemini 등 18개 최강 모델 모두 입력 길이가 증가하면서 성능이 저하됨. 일부 모델은 95% 정확도에서 입력 길이 초과 시 60%까지 급락."
+    },
+    {
+      "date": "2026-04-07",
+      "keyword": "claude",
+      "quality_score": 5.66,
+      "post_url": "https://sghman.github.io/posts/2026-04-07-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순한 터미널 도구에서 벗어나 `/simplify` 명령어, 에이전트 팀 기능, 자동 문서화 등 고급 기능을 갖춘 개발 플랫폼으로 진화했습니다. 2026년 기준 Sonnet 4.6과 Opus 4.6 모델을 탑재하고 있으며, 프로젝트 관리 기능까지 제공합니다."
     },
     {
       "date": "2026-04-06",
@@ -885,9 +907,9 @@
     {
       "date": "2026-04-05",
       "keyword": "LLM",
-      "quality_score": 6.13,
+      "quality_score": 5.4,
       "post_url": "https://sghman.github.io/posts/2026-04-05-llm-digest/",
-      "one_line_summary": "핵심: PraisonAI의 `execute_code()` 함수는 3단계 보호층을 갖추고 있었지만, Python의 동적 메서드 오버라이딩을 이용해 모두 무력화되었습니다. `_safe_getattr`이 `startswith()`로 위험한 import(`os`, `subprocess`, `sys`)를 검증할 때, 공격자는 `str`을 상속받은 악의적 클래스를 만들어 검증 단계에서는 `True`, 실행 단계에서는 `False`를 반환하도록 했습니다."
+      "one_line_summary": "핵심: PraisonAI의 7개 CVE는 단순한 버그가 아니라 LLM 에이전트 아키텍처의 근본적 설계 결함을 드러냈습니다. 특히 Python의 동적 디스패치를 악용한 `EvilStr` 클래스 공격은 3단계 샌드박스를 한 번에 무력화했습니다."
     },
     {
       "date": "2026-04-05",
@@ -906,9 +928,9 @@
     {
       "date": "2026-04-05",
       "keyword": "LLM",
-      "quality_score": 5.4,
+      "quality_score": 6.13,
       "post_url": "https://sghman.github.io/posts/2026-04-05-llm-digest/",
-      "one_line_summary": "핵심: PraisonAI의 7개 CVE는 단순한 버그가 아니라 LLM 에이전트 아키텍처의 근본적 설계 결함을 드러냈습니다. 특히 Python의 동적 디스패치를 악용한 `EvilStr` 클래스 공격은 3단계 샌드박스를 한 번에 무력화했습니다."
+      "one_line_summary": "핵심: PraisonAI의 `execute_code()` 함수는 3단계 보호층을 갖추고 있었지만, Python의 동적 메서드 오버라이딩을 이용해 모두 무력화되었습니다. `_safe_getattr`이 `startswith()`로 위험한 import(`os`, `subprocess`, `sys`)를 검증할 때, 공격자는 `str`을 상속받은 악의적 클래스를 만들어 검증 단계에서는 `True`, 실행 단계에서는 `False`를 반환하도록 했습니다."
     },
     {
       "date": "2026-04-04",
@@ -965,20 +987,6 @@
       "quality_score": 6.08,
       "post_url": "https://sghman.github.io/posts/2026-04-01-llm-digest/",
       "one_line_summary": "핵심: Meta가 개발한 적응형 랭킹 모델은 \"일괄 처리\" 방식을 버리고 요청별로 동적으로 모델 복잡도를 조정하는 방식으로 추론 비용을 절감했습니다. 이는 LLM 규모의 모델을 서브초 지연시간 내에 서빙하는 핵심 기술입니다."
-    },
-    {
-      "date": "2026-03-31",
-      "keyword": "claude",
-      "quality_score": 7.02,
-      "post_url": "https://sghman.github.io/posts/2026-03-31-claude-digest/",
-      "one_line_summary": "핵심: Claude Mobile이 Figma, Canva, Slack, Amplitude 같은 엔터프라이즈 도구를 스크린샷이 아닌 실시간 상호작용 가능한 캔버스로 직접 통합했다. 이는 단순 데이터 조회(플러그인)와 완전한 작업 공간(임베디드 도구)의 근본적 차이를 보여준다."
-    },
-    {
-      "date": "2026-03-31",
-      "keyword": "LLM",
-      "quality_score": 4.98,
-      "post_url": "https://sghman.github.io/posts/2026-03-31-llm-digest/",
-      "one_line_summary": "핵심: 2026년 기준 단일 GPU로 7B 파라미터 모델을 $5 이하에 몇 시간 내 파인튜닝 가능해졌다. 과거 수주 소요되던 작업이 수시간으로 단축되면서 개인 개발자도 커스텀 LLM 구축이 현실화됐다."
     }
   ]
 }
