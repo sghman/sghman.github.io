@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-10T04:14:43",
+  "generated_at": "2026-04-11T03:43:28",
   "summary": {
-    "total_posts": 82,
+    "total_posts": 84,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.504
+    "monthly_cost_usd": 0.5561
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-11",
-            "mentions": 19
-          },
           {
             "date": "2026-03-12",
             "mentions": 21
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-10",
             "mentions": 35
+          },
+          {
+            "date": "2026-04-11",
+            "mentions": 34
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-11",
-            "mentions": 26
-          },
           {
             "date": "2026-03-12",
             "mentions": 23
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-10",
             "mentions": 16
+          },
+          {
+            "date": "2026-04-11",
+            "mentions": 28
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 336,
+        "mentions": 333,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 237,
+        "mentions": 249,
         "rank": 2,
         "rank_change": 0
       }
@@ -515,11 +515,11 @@
           },
           {
             "date": "2026-03-11",
-            "quality_score": 5.79
+            "quality_score": 6.32
           },
           {
             "date": "2026-03-11",
-            "quality_score": 6.32
+            "quality_score": 5.79
           },
           {
             "date": "2026-03-12",
@@ -648,6 +648,10 @@
           {
             "date": "2026-04-10",
             "quality_score": 6.92
+          },
+          {
+            "date": "2026-04-11",
+            "quality_score": 5.47
           }
         ]
       },
@@ -672,11 +676,11 @@
           },
           {
             "date": "2026-03-08",
-            "quality_score": 7.13
+            "quality_score": 5.94
           },
           {
             "date": "2026-03-08",
-            "quality_score": 5.94
+            "quality_score": 7.13
           },
           {
             "date": "2026-03-10",
@@ -813,6 +817,10 @@
           {
             "date": "2026-04-10",
             "quality_score": 5.39
+          },
+          {
+            "date": "2026-04-11",
+            "quality_score": 4.57
           }
         ]
       },
@@ -850,12 +858,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 210087,
-      "output_tokens": 83991,
-      "cost_usd": 0.504
+      "input_tokens": 231748,
+      "output_tokens": 92682,
+      "cost_usd": 0.5561
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-11",
+      "keyword": "claude",
+      "quality_score": 5.47,
+      "post_url": "https://sghman.github.io/posts/2026-04-11-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Code를 메신저 플랫폼(텔레그램, 디스코드)에 직접 통합하는 'Claude Code Channels'를 출시했으며, 비개발자도 자연어 명령만으로 웹페이지 프레젠테이션, 자동화 도구를 구축할 수 있게 되었습니다."
+    },
+    {
+      "date": "2026-04-11",
+      "keyword": "LLM",
+      "quality_score": 4.57,
+      "post_url": "https://sghman.github.io/posts/2026-04-11-llm-digest/",
+      "one_line_summary": "핵심: GPTZero, Originality.ai 같은 상용 AI 탐지기들이 검은 상자 방식으로 운영되면서 오탐지 문제가 심각해지자, 개발자가 순수 Python 기반의 오픈소스 대안 lmscan을 개발했습니다. 신경망 없이 12가지 통계 특성(burstiness, entropy, Zipf deviation 등)과 9개 LLM 패밀리 지문을 분석해 50ms 이내에 결과를 제공합니다."
+    },
     {
       "date": "2026-04-10",
       "keyword": "claude",
@@ -886,17 +908,17 @@
     },
     {
       "date": "2026-04-08",
-      "keyword": "LLM",
-      "quality_score": 6.35,
-      "post_url": "https://sghman.github.io/posts/2026-04-08-llm-digest/",
-      "one_line_summary": "핵심: 2026년은 LLM이 단순 질답 도구에서 목표 지향적 자율 에이전트로 진화하는 분기점. DBS Bank + Visa의 자동 거래 실행 시험, Microsoft의 100+ 에이전트 공급망 운영, 소프트웨어 개발자 1명이 10명 팀 규모의 작업을 처리하는 사례들이 이미 프로덕션에서 운영 중."
-    },
-    {
-      "date": "2026-04-08",
       "keyword": "claude",
       "quality_score": 6.9,
       "post_url": "https://sghman.github.io/posts/2026-04-08-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 Project Glasswing(소프트웨어 인프라 취약점 자동 탐지)과 Claude Mythos(개선된 장문맥 처리)를 동시 발표했으며, 이는 Claude Code 사용자에게 직접적인 영향을 미친다."
+    },
+    {
+      "date": "2026-04-08",
+      "keyword": "LLM",
+      "quality_score": 6.35,
+      "post_url": "https://sghman.github.io/posts/2026-04-08-llm-digest/",
+      "one_line_summary": "핵심: 2026년은 LLM이 단순 질답 도구에서 목표 지향적 자율 에이전트로 진화하는 분기점. DBS Bank + Visa의 자동 거래 실행 시험, Microsoft의 100+ 에이전트 공급망 운영, 소프트웨어 개발자 1명이 10명 팀 규모의 작업을 처리하는 사례들이 이미 프로덕션에서 운영 중."
     },
     {
       "date": "2026-04-07",
@@ -928,13 +950,6 @@
     },
     {
       "date": "2026-04-05",
-      "keyword": "LLM",
-      "quality_score": 5.4,
-      "post_url": "https://sghman.github.io/posts/2026-04-05-llm-digest/",
-      "one_line_summary": "핵심: PraisonAI의 7개 CVE는 단순한 버그가 아니라 LLM 에이전트 아키텍처의 근본적 설계 결함을 드러냈습니다. 특히 Python의 동적 디스패치를 악용한 `EvilStr` 클래스 공격은 3단계 샌드박스를 한 번에 무력화했습니다."
-    },
-    {
-      "date": "2026-04-05",
       "keyword": "claude",
       "quality_score": 6.69,
       "post_url": "https://sghman.github.io/posts/2026-04-05-claude-digest/",
@@ -946,6 +961,13 @@
       "quality_score": 7.03,
       "post_url": "https://sghman.github.io/posts/2026-04-05-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 Claude Code 구독에서 OpenClaw(오픈소스 AI 코딩 에이전트 프레임워크) 지원을 중단했습니다. 이유는 시스템에 \"과도한 부하\"를 준다는 것입니다. 이 결정으로 수백 명의 개발자가 프로젝트 중간에 영향을 받았습니다."
+    },
+    {
+      "date": "2026-04-05",
+      "keyword": "LLM",
+      "quality_score": 5.4,
+      "post_url": "https://sghman.github.io/posts/2026-04-05-llm-digest/",
+      "one_line_summary": "핵심: PraisonAI의 7개 CVE는 단순한 버그가 아니라 LLM 에이전트 아키텍처의 근본적 설계 결함을 드러냈습니다. 특히 Python의 동적 디스패치를 악용한 `EvilStr` 클래스 공격은 3단계 샌드박스를 한 번에 무력화했습니다."
     },
     {
       "date": "2026-04-05",
@@ -981,20 +1003,6 @@
       "quality_score": 5.76,
       "post_url": "https://sghman.github.io/posts/2026-04-03-llm-digest/",
       "one_line_summary": "핵심: 전통적인 보안 도구로는 LLM의 고유한 공격 벡터를 방어할 수 없다. 입력 문자열을 통한 공격으로 AI 시스템이 마비되고 민감한 데이터가 노출되는 사례가 증가하면서, LLM 전용 방화벽이 필수 인프라로 부상했다."
-    },
-    {
-      "date": "2026-04-02",
-      "keyword": "LLM",
-      "quality_score": 5.49,
-      "post_url": "https://sghman.github.io/posts/2026-04-02-llm-digest/",
-      "one_line_summary": "핵심: 2026년부터 LLM 파인튜닝이 대중화 수준으로 진입했습니다. 단일 GPU로 7B 파라미터 모델을 $5 이하 비용으로 몇 시간 내에 학습 가능해졌으며, LoRA 같은 경량화 기법이 표준화되었습니다."
-    },
-    {
-      "date": "2026-04-02",
-      "keyword": "claude",
-      "quality_score": 5.14,
-      "post_url": "https://sghman.github.io/posts/2026-04-02-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순히 파일 하나씩 수정하는 도구가 아니다. 올바른 프롬프트 구조와 컨텍스트 관리로 대규모 리팩토링을 자동화할 수 있다."
     }
   ]
 }
