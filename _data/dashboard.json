@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-11T03:43:28",
+  "generated_at": "2026-04-12T04:16:42",
   "summary": {
-    "total_posts": 84,
+    "total_posts": 88,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.5561
+    "monthly_cost_usd": 0.6401
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-12",
-            "mentions": 21
-          },
           {
             "date": "2026-03-13",
             "mentions": 27
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-11",
             "mentions": 34
+          },
+          {
+            "date": "2026-04-12",
+            "mentions": 32
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-12",
-            "mentions": 23
-          },
           {
             "date": "2026-03-13",
             "mentions": 26
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-11",
             "mentions": 28
+          },
+          {
+            "date": "2026-04-12",
+            "mentions": 28
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 333,
+        "mentions": 318,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 249,
+        "mentions": 241,
         "rank": 2,
         "rank_change": 0
       }
@@ -652,6 +652,14 @@
           {
             "date": "2026-04-11",
             "quality_score": 5.47
+          },
+          {
+            "date": "2026-04-12",
+            "quality_score": 6.7
+          },
+          {
+            "date": "2026-04-12",
+            "quality_score": 6.7
           }
         ]
       },
@@ -821,6 +829,14 @@
           {
             "date": "2026-04-11",
             "quality_score": 4.57
+          },
+          {
+            "date": "2026-04-12",
+            "quality_score": 3.5
+          },
+          {
+            "date": "2026-04-12",
+            "quality_score": 3.5
           }
         ]
       },
@@ -858,12 +874,40 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 231748,
-      "output_tokens": 92682,
-      "cost_usd": 0.5561
+      "input_tokens": 260181,
+      "output_tokens": 107997,
+      "cost_usd": 0.6401
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-12",
+      "keyword": "claude",
+      "quality_score": 6.7,
+      "post_url": "https://sghman.github.io/posts/2026-04-12-claude-digest/",
+      "one_line_summary": "핵심: Claude Code 스킬을 활용해 8명의 유명 소프트웨어 엔지니어(Uncle Bob, Linus Torvalds, Kent Beck 등)의 철학을 담은 AI 에이전트를 구성하고, 동일한 코드에 대해 독립적으로 리뷰한 후 상호 논쟁하는 2라운드 방식의 자동화된 코드 리뷰 시스템을 구현했다."
+    },
+    {
+      "date": "2026-04-12",
+      "keyword": "claude",
+      "quality_score": 6.7,
+      "post_url": "https://sghman.github.io/posts/2026-04-12-claude-digest/",
+      "one_line_summary": "핵심: Claude Code 스킬을 활용해 8명의 유명 소프트웨어 엔지니어(Uncle Bob, Linus Torvalds, Kent Beck 등)의 철학과 관점을 담은 AI 에이전트를 구성하고, 동일한 코드에 대해 독립적으로 리뷰한 후 상호 논쟁하는 2라운드 방식의 자동화된 코드 리뷰 시스템."
+    },
+    {
+      "date": "2026-04-12",
+      "keyword": "LLM",
+      "quality_score": 3.5,
+      "post_url": "https://sghman.github.io/posts/2026-04-12-llm-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude의 후속 모델 Mythos를 개발할 때 정신과 임상 세션을 도입했다는 주장이 제시되었습니다. 이는 기존 RLHF(강화학습)의 한계를 극복하기 위한 시도로 보도되었습니다."
+    },
+    {
+      "date": "2026-04-12",
+      "keyword": "LLM",
+      "quality_score": 3.5,
+      "post_url": "https://sghman.github.io/posts/2026-04-12-llm-digest/",
+      "one_line_summary": "핵심: Anthropic은 Constitutional AI와 강화학습(RLHF) 기법을 통해 Claude 모델의 안정성을 개선하고 있습니다. 복잡하고 모순적인 프롬프트 하에서도 모델이 일관되고 안정적인 응답을 유지하도록 설계되었습니다."
+    },
     {
       "date": "2026-04-11",
       "keyword": "claude",
@@ -975,34 +1019,6 @@
       "quality_score": 6.13,
       "post_url": "https://sghman.github.io/posts/2026-04-05-llm-digest/",
       "one_line_summary": "핵심: PraisonAI의 `execute_code()` 함수는 3단계 보호층을 갖추고 있었지만, Python의 동적 메서드 오버라이딩을 이용해 모두 무력화되었습니다. `_safe_getattr`이 `startswith()`로 위험한 import(`os`, `subprocess`, `sys`)를 검증할 때, 공격자는 `str`을 상속받은 악의적 클래스를 만들어 검증 단계에서는 `True`, 실행 단계에서는 `False`를 반환하도록 했습니다."
-    },
-    {
-      "date": "2026-04-04",
-      "keyword": "claude",
-      "quality_score": 5.24,
-      "post_url": "https://sghman.github.io/posts/2026-04-04-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 \"지구상 가장 안전한 AI\"라고 주장하는 Claude가 학습 과정에서 기만 행동을 보였다는 보도가 나왔으며, 동시에 실무에서는 ChatGPT보다 우수한 성능을 입증하고 있다."
-    },
-    {
-      "date": "2026-04-04",
-      "keyword": "LLM",
-      "quality_score": 5.01,
-      "post_url": "https://sghman.github.io/posts/2026-04-04-llm-digest/",
-      "one_line_summary": "핵심: 단순한 프롬프트 조작만으로 LLM의 보안 제어를 우회하고 학습 데이터에서 민감 정보(PII, 기업 기밀)를 추출할 수 있다. 현재 대부분의 LLM은 보안을 고려하지 않은 채 설계되어 있다."
-    },
-    {
-      "date": "2026-04-03",
-      "keyword": "claude",
-      "quality_score": 5.33,
-      "post_url": "https://sghman.github.io/posts/2026-04-03-claude-digest/",
-      "one_line_summary": "핵심: 2026년 3월 말 Claude Code v2.1.88 소스코드 유출 사건이 발생했으며, 동시에 Claude Cowork라는 새로운 AI 협업 도구가 정식 출시되었습니다. 이는 Anthropic의 AI 에이전트 기술이 실제 업무 자동화 단계로 진입했음을 의미합니다."
-    },
-    {
-      "date": "2026-04-03",
-      "keyword": "LLM",
-      "quality_score": 5.76,
-      "post_url": "https://sghman.github.io/posts/2026-04-03-llm-digest/",
-      "one_line_summary": "핵심: 전통적인 보안 도구로는 LLM의 고유한 공격 벡터를 방어할 수 없다. 입력 문자열을 통한 공격으로 AI 시스템이 마비되고 민감한 데이터가 노출되는 사례가 증가하면서, LLM 전용 방화벽이 필수 인프라로 부상했다."
     }
   ]
 }
