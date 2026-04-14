@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-13T04:26:55",
+  "generated_at": "2026-04-14T04:15:39",
   "summary": {
-    "total_posts": 90,
+    "total_posts": 92,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.6853
+    "monthly_cost_usd": 0.7289
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-14",
-            "mentions": 21
-          },
           {
             "date": "2026-03-15",
             "mentions": 25
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-13",
             "mentions": 28
+          },
+          {
+            "date": "2026-04-14",
+            "mentions": 31
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-14",
-            "mentions": 19
-          },
           {
             "date": "2026-03-15",
             "mentions": 26
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-13",
             "mentions": 25
+          },
+          {
+            "date": "2026-04-14",
+            "mentions": 34
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 297,
+        "mentions": 284,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 229,
+        "mentions": 226,
         "rank": 2,
         "rank_change": 0
       }
@@ -491,183 +491,6 @@
   "knowledge_trend": {
     "series": [
       {
-        "keyword": "claude",
-        "data_points": [
-          {
-            "date": "2026-03-04",
-            "quality_score": 5.18
-          },
-          {
-            "date": "2026-03-05",
-            "quality_score": 7.03
-          },
-          {
-            "date": "2026-03-06",
-            "quality_score": 6.23
-          },
-          {
-            "date": "2026-03-09",
-            "quality_score": 5.73
-          },
-          {
-            "date": "2026-03-10",
-            "quality_score": 5.5
-          },
-          {
-            "date": "2026-03-11",
-            "quality_score": 6.32
-          },
-          {
-            "date": "2026-03-11",
-            "quality_score": 5.79
-          },
-          {
-            "date": "2026-03-12",
-            "quality_score": 6.19
-          },
-          {
-            "date": "2026-03-13",
-            "quality_score": 6.74
-          },
-          {
-            "date": "2026-03-14",
-            "quality_score": 7.88
-          },
-          {
-            "date": "2026-03-15",
-            "quality_score": 5.88
-          },
-          {
-            "date": "2026-03-15",
-            "quality_score": 6.02
-          },
-          {
-            "date": "2026-03-17",
-            "quality_score": 6.57
-          },
-          {
-            "date": "2026-03-18",
-            "quality_score": 6.85
-          },
-          {
-            "date": "2026-03-19",
-            "quality_score": 6.02
-          },
-          {
-            "date": "2026-03-20",
-            "quality_score": 5.56
-          },
-          {
-            "date": "2026-03-22",
-            "quality_score": 4.51
-          },
-          {
-            "date": "2026-03-22",
-            "quality_score": 4.63
-          },
-          {
-            "date": "2026-03-23",
-            "quality_score": 6.93
-          },
-          {
-            "date": "2026-03-24",
-            "quality_score": 5.41
-          },
-          {
-            "date": "2026-03-25",
-            "quality_score": 6.3
-          },
-          {
-            "date": "2026-03-26",
-            "quality_score": 7.07
-          },
-          {
-            "date": "2026-03-27",
-            "quality_score": 5.97
-          },
-          {
-            "date": "2026-03-28",
-            "quality_score": 5.39
-          },
-          {
-            "date": "2026-03-29",
-            "quality_score": 6.17
-          },
-          {
-            "date": "2026-03-29",
-            "quality_score": 5.34
-          },
-          {
-            "date": "2026-03-30",
-            "quality_score": 6.68
-          },
-          {
-            "date": "2026-03-31",
-            "quality_score": 7.02
-          },
-          {
-            "date": "2026-04-01",
-            "quality_score": 5.16
-          },
-          {
-            "date": "2026-04-02",
-            "quality_score": 5.14
-          },
-          {
-            "date": "2026-04-03",
-            "quality_score": 5.33
-          },
-          {
-            "date": "2026-04-04",
-            "quality_score": 5.24
-          },
-          {
-            "date": "2026-04-05",
-            "quality_score": 6.69
-          },
-          {
-            "date": "2026-04-05",
-            "quality_score": 7.03
-          },
-          {
-            "date": "2026-04-06",
-            "quality_score": 5.4
-          },
-          {
-            "date": "2026-04-07",
-            "quality_score": 5.66
-          },
-          {
-            "date": "2026-04-08",
-            "quality_score": 6.9
-          },
-          {
-            "date": "2026-04-09",
-            "quality_score": 5.06
-          },
-          {
-            "date": "2026-04-10",
-            "quality_score": 6.92
-          },
-          {
-            "date": "2026-04-11",
-            "quality_score": 5.47
-          },
-          {
-            "date": "2026-04-12",
-            "quality_score": 6.7
-          },
-          {
-            "date": "2026-04-12",
-            "quality_score": 6.7
-          },
-          {
-            "date": "2026-04-13",
-            "quality_score": 5.73
-          }
-        ]
-      },
-      {
         "keyword": "LLM",
         "data_points": [
           {
@@ -845,6 +668,191 @@
           {
             "date": "2026-04-13",
             "quality_score": 5.46
+          },
+          {
+            "date": "2026-04-14",
+            "quality_score": 5.8
+          }
+        ]
+      },
+      {
+        "keyword": "claude",
+        "data_points": [
+          {
+            "date": "2026-03-04",
+            "quality_score": 5.18
+          },
+          {
+            "date": "2026-03-05",
+            "quality_score": 7.03
+          },
+          {
+            "date": "2026-03-06",
+            "quality_score": 6.23
+          },
+          {
+            "date": "2026-03-09",
+            "quality_score": 5.73
+          },
+          {
+            "date": "2026-03-10",
+            "quality_score": 5.5
+          },
+          {
+            "date": "2026-03-11",
+            "quality_score": 6.32
+          },
+          {
+            "date": "2026-03-11",
+            "quality_score": 5.79
+          },
+          {
+            "date": "2026-03-12",
+            "quality_score": 6.19
+          },
+          {
+            "date": "2026-03-13",
+            "quality_score": 6.74
+          },
+          {
+            "date": "2026-03-14",
+            "quality_score": 7.88
+          },
+          {
+            "date": "2026-03-15",
+            "quality_score": 5.88
+          },
+          {
+            "date": "2026-03-15",
+            "quality_score": 6.02
+          },
+          {
+            "date": "2026-03-17",
+            "quality_score": 6.57
+          },
+          {
+            "date": "2026-03-18",
+            "quality_score": 6.85
+          },
+          {
+            "date": "2026-03-19",
+            "quality_score": 6.02
+          },
+          {
+            "date": "2026-03-20",
+            "quality_score": 5.56
+          },
+          {
+            "date": "2026-03-22",
+            "quality_score": 4.51
+          },
+          {
+            "date": "2026-03-22",
+            "quality_score": 4.63
+          },
+          {
+            "date": "2026-03-23",
+            "quality_score": 6.93
+          },
+          {
+            "date": "2026-03-24",
+            "quality_score": 5.41
+          },
+          {
+            "date": "2026-03-25",
+            "quality_score": 6.3
+          },
+          {
+            "date": "2026-03-26",
+            "quality_score": 7.07
+          },
+          {
+            "date": "2026-03-27",
+            "quality_score": 5.97
+          },
+          {
+            "date": "2026-03-28",
+            "quality_score": 5.39
+          },
+          {
+            "date": "2026-03-29",
+            "quality_score": 6.17
+          },
+          {
+            "date": "2026-03-29",
+            "quality_score": 5.34
+          },
+          {
+            "date": "2026-03-30",
+            "quality_score": 6.68
+          },
+          {
+            "date": "2026-03-31",
+            "quality_score": 7.02
+          },
+          {
+            "date": "2026-04-01",
+            "quality_score": 5.16
+          },
+          {
+            "date": "2026-04-02",
+            "quality_score": 5.14
+          },
+          {
+            "date": "2026-04-03",
+            "quality_score": 5.33
+          },
+          {
+            "date": "2026-04-04",
+            "quality_score": 5.24
+          },
+          {
+            "date": "2026-04-05",
+            "quality_score": 6.69
+          },
+          {
+            "date": "2026-04-05",
+            "quality_score": 7.03
+          },
+          {
+            "date": "2026-04-06",
+            "quality_score": 5.4
+          },
+          {
+            "date": "2026-04-07",
+            "quality_score": 5.66
+          },
+          {
+            "date": "2026-04-08",
+            "quality_score": 6.9
+          },
+          {
+            "date": "2026-04-09",
+            "quality_score": 5.06
+          },
+          {
+            "date": "2026-04-10",
+            "quality_score": 6.92
+          },
+          {
+            "date": "2026-04-11",
+            "quality_score": 5.47
+          },
+          {
+            "date": "2026-04-12",
+            "quality_score": 6.7
+          },
+          {
+            "date": "2026-04-12",
+            "quality_score": 6.7
+          },
+          {
+            "date": "2026-04-13",
+            "quality_score": 5.73
+          },
+          {
+            "date": "2026-04-14",
+            "quality_score": 6.45
           }
         ]
       },
@@ -882,12 +890,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 280001,
-      "output_tokens": 115317,
-      "cost_usd": 0.6853
+      "input_tokens": 299650,
+      "output_tokens": 122303,
+      "cost_usd": 0.7289
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-14",
+      "keyword": "LLM",
+      "quality_score": 5.8,
+      "post_url": "https://sghman.github.io/posts/2026-04-14-llm-digest/",
+      "one_line_summary": "핵심: LinkedIn은 5개의 독립적인 피드 시스템을 하나의 LLM 기반 모델로 통합하여 복잡성을 제거했지만, 새로운 과제들에 직면했다. 특히 구조화된 데이터 이해, 50ms 이내의 응답 시간 보장, 노이즈가 많은 데이터 학습이 핵심 문제다."
+    },
+    {
+      "date": "2026-04-14",
+      "keyword": "claude",
+      "quality_score": 6.45,
+      "post_url": "https://sghman.github.io/posts/2026-04-14-claude-digest/",
+      "one_line_summary": "핵심: Claude 사용자들이 주간 한도(Rate Limit)를 초과하면서 작업이 중단되는 문제가 보고되고 있습니다. 특히 API 기반 프로젝트나 대량 처리 작업에서 예상치 못한 한도 도달로 인한 손실이 발생하고 있습니다."
+    },
     {
       "date": "2026-04-13",
       "keyword": "claude",
@@ -1013,20 +1035,6 @@
       "quality_score": 5.3,
       "post_url": "https://sghman.github.io/posts/2026-04-06-llm-digest/",
       "one_line_summary": "핵심: Speculative Decoding은 이론상 2-3배 속도 향상을 약속하지만, 실제 소비자 GPU 환경에서는 기대만큼의 성능 개선을 보이지 못하고 있습니다. RTX 5060 Ti 2개(32GB VRAM)를 사용한 실제 테스트에서 n-gram 기반 speculative decoding은 예상과 달리 제한적인 효과를 보였습니다."
-    },
-    {
-      "date": "2026-04-05",
-      "keyword": "claude",
-      "quality_score": 6.69,
-      "post_url": "https://sghman.github.io/posts/2026-04-05-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순한 코딩 어시스턴트를 넘어 프로젝트 메모리, 권한 관리, 자동 체크포인트, 서브에이전트 등 엔지니어링 워크플로우를 완전히 재설계하는 도구로 진화했습니다. 특히 CLAUDE.md 파일을 통한 메모리 뱅크 패턴이 세션 간 컨텍스트 손실 문제를 근본적으로 해결합니다."
-    },
-    {
-      "date": "2026-04-05",
-      "keyword": "claude",
-      "quality_score": 7.03,
-      "post_url": "https://sghman.github.io/posts/2026-04-05-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 Claude Code 구독에서 OpenClaw(오픈소스 AI 코딩 에이전트 프레임워크) 지원을 중단했습니다. 이유는 시스템에 \"과도한 부하\"를 준다는 것입니다. 이 결정으로 수백 명의 개발자가 프로젝트 중간에 영향을 받았습니다."
     }
   ]
 }
