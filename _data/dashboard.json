@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-16T04:20:41",
+  "generated_at": "2026-04-17T04:17:59",
   "summary": {
-    "total_posts": 96,
+    "total_posts": 97,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.8281
+    "monthly_cost_usd": 0.8591
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-17",
-            "mentions": 19
-          },
           {
             "date": "2026-03-18",
             "mentions": 21
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-16",
             "mentions": 35
+          },
+          {
+            "date": "2026-04-17",
+            "mentions": 38
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-17",
-            "mentions": 35
-          },
           {
             "date": "2026-03-18",
             "mentions": 25
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-16",
             "mentions": 27
+          },
+          {
+            "date": "2026-04-17",
+            "mentions": 32
           }
         ]
       }
@@ -276,7 +276,7 @@
       },
       {
         "topic": "LLM",
-        "mentions": 221,
+        "mentions": 223,
         "rank": 2,
         "rank_change": 0
       }
@@ -676,6 +676,10 @@
           {
             "date": "2026-04-16",
             "quality_score": 5.79
+          },
+          {
+            "date": "2026-04-17",
+            "quality_score": 5.94
           }
         ]
       },
@@ -906,12 +910,19 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 343272,
-      "output_tokens": 138374,
-      "cost_usd": 0.8281
+      "input_tokens": 354322,
+      "output_tokens": 143904,
+      "cost_usd": 0.8591
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-17",
+      "keyword": "claude",
+      "quality_score": 5.94,
+      "post_url": "https://sghman.github.io/posts/2026-04-17-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Opus 4.7을 공식 출시했으며, 이전 버전(4.6) 대비 코드 생성 능력, 장문맥 처리, Claude Code 기능이 강화되었습니다. 특히 Claude Code에 'xhigh' 난이도 레벨이 신규 추가되어 더 복잡한 개발 작업 자동화가 가능해졌습니다."
+    },
     {
       "date": "2026-04-16",
       "keyword": "claude",
@@ -1044,13 +1055,6 @@
       "quality_score": 6.9,
       "post_url": "https://sghman.github.io/posts/2026-04-08-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 Project Glasswing(소프트웨어 인프라 취약점 자동 탐지)과 Claude Mythos(개선된 장문맥 처리)를 동시 발표했으며, 이는 Claude Code 사용자에게 직접적인 영향을 미친다."
-    },
-    {
-      "date": "2026-04-08",
-      "keyword": "LLM",
-      "quality_score": 6.35,
-      "post_url": "https://sghman.github.io/posts/2026-04-08-llm-digest/",
-      "one_line_summary": "핵심: 2026년은 LLM이 단순 질답 도구에서 목표 지향적 자율 에이전트로 진화하는 분기점. DBS Bank + Visa의 자동 거래 실행 시험, Microsoft의 100+ 에이전트 공급망 운영, 소프트웨어 개발자 1명이 10명 팀 규모의 작업을 처리하는 사례들이 이미 프로덕션에서 운영 중."
     }
   ]
 }
