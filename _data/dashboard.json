@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-17T04:17:59",
+  "generated_at": "2026-04-18T03:53:50",
   "summary": {
-    "total_posts": 97,
+    "total_posts": 99,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.8591
+    "monthly_cost_usd": 0.897
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-18",
-            "mentions": 21
-          },
           {
             "date": "2026-03-19",
             "mentions": 25
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-17",
             "mentions": 38
+          },
+          {
+            "date": "2026-04-18",
+            "mentions": 44
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-18",
-            "mentions": 25
-          },
           {
             "date": "2026-03-19",
             "mentions": 33
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-17",
             "mentions": 32
+          },
+          {
+            "date": "2026-04-18",
+            "mentions": 32
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 265,
+        "mentions": 274,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 223,
+        "mentions": 239,
         "rank": 2,
         "rank_change": 0
       }
@@ -680,6 +680,10 @@
           {
             "date": "2026-04-17",
             "quality_score": 5.94
+          },
+          {
+            "date": "2026-04-18",
+            "quality_score": 6.19
           }
         ]
       },
@@ -873,6 +877,10 @@
           {
             "date": "2026-04-16",
             "quality_score": 7.29
+          },
+          {
+            "date": "2026-04-18",
+            "quality_score": 6.85
           }
         ]
       },
@@ -910,12 +918,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 354322,
-      "output_tokens": 143904,
-      "cost_usd": 0.8591
+      "input_tokens": 367263,
+      "output_tokens": 150793,
+      "cost_usd": 0.897
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-18",
+      "keyword": "claude",
+      "quality_score": 6.19,
+      "post_url": "https://sghman.github.io/posts/2026-04-18-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Design을 공식 출시했으며, 단순한 디자인 도구를 넘어 \"Handoff to Claude Code\" 버튼으로 설계에서 배포까지 한 번의 대화로 완성하는 구조를 제시했다. 이는 Figma와의 경쟁이 아닌 워크플로우 통합의 차원이다."
+    },
+    {
+      "date": "2026-04-18",
+      "keyword": "LLM",
+      "quality_score": 6.85,
+      "post_url": "https://sghman.github.io/posts/2026-04-18-llm-digest/",
+      "one_line_summary": "핵심: Cloudflare의 Unweight는 LLM 모델 가중치를 15~22% 압축하면서 출력 정확도를 완벽히 유지하는 무손실 압축 기술입니다. H100 GPU에서 텐서 코어의 연산 속도(메모리 대역폭의 600배)와 메모리 접근 속도 간의 격차를 해결하는 것이 핵심입니다."
+    },
     {
       "date": "2026-04-17",
       "keyword": "claude",
@@ -1041,20 +1063,6 @@
       "quality_score": 5.06,
       "post_url": "https://sghman.github.io/posts/2026-04-09-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 Claude Code에 Ultraplan 기능을 추가하고 Google MCP 연동을 강화하면서, 단순 코딩 어시스턴트에서 완전한 업무 자동화 플랫폼으로 진화 중입니다."
-    },
-    {
-      "date": "2026-04-09",
-      "keyword": "LLM",
-      "quality_score": 5.26,
-      "post_url": "https://sghman.github.io/posts/2026-04-09-llm-digest/",
-      "one_line_summary": "핵심: LLM 파운데이션 모델이 사라지지 않고 AGI 시스템의 핵심 구성요소로 남되, 그 위에 메모리, 추론, 멀티모달 등 추가 요소가 계층적으로 쌓이는 구조로 진화 중입니다. 병목은 컴퓨트이지만 기회는 메모리 최적화에 있다는 점이 주목됩니다."
-    },
-    {
-      "date": "2026-04-08",
-      "keyword": "claude",
-      "quality_score": 6.9,
-      "post_url": "https://sghman.github.io/posts/2026-04-08-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 Project Glasswing(소프트웨어 인프라 취약점 자동 탐지)과 Claude Mythos(개선된 장문맥 처리)를 동시 발표했으며, 이는 Claude Code 사용자에게 직접적인 영향을 미친다."
     }
   ]
 }
