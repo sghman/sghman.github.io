@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T04:20:25",
+  "generated_at": "2026-04-19T04:21:02",
   "summary": {
     "total_posts": 103,
     "total_keywords": 3,
@@ -313,6 +313,18 @@
   "emerging_topics": {
     "topics": [
       {
+        "topic": "Post-Quantum Cryptography",
+        "weekly_mentions": 2,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Post-Quantum Cryptographic Analysis of Message Transformations Across the Network Stack",
+          "Structural Dependency Analysis for Masked NTT Hardware: Scalable Pre-Silicon Verification of Post-Quantum Cryptographic Accelerators"
+        ]
+      },
+      {
         "topic": "AI Agents / Agentic Systems",
         "weekly_mentions": 1,
         "peak_score": 0,
@@ -416,17 +428,6 @@
         "sample_titles": [
           "Pijul a FOSS distributed version control system",
           "We've raised $17M to build what comes after Git"
-        ]
-      },
-      {
-        "topic": "Post-Quantum Cryptography",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Post-Quantum Cryptographic Analysis of Message Transformations Across the Network Stack"
         ]
       },
       {
