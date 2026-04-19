@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-18T03:53:50",
+  "generated_at": "2026-04-19T04:20:25",
   "summary": {
-    "total_posts": 99,
+    "total_posts": 103,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.897
+    "monthly_cost_usd": 0.9926
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-19",
-            "mentions": 25
-          },
           {
             "date": "2026-03-20",
             "mentions": 17
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-18",
             "mentions": 44
+          },
+          {
+            "date": "2026-04-19",
+            "mentions": 43
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-19",
-            "mentions": 33
-          },
           {
             "date": "2026-03-20",
             "mentions": 27
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-18",
             "mentions": 32
+          },
+          {
+            "date": "2026-04-19",
+            "mentions": 25
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 274,
+        "mentions": 283,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 239,
+        "mentions": 236,
         "rank": 2,
         "rank_change": 0
       }
@@ -684,6 +684,14 @@
           {
             "date": "2026-04-18",
             "quality_score": 6.19
+          },
+          {
+            "date": "2026-04-19",
+            "quality_score": 5.6
+          },
+          {
+            "date": "2026-04-19",
+            "quality_score": 5.46
           }
         ]
       },
@@ -881,6 +889,14 @@
           {
             "date": "2026-04-18",
             "quality_score": 6.85
+          },
+          {
+            "date": "2026-04-19",
+            "quality_score": 6.44
+          },
+          {
+            "date": "2026-04-19",
+            "quality_score": 7.05
           }
         ]
       },
@@ -918,12 +934,40 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 367263,
-      "output_tokens": 150793,
-      "cost_usd": 0.897
+      "input_tokens": 400556,
+      "output_tokens": 168040,
+      "cost_usd": 0.9926
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-19",
+      "keyword": "claude",
+      "quality_score": 5.6,
+      "post_url": "https://sghman.github.io/posts/2026-04-19-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Opus 4.7을 출시했으나, 벤치마크 성능 향상보다 요금 인상이 더 큰 화제가 되고 있다. 뛰어난 코딩 성능과 새로운 디자인 툴을 탑재했지만, 사용자들은 가성비 문제를 지적하고 있다."
+    },
+    {
+      "date": "2026-04-19",
+      "keyword": "claude",
+      "quality_score": 5.46,
+      "post_url": "https://sghman.github.io/posts/2026-04-19-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 최신 플래그십 모델 Claude Opus 4.7을 출시했으며, 뛰어난 코딩 성능과 새로운 디자인 툴을 탑재했으나 요금 인상으로 논쟁이 발생하고 있습니다."
+    },
+    {
+      "date": "2026-04-19",
+      "keyword": "LLM",
+      "quality_score": 6.44,
+      "post_url": "https://sghman.github.io/posts/2026-04-19-llm-digest/",
+      "one_line_summary": "핵심: LLM이 다음 단어를 예측하는 과정은 단순한 통계 모델이 아니라, Transformer 아키텍처의 Attention 메커니즘을 통해 입력 문장의 각 단어 간 관계를 학습하고 가중치를 부여하는 방식으로 작동한다. Query(Q), Key(K), Value(V)는 이 과정에서 문맥을 이해하고 관련성 높은 정보를 추출하는 핵심 요소다."
+    },
+    {
+      "date": "2026-04-19",
+      "keyword": "LLM",
+      "quality_score": 7.05,
+      "post_url": "https://sghman.github.io/posts/2026-04-19-llm-digest/",
+      "one_line_summary": "핵심: LLM이 다음 단어를 예측하는 과정은 Transformer의 Attention 메커니즘에서 Query(Q), Key(K), Value(V)가 어떻게 작동하는지 이해하는 것이 출발점이다. 이 세 요소가 입력 문장을 수치 표현으로 변환하고, 단어 간 관계를 계산해 최적의 다음 단어를 도출한다."
+    },
     {
       "date": "2026-04-18",
       "keyword": "claude",
@@ -1035,34 +1079,6 @@
       "quality_score": 5.47,
       "post_url": "https://sghman.github.io/posts/2026-04-11-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 Claude Code를 메신저 플랫폼(텔레그램, 디스코드)에 직접 통합하는 'Claude Code Channels'를 출시했으며, 비개발자도 자연어 명령만으로 웹페이지 프레젠테이션, 자동화 도구를 구축할 수 있게 되었습니다."
-    },
-    {
-      "date": "2026-04-11",
-      "keyword": "LLM",
-      "quality_score": 4.57,
-      "post_url": "https://sghman.github.io/posts/2026-04-11-llm-digest/",
-      "one_line_summary": "핵심: GPTZero, Originality.ai 같은 상용 AI 탐지기들이 검은 상자 방식으로 운영되면서 오탐지 문제가 심각해지자, 개발자가 순수 Python 기반의 오픈소스 대안 lmscan을 개발했습니다. 신경망 없이 12가지 통계 특성(burstiness, entropy, Zipf deviation 등)과 9개 LLM 패밀리 지문을 분석해 50ms 이내에 결과를 제공합니다."
-    },
-    {
-      "date": "2026-04-10",
-      "keyword": "claude",
-      "quality_score": 6.92,
-      "post_url": "https://sghman.github.io/posts/2026-04-10-claude-digest/",
-      "one_line_summary": "핵심: Claude API 기반 자동화 에이전트를 30일간 운영한 결과, API 비용 $87.40 + 인력 비용 $900(45시간)을 투입했으나 실제 수익은 $0. 버그 바운티, 에어드롭 사냥, 프리랜스 입찰 모두 실패."
-    },
-    {
-      "date": "2026-04-10",
-      "keyword": "LLM",
-      "quality_score": 5.39,
-      "post_url": "https://sghman.github.io/posts/2026-04-10-llm-digest/",
-      "one_line_summary": "핵심: 평균 프로덕션 LLM 프로젝트는 20~50개의 프롬프트를 사용하는데, 이를 코드에 하드코딩하면 배포 주기가 길어지고 버전 관리가 불가능해진다. 레지스트리(Registry), 테스팅(Testing), 배포(Deploy), 모니터링(Monitor)의 4계층 시스템이 필수다."
-    },
-    {
-      "date": "2026-04-09",
-      "keyword": "claude",
-      "quality_score": 5.06,
-      "post_url": "https://sghman.github.io/posts/2026-04-09-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 Claude Code에 Ultraplan 기능을 추가하고 Google MCP 연동을 강화하면서, 단순 코딩 어시스턴트에서 완전한 업무 자동화 플랫폼으로 진화 중입니다."
     }
   ]
 }
