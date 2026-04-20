@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-19T04:21:02",
+  "generated_at": "2026-04-20T04:27:00",
   "summary": {
-    "total_posts": 103,
+    "total_posts": 105,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.9926
+    "monthly_cost_usd": 1.04
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-20",
-            "mentions": 17
-          },
           {
             "date": "2026-03-21",
             "mentions": 16
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-19",
             "mentions": 43
+          },
+          {
+            "date": "2026-04-20",
+            "mentions": 36
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-20",
-            "mentions": 27
-          },
           {
             "date": "2026-03-21",
             "mentions": 27
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-19",
             "mentions": 25
+          },
+          {
+            "date": "2026-04-20",
+            "mentions": 27
           }
         ]
       }
@@ -270,29 +270,29 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 283,
+        "mentions": 287,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 236,
+        "mentions": 235,
         "rank": 2,
         "rank_change": 0
       }
     ],
     "bump_chart": {
       "weeks": [
-        "2026-W13",
         "2026-W14",
         "2026-W15",
-        "2026-W16"
+        "2026-W16",
+        "2026-W17"
       ],
       "series": [
         {
           "topic": "claude",
           "ranks": [
-            2,
+            1,
             1,
             1,
             1
@@ -301,7 +301,7 @@
         {
           "topic": "LLM",
           "ranks": [
-            1,
+            2,
             2,
             2,
             2
@@ -313,178 +313,176 @@
   "emerging_topics": {
     "topics": [
       {
-        "topic": "Post-Quantum Cryptography",
-        "weekly_mentions": 2,
+        "topic": "AI Agents & Multi-Agent Systems",
+        "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Post-Quantum Cryptographic Analysis of Message Transformations Across the Network Stack",
+          "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+          "CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas",
+          "open-multi-agent TypeScript multi-agent orchestration engine"
+        ]
+      },
+      {
+        "topic": "Vision Language Models (VLMs)",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "How Do LLMs and VLMs Understand Viewpoint Rotation Without Vision?",
+          "Why Do Vision Language Models Struggle To Recognize Human Emotions?",
+          "RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography"
+        ]
+      },
+      {
+        "topic": "Tensor Program Optimization",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "Prism: Symbolic Superoptimization of Tensor Programs"
+        ]
+      },
+      {
+        "topic": "Graph Neural Networks",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "How Embeddings Shape Graph Neural Networks: Classical vs Quantum-Oriented Node Representations"
+        ]
+      },
+      {
+        "topic": "Medical Image Segmentation",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
+          "SegWithU: Uncertainty as Perturbation Energy for Single-Forward-Pass Risk-Aware Medical Image Segmentation",
+          "AD4AD: Benchmarking Visual Anomaly Detection Models for Safer Autonomous Driving"
+        ]
+      },
+      {
+        "topic": "Post-Quantum Cryptography",
+        "weekly_mentions": 1,
+        "peak_score": 0,
+        "sources": [
+          "extracted"
+        ],
+        "sample_titles": [
           "Structural Dependency Analysis for Masked NTT Hardware: Scalable Pre-Silicon Verification of Post-Quantum Cryptographic Accelerators"
         ]
       },
       {
-        "topic": "AI Agents / Agentic Systems",
+        "topic": "Retrieval Augmented Generation (RAG)",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "How We Broke Top AI Agent Benchmarks: And What Comes Next",
-          "ClawBench: Can AI Agents Complete Everyday Online Tasks?",
-          "Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models"
+          "Enhancing Large Language Models with Retrieval Augmented Generation for Software Testing and Inspection Automation"
         ]
       },
       {
-        "topic": "Multimodal Models & Vision-Language",
+        "topic": "LLM-as-Judge Evaluation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Seeing but Not Thinking: Routing Distraction in Multimodal Mixture-of-Experts",
-          "OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks",
-          "Faithful GRPO: Improving Visual Spatial Reasoning in Multimodal Language Models"
+          "Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations",
+          "Context Over Content: Exposing Evaluation Faking in Automated Judges"
         ]
       },
       {
-        "topic": "Diffusion Models & Image Generation",
+        "topic": "Knowledge Graph Construction",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "RewardFlow: Generate Images by Optimizing What You Reward",
-          "AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation"
+          "graphify AI coding assistant skill",
+          "mempalace The best-benchmarked open-source AI memory system"
         ]
       },
       {
-        "topic": "Reinforcement Learning with Verifiable Rewards (RLVR)",
+        "topic": "Quantum Computing & Quantum ML",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "SUPERNOVA: Eliciting General Reasoning in LLMs with Reinforcement Learning on Natural Instructions",
-          "Faithful GRPO: Improving Visual Spatial Reasoning in Multimodal Language Models via Constrained Policy Optimization"
+          "Cloning is as Hard as Learning for Stabilizer States",
+          "Optimal algorithmic complexity of inference in quantum kernel methods"
         ]
       },
       {
-        "topic": "Quantum Computing & Quantum Gates",
+        "topic": "Looped Transformers",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Team from ETH Zurich make high quality quantum swap gate using a geometric phase"
+          "Stability and Generalization in Looped Transformers"
         ]
       },
       {
-        "topic": "Brain Decoding & Neural Interfaces",
+        "topic": "Tabular Deep Learning",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Meta-learning In-Context Enables Training-Free Cross Subject Brain Decoding"
+          "Benchmarking Optimizers for MLPs in Tabular Deep Learning"
         ]
       },
       {
-        "topic": "WireGuard / VPN Protocol",
+        "topic": "Safety-Critical RL",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "WireGuard makes new Windows release following Microsoft signing resolution"
+          "RL-STPA: Adapting System-Theoretic Hazard Analysis for Safety-Critical Reinforcement Learning"
         ]
       },
       {
-        "topic": "Atomic-Scale Memory / Fluorographane",
+        "topic": "Visual Token Pruning",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "447 TB/cm² at zero retention energy – atomic-scale memory on fluorographane"
+          "VisPCO: Visual Token Pruning Configuration Optimization via Budget-Aware Pareto-Frontier Learning for Vision-Language Models"
         ]
       },
       {
-        "topic": "Distributed Version Control (Beyond Git)",
+        "topic": "Humor Understanding in Multimodal AI",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Pijul a FOSS distributed version control system",
-          "We've raised $17M to build what comes after Git"
-        ]
-      },
-      {
-        "topic": "Prompt Injection Attacks & Security",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "PIArena: A Platform for Prompt Injection Evaluation"
-        ]
-      },
-      {
-        "topic": "Federated Learning",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Quantization Impact on the Accuracy and Communication Efficiency Trade-off in Federated Learning for Aerospace Predictive Maintenance"
-        ]
-      },
-      {
-        "topic": "Open-Vocabulary Segmentation",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "OVS-DINO: Open-Vocabulary Segmentation via Structure-Aligned SAM-DINO with Language Guidance"
-        ]
-      },
-      {
-        "topic": "Rust-based Development Tools",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "Surelock: Deadlock-Free Mutexes for Rust",
-          "claw-code The repo is finally unlocked"
-        ]
-      },
-      {
-        "topic": "Autonomous Vehicles & Scene Understanding",
-        "weekly_mentions": 1,
-        "peak_score": 0,
-        "sources": [
-          "extracted"
-        ],
-        "sample_titles": [
-          "CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding and Reasoning",
-          "Every plane you see in the sky – you can now follow it from the cockpit in 3D"
+          "Learning to Think Like a Cartoon Captionist: Incongruity-Resolution Supervision for Multimodal Humor Understanding"
         ]
       }
     ]
@@ -693,6 +691,10 @@
           {
             "date": "2026-04-19",
             "quality_score": 5.46
+          },
+          {
+            "date": "2026-04-20",
+            "quality_score": 5.94
           }
         ]
       },
@@ -898,6 +900,10 @@
           {
             "date": "2026-04-19",
             "quality_score": 7.05
+          },
+          {
+            "date": "2026-04-20",
+            "quality_score": 5.63
           }
         ]
       },
@@ -935,12 +941,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 400556,
-      "output_tokens": 168040,
-      "cost_usd": 0.9926
+      "input_tokens": 416734,
+      "output_tokens": 176659,
+      "cost_usd": 1.04
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-20",
+      "keyword": "claude",
+      "quality_score": 5.94,
+      "post_url": "https://sghman.github.io/posts/2026-04-20-claude-digest/",
+      "one_line_summary": "핵심: 앤트로픽이 4월 17일 공개한 Claude Design은 자연어 명령만으로 실제 작동하는 UI/UX를 생성하는 AI 디자인 도구다. 단순 이미지 생성을 넘어 상호작용 가능한 프로토타입을 즉시 만들어낸다."
+    },
+    {
+      "date": "2026-04-20",
+      "keyword": "LLM",
+      "quality_score": 5.63,
+      "post_url": "https://sghman.github.io/posts/2026-04-20-llm-digest/",
+      "one_line_summary": "핵심: 파일럿 단계에서 예상한 비용과 실제 프로덕션 비용의 5-10배 차이는 입력 데이터 품질, 모니터링 오버헤드, 재시도 로직, 에이전트 오케스트레이션 때문에 발생한다. 출력 품질을 유지하면서도 60-80% 비용을 절감할 수 있는 엔지니어링 패턴이 존재한다."
+    },
     {
       "date": "2026-04-19",
       "keyword": "claude",
@@ -1066,20 +1086,6 @@
       "quality_score": 3.5,
       "post_url": "https://sghman.github.io/posts/2026-04-12-llm-digest/",
       "one_line_summary": "핵심: Anthropic이 Claude의 후속 모델 Mythos를 개발할 때 정신과 임상 세션을 도입했다는 주장이 제시되었습니다. 이는 기존 RLHF(강화학습)의 한계를 극복하기 위한 시도로 보도되었습니다."
-    },
-    {
-      "date": "2026-04-12",
-      "keyword": "LLM",
-      "quality_score": 3.5,
-      "post_url": "https://sghman.github.io/posts/2026-04-12-llm-digest/",
-      "one_line_summary": "핵심: Anthropic은 Constitutional AI와 강화학습(RLHF) 기법을 통해 Claude 모델의 안정성을 개선하고 있습니다. 복잡하고 모순적인 프롬프트 하에서도 모델이 일관되고 안정적인 응답을 유지하도록 설계되었습니다."
-    },
-    {
-      "date": "2026-04-11",
-      "keyword": "claude",
-      "quality_score": 5.47,
-      "post_url": "https://sghman.github.io/posts/2026-04-11-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 Claude Code를 메신저 플랫폼(텔레그램, 디스코드)에 직접 통합하는 'Claude Code Channels'를 출시했으며, 비개발자도 자연어 명령만으로 웹페이지 프레젠테이션, 자동화 도구를 구축할 수 있게 되었습니다."
     }
   ]
 }
