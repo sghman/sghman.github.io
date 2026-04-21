@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-20T04:27:00",
+  "generated_at": "2026-04-21T04:18:00",
   "summary": {
-    "total_posts": 105,
+    "total_posts": 107,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 1.04
+    "monthly_cost_usd": 1.0868
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-21",
-            "mentions": 16
-          },
           {
             "date": "2026-03-22",
             "mentions": 19
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-20",
             "mentions": 36
+          },
+          {
+            "date": "2026-04-21",
+            "mentions": 27
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-21",
-            "mentions": 27
-          },
           {
             "date": "2026-03-22",
             "mentions": 28
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-20",
             "mentions": 27
+          },
+          {
+            "date": "2026-04-21",
+            "mentions": 28
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 287,
+        "mentions": 286,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 235,
+        "mentions": 238,
         "rank": 2,
         "rank_change": 0
       }
@@ -695,6 +695,10 @@
           {
             "date": "2026-04-20",
             "quality_score": 5.94
+          },
+          {
+            "date": "2026-04-21",
+            "quality_score": 4.9
           }
         ]
       },
@@ -904,6 +908,10 @@
           {
             "date": "2026-04-20",
             "quality_score": 5.63
+          },
+          {
+            "date": "2026-04-21",
+            "quality_score": 8.4
           }
         ]
       },
@@ -941,12 +949,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 416734,
-      "output_tokens": 176659,
-      "cost_usd": 1.04
+      "input_tokens": 437042,
+      "output_tokens": 184294,
+      "cost_usd": 1.0868
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-21",
+      "keyword": "claude",
+      "quality_score": 4.9,
+      "post_url": "https://sghman.github.io/posts/2026-04-21-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 2026년 4월 17일 출시한 Claude Design은 Claude Opus 4.7 기반으로 자연어 대화만으로 디자인, 프로토타입, 슬라이드를 생성하는 도구입니다. Pro·Max·Team·Enterprise 구독자부터 접근 가능하며, 디자인 업계에서 출시 사흘 만에 뜨거운 반응을 얻고 있습니다."
+    },
+    {
+      "date": "2026-04-21",
+      "keyword": "LLM",
+      "quality_score": 8.4,
+      "post_url": "https://sghman.github.io/posts/2026-04-21-llm-digest/",
+      "one_line_summary": "핵심: 대규모 코드 평가 자동화(400명 × 2시간 = 800시간)를 직접 개발하는 대신, 터미널 기반 AI 에이전트에게 실행 방향만 지정하고 자율적으로 Git clone, 보안 스캔, Docker 빌드, 테스트, 점수 계산을 수행하도록 설계했다."
+    },
     {
       "date": "2026-04-20",
       "keyword": "claude",
@@ -1072,20 +1094,6 @@
       "quality_score": 6.7,
       "post_url": "https://sghman.github.io/posts/2026-04-12-claude-digest/",
       "one_line_summary": "핵심: Claude Code 스킬을 활용해 8명의 유명 소프트웨어 엔지니어(Uncle Bob, Linus Torvalds, Kent Beck 등)의 철학을 담은 AI 에이전트를 구성하고, 동일한 코드에 대해 독립적으로 리뷰한 후 상호 논쟁하는 2라운드 방식의 자동화된 코드 리뷰 시스템을 구현했다."
-    },
-    {
-      "date": "2026-04-12",
-      "keyword": "claude",
-      "quality_score": 6.7,
-      "post_url": "https://sghman.github.io/posts/2026-04-12-claude-digest/",
-      "one_line_summary": "핵심: Claude Code 스킬을 활용해 8명의 유명 소프트웨어 엔지니어(Uncle Bob, Linus Torvalds, Kent Beck 등)의 철학과 관점을 담은 AI 에이전트를 구성하고, 동일한 코드에 대해 독립적으로 리뷰한 후 상호 논쟁하는 2라운드 방식의 자동화된 코드 리뷰 시스템."
-    },
-    {
-      "date": "2026-04-12",
-      "keyword": "LLM",
-      "quality_score": 3.5,
-      "post_url": "https://sghman.github.io/posts/2026-04-12-llm-digest/",
-      "one_line_summary": "핵심: Anthropic이 Claude의 후속 모델 Mythos를 개발할 때 정신과 임상 세션을 도입했다는 주장이 제시되었습니다. 이는 기존 RLHF(강화학습)의 한계를 극복하기 위한 시도로 보도되었습니다."
     }
   ]
 }
