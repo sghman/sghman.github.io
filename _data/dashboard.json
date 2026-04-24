@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-23T04:19:05",
+  "generated_at": "2026-04-24T04:23:11",
   "summary": {
-    "total_posts": 110,
+    "total_posts": 112,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 1.1607
+    "monthly_cost_usd": 1.1941
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-24",
-            "mentions": 19
-          },
           {
             "date": "2026-03-25",
             "mentions": 24
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-23",
             "mentions": 33
+          },
+          {
+            "date": "2026-04-24",
+            "mentions": 30
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-24",
-            "mentions": 31
-          },
           {
             "date": "2026-03-25",
             "mentions": 33
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-23",
             "mentions": 25
+          },
+          {
+            "date": "2026-04-24",
+            "mentions": 28
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 281,
+        "mentions": 276,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 222,
+        "mentions": 223,
         "rank": 2,
         "rank_change": 0
       }
@@ -703,6 +703,10 @@
           {
             "date": "2026-04-23",
             "quality_score": 5.3
+          },
+          {
+            "date": "2026-04-24",
+            "quality_score": 5.4
           }
         ]
       },
@@ -924,6 +928,10 @@
           {
             "date": "2026-04-23",
             "quality_score": 6.74
+          },
+          {
+            "date": "2026-04-24",
+            "quality_score": 7.38
           }
         ]
       },
@@ -961,12 +969,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 466031,
-      "output_tokens": 196973,
-      "cost_usd": 1.1607
+      "input_tokens": 479811,
+      "output_tokens": 202562,
+      "cost_usd": 1.1941
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-24",
+      "keyword": "claude",
+      "quality_score": 5.4,
+      "post_url": "https://sghman.github.io/posts/2026-04-24-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 챗봇이 아닌 터미널 기반 에이전트로, 로컬 파일에 직접 접근하고 프로젝트 구조를 인덱싱한 후 사용자 승인 하에 파일 변경과 명령어를 실행합니다. 이는 기존 Copilot 같은 자동완성 도구와 근본적으로 다른 아키텍처입니다."
+    },
+    {
+      "date": "2026-04-24",
+      "keyword": "LLM",
+      "quality_score": 7.38,
+      "post_url": "https://sghman.github.io/posts/2026-04-24-llm-digest/",
+      "one_line_summary": "핵심: AI가 코드 평가와 맞춤형 면접 질문을 생성하지만, 최종 판단은 여전히 인간의 눈이 필요하다. 기능 검증(Functional Gate)만으로는 지원자의 실제 사고 과정과 AI 활용 능력을 구분할 수 없다."
+    },
     {
       "date": "2026-04-23",
       "keyword": "claude",
@@ -1092,20 +1114,6 @@
       "quality_score": 4.95,
       "post_url": "https://sghman.github.io/posts/2026-04-15-claude-digest/",
       "one_line_summary": "핵심: Claude Code는 단순한 터미널 UI가 아니라 React의 reconciliation 엔진을 활용한 커스텀 렌더러로 구현되어 있다. 브라우저 DOM 대신 터미널 호스트 노드에 커밋하며, Yoga 레이아웃 엔진과 화면 버퍼 diffing을 통해 고속 업데이트를 실현한다."
-    },
-    {
-      "date": "2026-04-14",
-      "keyword": "LLM",
-      "quality_score": 5.8,
-      "post_url": "https://sghman.github.io/posts/2026-04-14-llm-digest/",
-      "one_line_summary": "핵심: LinkedIn은 5개의 독립적인 피드 시스템을 하나의 LLM 기반 모델로 통합하여 복잡성을 제거했지만, 새로운 과제들에 직면했다. 특히 구조화된 데이터 이해, 50ms 이내의 응답 시간 보장, 노이즈가 많은 데이터 학습이 핵심 문제다."
-    },
-    {
-      "date": "2026-04-14",
-      "keyword": "claude",
-      "quality_score": 6.45,
-      "post_url": "https://sghman.github.io/posts/2026-04-14-claude-digest/",
-      "one_line_summary": "핵심: Claude 사용자들이 주간 한도(Rate Limit)를 초과하면서 작업이 중단되는 문제가 보고되고 있습니다. 특히 API 기반 프로젝트나 대량 처리 작업에서 예상치 못한 한도 도달로 인한 손실이 발생하고 있습니다."
     }
   ]
 }

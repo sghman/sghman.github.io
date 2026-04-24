@@ -1,6 +1,11 @@
 # _data/activity.yml
 # 자동 생성 — generate_dashboard_data.py
 
+- date: "2026-04-24"
+  project: 수집_블로그
+  text: "claude, LLM 기술 동향 포스트 발행"
+  color: green
+
 - date: "2026-04-23"
   project: 수집_블로그
   text: "claude, LLM 기술 동향 포스트 발행"
@@ -42,11 +47,6 @@
   color: green
 
 - date: "2026-04-15"
-  project: 수집_블로그
-  text: "LLM, claude 기술 동향 포스트 발행"
-  color: green
-
-- date: "2026-04-14"
   project: 수집_블로그
   text: "LLM, claude 기술 동향 포스트 발행"
   color: green
