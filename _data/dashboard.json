@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-24T04:23:11",
+  "generated_at": "2026-04-25T03:57:07",
   "summary": {
-    "total_posts": 112,
+    "total_posts": 114,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 1.1941
+    "monthly_cost_usd": 1.2246
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-25",
-            "mentions": 24
-          },
           {
             "date": "2026-03-26",
             "mentions": 24
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-24",
             "mentions": 30
+          },
+          {
+            "date": "2026-04-25",
+            "mentions": 31
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-25",
-            "mentions": 33
-          },
           {
             "date": "2026-03-26",
             "mentions": 24
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-24",
             "mentions": 28
+          },
+          {
+            "date": "2026-04-25",
+            "mentions": 29
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 276,
+        "mentions": 269,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 223,
+        "mentions": 220,
         "rank": 2,
         "rank_change": 0
       }
@@ -707,6 +707,10 @@
           {
             "date": "2026-04-24",
             "quality_score": 5.4
+          },
+          {
+            "date": "2026-04-25",
+            "quality_score": 6.94
           }
         ]
       },
@@ -932,6 +936,10 @@
           {
             "date": "2026-04-24",
             "quality_score": 7.38
+          },
+          {
+            "date": "2026-04-25",
+            "quality_score": 5.13
           }
         ]
       },
@@ -969,12 +977,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 479811,
-      "output_tokens": 202562,
-      "cost_usd": 1.1941
+      "input_tokens": 493070,
+      "output_tokens": 207531,
+      "cost_usd": 1.2246
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-25",
+      "keyword": "claude",
+      "quality_score": 6.94,
+      "post_url": "https://sghman.github.io/posts/2026-04-25-claude-digest/",
+      "one_line_summary": "핵심: Claude Opus 4.7은 전체 성능에서 GPT-5.5와 경쟁하지만, 특정 영역에서 명확한 우위를 보임. MCP-Atlas(복잡한 다중 턴 도구 호출) 77.3%, SWE-Bench Pro(실제 GitHub 이슈 해결) 64.3%로 경쟁 모델을 앞섬."
+    },
+    {
+      "date": "2026-04-25",
+      "keyword": "LLM",
+      "quality_score": 5.13,
+      "post_url": "https://sghman.github.io/posts/2026-04-25-llm-digest/",
+      "one_line_summary": "핵심: 4월 24~25일 24시간 내 GPT-5.5(OpenAI), Claude Opus 4.7(Anthropic), DeepSeek V4-Pro/Flash(오픈소스) 동시 출시. 벤치마크 점수는 GPT-5.5(60점) > Claude Opus 4.7(57점) > DeepSeek V4-Pro(경쟁 수준)이지만, 3점 차이는 실무에서 결정적이지 않음."
+    },
     {
       "date": "2026-04-24",
       "keyword": "claude",
@@ -1100,20 +1122,6 @@
       "quality_score": 7.29,
       "post_url": "https://sghman.github.io/posts/2026-04-16-llm-digest/",
       "one_line_summary": "핵심: 네이버 보안팀이 4월 30일 개최하는 세미나에서 \"지속 가능한 AI 레드티밍 파이프라인 구축\"과 \"피싱 공격 체인의 탐지 회피 기법 진화\"를 주제로 다룬다. LLM이 보안 위협과 방어 양쪽 모두에 영향을 미치는 현실을 반영한 것."
-    },
-    {
-      "date": "2026-04-15",
-      "keyword": "LLM",
-      "quality_score": 5.45,
-      "post_url": "https://sghman.github.io/posts/2026-04-15-llm-digest/",
-      "one_line_summary": "핵심: 2026년 LLM 네이티브 애플리케이션 개발의 핵심은 대화형 인터페이스가 아닌 구조화된 출력 시스템 구축이다. 기존의 \"챗봇을 만들자\"는 본능적 접근에서 벗어나 JSON, 스키마 기반의 정형화된 결과물을 생성하는 방식으로 전환되고 있다."
-    },
-    {
-      "date": "2026-04-15",
-      "keyword": "claude",
-      "quality_score": 4.95,
-      "post_url": "https://sghman.github.io/posts/2026-04-15-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순한 터미널 UI가 아니라 React의 reconciliation 엔진을 활용한 커스텀 렌더러로 구현되어 있다. 브라우저 DOM 대신 터미널 호스트 노드에 커밋하며, Yoga 레이아웃 엔진과 화면 버퍼 diffing을 통해 고속 업데이트를 실현한다."
     }
   ]
 }
