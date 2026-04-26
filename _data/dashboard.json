@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-25T03:57:07",
+  "generated_at": "2026-04-26T04:29:37",
   "summary": {
-    "total_posts": 114,
+    "total_posts": 118,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 1.2246
+    "monthly_cost_usd": 1.3221
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-26",
-            "mentions": 24
-          },
           {
             "date": "2026-03-27",
             "mentions": 25
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-25",
             "mentions": 31
+          },
+          {
+            "date": "2026-04-26",
+            "mentions": 31
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-26",
-            "mentions": 24
-          },
           {
             "date": "2026-03-27",
             "mentions": 16
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-25",
             "mentions": 29
+          },
+          {
+            "date": "2026-04-26",
+            "mentions": 27
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 269,
+        "mentions": 256,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 220,
+        "mentions": 215,
         "rank": 2,
         "rank_change": 0
       }
@@ -711,6 +711,14 @@
           {
             "date": "2026-04-25",
             "quality_score": 6.94
+          },
+          {
+            "date": "2026-04-26",
+            "quality_score": 4.48
+          },
+          {
+            "date": "2026-04-26",
+            "quality_score": 3.87
           }
         ]
       },
@@ -940,6 +948,14 @@
           {
             "date": "2026-04-25",
             "quality_score": 5.13
+          },
+          {
+            "date": "2026-04-26",
+            "quality_score": 6.1
+          },
+          {
+            "date": "2026-04-26",
+            "quality_score": 6.1
           }
         ]
       },
@@ -977,12 +993,40 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 493070,
-      "output_tokens": 207531,
-      "cost_usd": 1.2246
+      "input_tokens": 529580,
+      "output_tokens": 224597,
+      "cost_usd": 1.3221
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-26",
+      "keyword": "claude",
+      "quality_score": 4.48,
+      "post_url": "https://sghman.github.io/posts/2026-04-26-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순한 코드 완성 도구를 넘어 자연어 지시만으로 복잡한 프로젝트를 자동화하는 에이전트로 진화했습니다. 영상 편집(Remotion, FFmpeg), .NET 아키텍처 설계, 데이터 분석 등 다양한 분야에서 실제 산출물을 생성합니다."
+    },
+    {
+      "date": "2026-04-26",
+      "keyword": "claude",
+      "quality_score": 3.87,
+      "post_url": "https://sghman.github.io/posts/2026-04-26-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Opus를 출시했으며, 동시에 Claude 에이전트 마켓플레이스를 론칭하여 AI 에이전트 생태계를 본격화했습니다."
+    },
+    {
+      "date": "2026-04-26",
+      "keyword": "LLM",
+      "quality_score": 6.1,
+      "post_url": "https://sghman.github.io/posts/2026-04-26-llm-digest/",
+      "one_line_summary": "핵심: Anthropic이 Project Deal을 통해 AI 에이전트가 실제 거래를 자율적으로 체결할 수 있음을 증명했다. 69개 에이전트가 $4,000 규모의 186건 거래를 성사시켰고, 46%의 참여자가 유사 서비스 구매 의향을 표현했다. 하지만 폐쇄된 조직 내부에서만 작동했다는 한계가 있다."
+    },
+    {
+      "date": "2026-04-26",
+      "keyword": "LLM",
+      "quality_score": 6.1,
+      "post_url": "https://sghman.github.io/posts/2026-04-26-llm-digest/",
+      "one_line_summary": "핵심: Anthropic의 Project Deal 실험에서 AI 에이전트가 자율적으로 186건의 거래를 체결했으며(총 거래액 $4,000 이상), 참여자의 46%가 유사 서비스에 대한 구매 의향을 보였다. 이는 단순한 데모가 아닌 실제 제품-시장 적합성(PMF) 신호다."
+    },
     {
       "date": "2026-04-25",
       "keyword": "claude",
@@ -1094,34 +1138,6 @@
       "quality_score": 6.19,
       "post_url": "https://sghman.github.io/posts/2026-04-18-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 Claude Design을 공식 출시했으며, 단순한 디자인 도구를 넘어 \"Handoff to Claude Code\" 버튼으로 설계에서 배포까지 한 번의 대화로 완성하는 구조를 제시했다. 이는 Figma와의 경쟁이 아닌 워크플로우 통합의 차원이다."
-    },
-    {
-      "date": "2026-04-18",
-      "keyword": "LLM",
-      "quality_score": 6.85,
-      "post_url": "https://sghman.github.io/posts/2026-04-18-llm-digest/",
-      "one_line_summary": "핵심: Cloudflare의 Unweight는 LLM 모델 가중치를 15~22% 압축하면서 출력 정확도를 완벽히 유지하는 무손실 압축 기술입니다. H100 GPU에서 텐서 코어의 연산 속도(메모리 대역폭의 600배)와 메모리 접근 속도 간의 격차를 해결하는 것이 핵심입니다."
-    },
-    {
-      "date": "2026-04-17",
-      "keyword": "claude",
-      "quality_score": 5.94,
-      "post_url": "https://sghman.github.io/posts/2026-04-17-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 Claude Opus 4.7을 공식 출시했으며, 이전 버전(4.6) 대비 코드 생성 능력, 장문맥 처리, Claude Code 기능이 강화되었습니다. 특히 Claude Code에 'xhigh' 난이도 레벨이 신규 추가되어 더 복잡한 개발 작업 자동화가 가능해졌습니다."
-    },
-    {
-      "date": "2026-04-16",
-      "keyword": "claude",
-      "quality_score": 5.79,
-      "post_url": "https://sghman.github.io/posts/2026-04-16-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 2026년 4월에 Claude Mythos를 공개했으며, 이는 Claude Opus 4.6, Sonnet 4.6을 능가하는 최신 고성능 범용 AI 모델입니다. 기존 Claude 모델보다 더 강력한 추론 능력과 확장된 컨텍스트 윈도우를 제공합니다."
-    },
-    {
-      "date": "2026-04-16",
-      "keyword": "LLM",
-      "quality_score": 7.29,
-      "post_url": "https://sghman.github.io/posts/2026-04-16-llm-digest/",
-      "one_line_summary": "핵심: 네이버 보안팀이 4월 30일 개최하는 세미나에서 \"지속 가능한 AI 레드티밍 파이프라인 구축\"과 \"피싱 공격 체인의 탐지 회피 기법 진화\"를 주제로 다룬다. LLM이 보안 위협과 방어 양쪽 모두에 영향을 미치는 현실을 반영한 것."
     }
   ]
 }
