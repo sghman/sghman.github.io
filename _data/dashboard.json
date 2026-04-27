@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-26T04:30:05",
+  "generated_at": "2026-04-27T04:37:12",
   "summary": {
-    "total_posts": 118,
+    "total_posts": 120,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 1.3221
+    "monthly_cost_usd": 1.3742
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-27",
-            "mentions": 25
-          },
           {
             "date": "2026-03-28",
             "mentions": 29
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-26",
             "mentions": 31
+          },
+          {
+            "date": "2026-04-27",
+            "mentions": 28
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-27",
-            "mentions": 16
-          },
           {
             "date": "2026-03-28",
             "mentions": 27
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-26",
             "mentions": 27
+          },
+          {
+            "date": "2026-04-27",
+            "mentions": 25
           }
         ]
       }
@@ -270,7 +270,7 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 256,
+        "mentions": 241,
         "rank": 1,
         "rank_change": 0
       },
@@ -283,10 +283,10 @@
     ],
     "bump_chart": {
       "weeks": [
-        "2026-W14",
         "2026-W15",
         "2026-W16",
-        "2026-W17"
+        "2026-W17",
+        "2026-W18"
       ],
       "series": [
         {
@@ -313,176 +313,174 @@
   "emerging_topics": {
     "topics": [
       {
-        "topic": "AI Agents & Multi-Agent Systems",
+        "topic": "AI Agent Skills & Tools",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
-          "CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas",
-          "open-multi-agent TypeScript multi-agent orchestration engine"
+          "khazix-skills 数字生命卡兹克开源的 AI Skills 合集",
+          "fireworks-tech-graph Claude Code skill for generating production-quality SVG+PNG technical diagrams"
         ]
       },
       {
-        "topic": "Vision Language Models (VLMs)",
+        "topic": "Browser Automation for AI",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "How Do LLMs and VLMs Understand Viewpoint Rotation Without Vision?",
-          "Why Do Vision Language Models Struggle To Recognize Human Emotions?",
-          "RadAgent: A tool-using AI agent for stepwise interpretation of chest computed tomography"
+          "A web-based RDP client built with Go WebAssembly and grdp",
+          "browser-harness Browser Harness | Self-healing harness that enables LLMs to complete any task"
         ]
       },
       {
-        "topic": "Tensor Program Optimization",
+        "topic": "Video Processing & Generation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Prism: Symbolic Superoptimization of Tensor Programs"
+          "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+          "video-use Edit videos with coding agents"
         ]
       },
       {
-        "topic": "Graph Neural Networks",
+        "topic": "Continual Learning",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "How Embeddings Shape Graph Neural Networks: Classical vs Quantum-Oriented Node Representations"
+          "Temporal Taskification in Streaming Continual Learning",
+          "Fine-Tuning Regimes Define Distinct Continual Learning Problems"
         ]
       },
       {
-        "topic": "Medical Image Segmentation",
+        "topic": "Parameter-Efficient Fine-Tuning (LoRA)",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "SegWithU: Uncertainty as Perturbation Energy for Single-Forward-Pass Risk-Aware Medical Image Segmentation",
-          "AD4AD: Benchmarking Visual Anomaly Detection Models for Safer Autonomous Driving"
+          "Low-Rank Adaptation Redux for Large Models",
+          "GiVA: Gradient-Informed Bases for Vector-Based Adaptation"
         ]
       },
       {
-        "topic": "Post-Quantum Cryptography",
+        "topic": "DeepSeek v4",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Structural Dependency Analysis for Masked NTT Hardware: Scalable Pre-Silicon Verification of Post-Quantum Cryptographic Accelerators"
+          "DeepSeek v4"
         ]
       },
       {
-        "topic": "Retrieval Augmented Generation (RAG)",
+        "topic": "Vision-Language Model Hallucinations",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Enhancing Large Language Models with Retrieval Augmented Generation for Software Testing and Inspection Automation"
+          "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs"
         ]
       },
       {
-        "topic": "LLM-as-Judge Evaluation",
+        "topic": "Quantum Circuit Optimization",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations",
-          "Context Over Content: Exposing Evaluation Faking in Automated Judges"
+          "Replay-buffer engineering for noise-robust quantum circuit optimization"
         ]
       },
       {
-        "topic": "Knowledge Graph Construction",
+        "topic": "Autonomous Vehicle Sensor Spoofing",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "graphify AI coding assistant skill",
-          "mempalace The best-benchmarked open-source AI memory system"
+          "Cross-Modal Phantom: Coordinated Camera-LiDAR Spoofing Against Multi-Sensor Fusion in Autonomous Vehicles"
         ]
       },
       {
-        "topic": "Quantum Computing & Quantum ML",
+        "topic": "Generative Flow Networks",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Cloning is as Hard as Learning for Stabilizer States",
-          "Optimal algorithmic complexity of inference in quantum kernel methods"
+          "GFlowState: Visualizing the Training of Generative Flow Networks Beyond the Reward"
         ]
       },
       {
-        "topic": "Looped Transformers",
+        "topic": "Scientific Workflow Automation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Stability and Generalization in Looped Transformers"
+          "From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation"
         ]
       },
       {
-        "topic": "Tabular Deep Learning",
+        "topic": "URL Phishing Detection",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Benchmarking Optimizers for MLPs in Tabular Deep Learning"
+          "TraceScope: Interactive URL Triage via Decoupled Checklist Adjudication"
         ]
       },
       {
-        "topic": "Safety-Critical RL",
+        "topic": "Adversarial Attacks on LLM Agents",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "RL-STPA: Adapting System-Theoretic Hazard Analysis for Safety-Critical Reinforcement Learning"
+          "Transient Turn Injection: Exposing Stateless Multi-Turn Vulnerabilities in Large Language Models",
+          "Black-Box Skill Stealing Attack from Proprietary LLM Agents"
         ]
       },
       {
-        "topic": "Visual Token Pruning",
+        "topic": "Wayland Compositor (Niri)",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "VisPCO: Visual Token Pruning Configuration Optimization via Budget-Aware Pareto-Frontier Learning for Vision-Language Models"
+          "Niri 26.04: Scrollable-tiling Wayland compositor"
         ]
       },
       {
-        "topic": "Humor Understanding in Multimodal AI",
+        "topic": "Open-Source TTS Models",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Learning to Think Like a Cartoon Captionist: Incongruity-Resolution Supervision for Multimodal Humor Understanding"
+          "MOSS-TTS-Nano is an open-source multilingual tiny speech generation model"
         ]
       }
     ]
@@ -719,6 +717,10 @@
           {
             "date": "2026-04-26",
             "quality_score": 3.87
+          },
+          {
+            "date": "2026-04-27",
+            "quality_score": 5.45
           }
         ]
       },
@@ -956,6 +958,10 @@
           {
             "date": "2026-04-26",
             "quality_score": 6.1
+          },
+          {
+            "date": "2026-04-27",
+            "quality_score": 6.24
           }
         ]
       },
@@ -993,12 +999,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 529580,
-      "output_tokens": 224597,
-      "cost_usd": 1.3221
+      "input_tokens": 549252,
+      "output_tokens": 233710,
+      "cost_usd": 1.3742
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-27",
+      "keyword": "claude",
+      "quality_score": 5.45,
+      "post_url": "https://sghman.github.io/posts/2026-04-27-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Mythos라는 새로운 모델 계층을 출시하며 Haiku → Sonnet → Opus → Mythos 구조로 확대했습니다. 동시에 MCP(Model Context Protocol)와 Cowork OS를 통해 외부 앱 연동과 워크플로우 자동화가 가능해졌습니다."
+    },
+    {
+      "date": "2026-04-27",
+      "keyword": "LLM",
+      "quality_score": 6.24,
+      "post_url": "https://sghman.github.io/posts/2026-04-27-llm-digest/",
+      "one_line_summary": "핵심: KubeStellar의 AI 에이전트가 생성한 PR이 81% 승인율을 기록했다. 이는 단순 자동완성이 아닌 기능 구현, 버그 수정, 리팩토링 수준의 실제 기여를 의미한다."
+    },
     {
       "date": "2026-04-26",
       "keyword": "claude",
@@ -1124,20 +1144,6 @@
       "quality_score": 6.44,
       "post_url": "https://sghman.github.io/posts/2026-04-19-llm-digest/",
       "one_line_summary": "핵심: LLM이 다음 단어를 예측하는 과정은 단순한 통계 모델이 아니라, Transformer 아키텍처의 Attention 메커니즘을 통해 입력 문장의 각 단어 간 관계를 학습하고 가중치를 부여하는 방식으로 작동한다. Query(Q), Key(K), Value(V)는 이 과정에서 문맥을 이해하고 관련성 높은 정보를 추출하는 핵심 요소다."
-    },
-    {
-      "date": "2026-04-19",
-      "keyword": "LLM",
-      "quality_score": 7.05,
-      "post_url": "https://sghman.github.io/posts/2026-04-19-llm-digest/",
-      "one_line_summary": "핵심: LLM이 다음 단어를 예측하는 과정은 Transformer의 Attention 메커니즘에서 Query(Q), Key(K), Value(V)가 어떻게 작동하는지 이해하는 것이 출발점이다. 이 세 요소가 입력 문장을 수치 표현으로 변환하고, 단어 간 관계를 계산해 최적의 다음 단어를 도출한다."
-    },
-    {
-      "date": "2026-04-18",
-      "keyword": "claude",
-      "quality_score": 6.19,
-      "post_url": "https://sghman.github.io/posts/2026-04-18-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 Claude Design을 공식 출시했으며, 단순한 디자인 도구를 넘어 \"Handoff to Claude Code\" 버튼으로 설계에서 배포까지 한 번의 대화로 완성하는 구조를 제시했다. 이는 Figma와의 경쟁이 아닌 워크플로우 통합의 차원이다."
     }
   ]
 }
