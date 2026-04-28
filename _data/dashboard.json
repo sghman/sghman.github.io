@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-27T04:37:12",
+  "generated_at": "2026-04-28T04:40:23",
   "summary": {
-    "total_posts": 120,
+    "total_posts": 122,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 1.3742
+    "monthly_cost_usd": 1.4129
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-28",
-            "mentions": 29
-          },
           {
             "date": "2026-03-29",
             "mentions": 31
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-27",
             "mentions": 28
+          },
+          {
+            "date": "2026-04-28",
+            "mentions": 31
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-28",
-            "mentions": 27
-          },
           {
             "date": "2026-03-29",
             "mentions": 16
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-27",
             "mentions": 25
+          },
+          {
+            "date": "2026-04-28",
+            "mentions": 33
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 241,
+        "mentions": 236,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 215,
+        "mentions": 221,
         "rank": 2,
         "rank_change": 0
       }
@@ -721,6 +721,10 @@
           {
             "date": "2026-04-27",
             "quality_score": 5.45
+          },
+          {
+            "date": "2026-04-28",
+            "quality_score": 5.8
           }
         ]
       },
@@ -962,6 +966,10 @@
           {
             "date": "2026-04-27",
             "quality_score": 6.24
+          },
+          {
+            "date": "2026-04-28",
+            "quality_score": 5.73
           }
         ]
       },
@@ -999,12 +1007,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 549252,
-      "output_tokens": 233710,
-      "cost_usd": 1.3742
+      "input_tokens": 563767,
+      "output_tokens": 240473,
+      "cost_usd": 1.4129
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-28",
+      "keyword": "claude",
+      "quality_score": 5.8,
+      "post_url": "https://sghman.github.io/posts/2026-04-28-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순 코드 완성 도구를 넘어 전체 기능, 함수, 복잡한 버그를 동시에 처리하는 완전한 에이전트 형태로 진화했습니다. GPT-5.5, Claude Opus, Gemini 3.1 Pro 등 여러 프론티어 모델이 출시되면서 AI 코딩 어시스턴트 시장이 재편되고 있습니다."
+    },
+    {
+      "date": "2026-04-28",
+      "keyword": "LLM",
+      "quality_score": 5.73,
+      "post_url": "https://sghman.github.io/posts/2026-04-28-llm-digest/",
+      "one_line_summary": "핵심: 일반 LLM이 아닌 특정 도메인에 최적화된 LLM 기반 솔루션이 실제 비즈니스 문제를 해결하고 있다. Amazon의 COSMO(상식 지식 그래프)는 \"임신한 여성용 신발\" 검색처럼 키워드 매칭으로 불가능한 의미적 추론을 가능하게 했고, 스마트라이드는 택시업계 전용 AI 경영분석 레포트 서비스를 출시했다."
+    },
     {
       "date": "2026-04-27",
       "keyword": "claude",
@@ -1130,20 +1152,6 @@
       "quality_score": 5.6,
       "post_url": "https://sghman.github.io/posts/2026-04-19-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 Claude Opus 4.7을 출시했으나, 벤치마크 성능 향상보다 요금 인상이 더 큰 화제가 되고 있다. 뛰어난 코딩 성능과 새로운 디자인 툴을 탑재했지만, 사용자들은 가성비 문제를 지적하고 있다."
-    },
-    {
-      "date": "2026-04-19",
-      "keyword": "claude",
-      "quality_score": 5.46,
-      "post_url": "https://sghman.github.io/posts/2026-04-19-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 최신 플래그십 모델 Claude Opus 4.7을 출시했으며, 뛰어난 코딩 성능과 새로운 디자인 툴을 탑재했으나 요금 인상으로 논쟁이 발생하고 있습니다."
-    },
-    {
-      "date": "2026-04-19",
-      "keyword": "LLM",
-      "quality_score": 6.44,
-      "post_url": "https://sghman.github.io/posts/2026-04-19-llm-digest/",
-      "one_line_summary": "핵심: LLM이 다음 단어를 예측하는 과정은 단순한 통계 모델이 아니라, Transformer 아키텍처의 Attention 메커니즘을 통해 입력 문장의 각 단어 간 관계를 학습하고 가중치를 부여하는 방식으로 작동한다. Query(Q), Key(K), Value(V)는 이 과정에서 문맥을 이해하고 관련성 높은 정보를 추출하는 핵심 요소다."
     }
   ]
 }
