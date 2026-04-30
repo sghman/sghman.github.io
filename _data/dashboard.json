@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-29T04:36:46",
+  "generated_at": "2026-04-30T04:39:18",
   "summary": {
-    "total_posts": 124,
+    "total_posts": 125,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 1.4651
+    "monthly_cost_usd": 1.4932
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-30",
-            "mentions": 24
-          },
           {
             "date": "2026-03-31",
             "mentions": 20
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-29",
             "mentions": 32
+          },
+          {
+            "date": "2026-04-30",
+            "mentions": 29
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-30",
-            "mentions": 16
-          },
           {
             "date": "2026-03-31",
             "mentions": 24
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-29",
             "mentions": 25
+          },
+          {
+            "date": "2026-04-30",
+            "mentions": 13
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 241,
+        "mentions": 245,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 218,
+        "mentions": 205,
         "rank": 2,
         "rank_change": 0
       }
@@ -729,6 +729,10 @@
           {
             "date": "2026-04-29",
             "quality_score": 5.51
+          },
+          {
+            "date": "2026-04-30",
+            "quality_score": 5.04
           }
         ]
       },
@@ -978,16 +982,16 @@
           {
             "date": "2026-04-29",
             "quality_score": 6.39
+          },
+          {
+            "date": "2026-04-30",
+            "quality_score": 7.42
           }
         ]
       },
       {
         "keyword": "kubernetes",
         "data_points": [
-          {
-            "date": "2026-02-28",
-            "quality_score": 5.37
-          },
           {
             "date": "2026-03-01",
             "quality_score": 5.7
@@ -1002,12 +1006,6 @@
   },
   "monthly_cost": [
     {
-      "month": "2026-02",
-      "input_tokens": 4263,
-      "output_tokens": 1998,
-      "cost_usd": 0.0114
-    },
-    {
       "month": "2026-03",
       "input_tokens": 523402,
       "output_tokens": 198418,
@@ -1015,12 +1013,26 @@
     },
     {
       "month": "2026-04",
-      "input_tokens": 585131,
-      "output_tokens": 249259,
-      "cost_usd": 1.4651
+      "input_tokens": 595876,
+      "output_tokens": 254129,
+      "cost_usd": 1.4932
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-04-30",
+      "keyword": "claude",
+      "quality_score": 5.04,
+      "post_url": "https://sghman.github.io/posts/2026-04-30-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 Claude Mythos라는 새로운 프론티어 모델을 추가하며 기존 Opus, Sonnet, Haiku 라인업을 확장했습니다. 동시에 Claude Skills라는 재사용 가능한 \"전문성 패키지\" 기능이 주목받고 있으며, 이는 Claude.ai, Claude Code, API 전반에서 활용 가능합니다."
+    },
+    {
+      "date": "2026-04-30",
+      "keyword": "LLM",
+      "quality_score": 7.42,
+      "post_url": "https://sghman.github.io/posts/2026-04-30-llm-digest/",
+      "one_line_summary": "핵심: IBM Granite 4.1의 8B 모델이 이전 32B MoE 모델을 능가했다. 이는 단순 스케일링이 아닌 5단계 데이터 큐레이션과 다단계 강화학습(GRPO + DAPO)의 결과다."
+    },
     {
       "date": "2026-04-29",
       "keyword": "claude",
@@ -1146,20 +1158,6 @@
       "quality_score": 4.9,
       "post_url": "https://sghman.github.io/posts/2026-04-21-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 2026년 4월 17일 출시한 Claude Design은 Claude Opus 4.7 기반으로 자연어 대화만으로 디자인, 프로토타입, 슬라이드를 생성하는 도구입니다. Pro·Max·Team·Enterprise 구독자부터 접근 가능하며, 디자인 업계에서 출시 사흘 만에 뜨거운 반응을 얻고 있습니다."
-    },
-    {
-      "date": "2026-04-21",
-      "keyword": "LLM",
-      "quality_score": 8.4,
-      "post_url": "https://sghman.github.io/posts/2026-04-21-llm-digest/",
-      "one_line_summary": "핵심: 대규모 코드 평가 자동화(400명 × 2시간 = 800시간)를 직접 개발하는 대신, 터미널 기반 AI 에이전트에게 실행 방향만 지정하고 자율적으로 Git clone, 보안 스캔, Docker 빌드, 테스트, 점수 계산을 수행하도록 설계했다."
-    },
-    {
-      "date": "2026-04-20",
-      "keyword": "claude",
-      "quality_score": 5.94,
-      "post_url": "https://sghman.github.io/posts/2026-04-20-claude-digest/",
-      "one_line_summary": "핵심: 앤트로픽이 4월 17일 공개한 Claude Design은 자연어 명령만으로 실제 작동하는 UI/UX를 생성하는 AI 디자인 도구다. 단순 이미지 생성을 넘어 상호작용 가능한 프로토타입을 즉시 만들어낸다."
     }
   ]
 }
