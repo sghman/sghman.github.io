@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-04-30T04:39:18",
+  "generated_at": "2026-05-01T04:55:55",
   "summary": {
-    "total_posts": 125,
+    "total_posts": 126,
     "total_keywords": 3,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 1.4932
+    "monthly_cost_usd": 0.0393
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-03-31",
-            "mentions": 20
-          },
           {
             "date": "2026-04-01",
             "mentions": 32
@@ -134,16 +130,16 @@
           {
             "date": "2026-04-30",
             "mentions": 29
+          },
+          {
+            "date": "2026-05-01",
+            "mentions": 30
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-31",
-            "mentions": 24
-          },
           {
             "date": "2026-04-01",
             "mentions": 26
@@ -263,6 +259,10 @@
           {
             "date": "2026-04-30",
             "mentions": 13
+          },
+          {
+            "date": "2026-05-01",
+            "mentions": 28
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 245,
+        "mentions": 242,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 205,
+        "mentions": 208,
         "rank": 2,
         "rank_change": 0
       }
@@ -733,6 +733,10 @@
           {
             "date": "2026-04-30",
             "quality_score": 5.04
+          },
+          {
+            "date": "2026-05-01",
+            "quality_score": 5.56
           }
         ]
       },
@@ -986,16 +990,16 @@
           {
             "date": "2026-04-30",
             "quality_score": 7.42
+          },
+          {
+            "date": "2026-05-01",
+            "quality_score": 6.22
           }
         ]
       },
       {
         "keyword": "kubernetes",
         "data_points": [
-          {
-            "date": "2026-03-01",
-            "quality_score": 5.7
-          },
           {
             "date": "2026-03-02",
             "quality_score": 5.6
@@ -1007,18 +1011,38 @@
   "monthly_cost": [
     {
       "month": "2026-03",
-      "input_tokens": 523402,
-      "output_tokens": 198418,
-      "cost_usd": 1.2124
+      "input_tokens": 519078,
+      "output_tokens": 196236,
+      "cost_usd": 1.2002
     },
     {
       "month": "2026-04",
       "input_tokens": 595876,
       "output_tokens": 254129,
       "cost_usd": 1.4932
+    },
+    {
+      "month": "2026-05",
+      "input_tokens": 17492,
+      "output_tokens": 6328,
+      "cost_usd": 0.0393
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-01",
+      "keyword": "claude",
+      "quality_score": 5.56,
+      "post_url": "https://sghman.github.io/posts/2026-05-01-claude-digest/",
+      "one_line_summary": "핵심: Claude Security가 공개 베타로 출시되어 API 연동 없이 저장소 전체 또는 특정 디렉터리의 코드 취약점을 자동으로 스캔하고 패치를 제안합니다. Claude Enterprise 고객은 추가 설정 없이 즉시 사용 가능합니다."
+    },
+    {
+      "date": "2026-05-01",
+      "keyword": "LLM",
+      "quality_score": 6.22,
+      "post_url": "https://sghman.github.io/posts/2026-05-01-llm-digest/",
+      "one_line_summary": "핵심: Arduino가 Qualcomm과 협력해 40 TOPS NPU를 탑재한 첫 AI 보드를 출시했다. 16GB RAM, ROS 2 지원, 로컬 LLM 실행 가능이 특징이다."
+    },
     {
       "date": "2026-04-30",
       "keyword": "claude",
@@ -1144,20 +1168,6 @@
       "quality_score": 6.74,
       "post_url": "https://sghman.github.io/posts/2026-04-23-llm-digest/",
       "one_line_summary": "핵심: 벤치마크 검증 없이 모델을 평가하면 실제 성능이 아닌 데이터셋의 오류를 측정하게 된다. QIMMA는 \"평가 전 검증(validate before evaluate)\" 원칙으로 아랍어 LLM 평가의 신뢰성을 복구하는 프레임워크다."
-    },
-    {
-      "date": "2026-04-22",
-      "keyword": "LLM",
-      "quality_score": 7.43,
-      "post_url": "https://sghman.github.io/posts/2026-04-22-llm-digest/",
-      "one_line_summary": "핵심: 기존 LLM 벤치마크는 검증 없이 사용되어 왔으며, 번역 오류, 주석 불일치, 문화적 편향 등으로 인해 평가 결과가 왜곡되고 있다. QIMMA는 모델 평가 전에 벤치마크 자체의 품질을 먼저 검증하는 역순 접근법을 도입했다."
-    },
-    {
-      "date": "2026-04-21",
-      "keyword": "claude",
-      "quality_score": 4.9,
-      "post_url": "https://sghman.github.io/posts/2026-04-21-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 2026년 4월 17일 출시한 Claude Design은 Claude Opus 4.7 기반으로 자연어 대화만으로 디자인, 프로토타입, 슬라이드를 생성하는 도구입니다. Pro·Max·Team·Enterprise 구독자부터 접근 가능하며, 디자인 업계에서 출시 사흘 만에 뜨거운 반응을 얻고 있습니다."
     }
   ]
 }
