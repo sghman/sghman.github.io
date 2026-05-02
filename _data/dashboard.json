@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-05-01T04:55:55",
+  "generated_at": "2026-05-02T04:24:14",
   "summary": {
-    "total_posts": 126,
-    "total_keywords": 3,
+    "total_posts": 127,
+    "total_keywords": 2,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.0393
+    "monthly_cost_usd": 0.0655
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-04-01",
-            "mentions": 32
-          },
           {
             "date": "2026-04-02",
             "mentions": 41
@@ -134,16 +130,16 @@
           {
             "date": "2026-05-01",
             "mentions": 30
+          },
+          {
+            "date": "2026-05-02",
+            "mentions": 29
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-04-01",
-            "mentions": 26
-          },
           {
             "date": "2026-04-02",
             "mentions": 29
@@ -263,6 +259,10 @@
           {
             "date": "2026-05-01",
             "mentions": 28
+          },
+          {
+            "date": "2026-05-02",
+            "mentions": 23
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 242,
+        "mentions": 241,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 208,
+        "mentions": 203,
         "rank": 2,
         "rank_change": 0
       }
@@ -737,6 +737,10 @@
           {
             "date": "2026-05-01",
             "quality_score": 5.56
+          },
+          {
+            "date": "2026-05-02",
+            "quality_score": 6.8
           }
         ]
       },
@@ -994,15 +998,10 @@
           {
             "date": "2026-05-01",
             "quality_score": 6.22
-          }
-        ]
-      },
-      {
-        "keyword": "kubernetes",
-        "data_points": [
+          },
           {
-            "date": "2026-03-02",
-            "quality_score": 5.6
+            "date": "2026-05-02",
+            "quality_score": 5.63
           }
         ]
       }
@@ -1011,9 +1010,9 @@
   "monthly_cost": [
     {
       "month": "2026-03",
-      "input_tokens": 519078,
-      "output_tokens": 196236,
-      "cost_usd": 1.2002
+      "input_tokens": 515290,
+      "output_tokens": 194394,
+      "cost_usd": 1.1898
     },
     {
       "month": "2026-04",
@@ -1023,12 +1022,26 @@
     },
     {
       "month": "2026-05",
-      "input_tokens": 17492,
-      "output_tokens": 6328,
-      "cost_usd": 0.0393
+      "input_tokens": 27159,
+      "output_tokens": 10932,
+      "cost_usd": 0.0655
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-02",
+      "keyword": "claude",
+      "quality_score": 6.8,
+      "post_url": "https://sghman.github.io/posts/2026-05-02-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 2024년 11월 도입한 Model Context Protocol(MCP)이 OpenAI(2025년 3월), Google DeepMind 등 주요 AI 기업에 채택되면서 AI 모델과 외부 서비스 연결의 표준이 되고 있다. 기존의 \"N×M 통합 문제\"(N개 모델 × M개 서비스마다 별도 커넥터 필요)를 JSON-RPC 2.0 기반 클라이언트-서버 아키텍처로 해결한다."
+    },
+    {
+      "date": "2026-05-02",
+      "keyword": "LLM",
+      "quality_score": 5.63,
+      "post_url": "https://sghman.github.io/posts/2026-05-02-llm-digest/",
+      "one_line_summary": "핵심: 2026년 4월 15일부터 Exa의 `startCrawlDate`/`endCrawlDate` 필터가 요청을 받아도 실제로는 작동하지 않음. HTTP 200 응답을 반환하지만 날짜 범위 제약이 무시되어 최신 데이터가 필요한 에이전트가 2019년 블로그 포스트 같은 오래된 콘텐츠를 반환할 수 있음."
+    },
     {
       "date": "2026-05-01",
       "keyword": "claude",
@@ -1154,20 +1167,6 @@
       "quality_score": 7.38,
       "post_url": "https://sghman.github.io/posts/2026-04-24-llm-digest/",
       "one_line_summary": "핵심: AI가 코드 평가와 맞춤형 면접 질문을 생성하지만, 최종 판단은 여전히 인간의 눈이 필요하다. 기능 검증(Functional Gate)만으로는 지원자의 실제 사고 과정과 AI 활용 능력을 구분할 수 없다."
-    },
-    {
-      "date": "2026-04-23",
-      "keyword": "claude",
-      "quality_score": 5.3,
-      "post_url": "https://sghman.github.io/posts/2026-04-23-claude-digest/",
-      "one_line_summary": "핵심: Claude Code를 프로덕션에 배포할 때 발생하는 실패 패턴은 개발 단계와 완전히 다르다. 자신감 있는 출력, 조용한 예산 초과, 파괴적 부작용, 프롬프트 인젝션이 주요 위험이다."
-    },
-    {
-      "date": "2026-04-23",
-      "keyword": "LLM",
-      "quality_score": 6.74,
-      "post_url": "https://sghman.github.io/posts/2026-04-23-llm-digest/",
-      "one_line_summary": "핵심: 벤치마크 검증 없이 모델을 평가하면 실제 성능이 아닌 데이터셋의 오류를 측정하게 된다. QIMMA는 \"평가 전 검증(validate before evaluate)\" 원칙으로 아랍어 LLM 평가의 신뢰성을 복구하는 프레임워크다."
     }
   ]
 }
