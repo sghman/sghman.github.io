@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-05-02T04:24:14",
+  "generated_at": "2026-05-03T04:47:07",
   "summary": {
-    "total_posts": 127,
+    "total_posts": 131,
     "total_keywords": 2,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.0655
+    "monthly_cost_usd": 0.1663
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-04-02",
-            "mentions": 41
-          },
           {
             "date": "2026-04-03",
             "mentions": 37
@@ -134,16 +130,16 @@
           {
             "date": "2026-05-02",
             "mentions": 29
+          },
+          {
+            "date": "2026-05-03",
+            "mentions": 27
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-04-02",
-            "mentions": 29
-          },
           {
             "date": "2026-04-03",
             "mentions": 16
@@ -263,6 +259,10 @@
           {
             "date": "2026-05-02",
             "mentions": 23
+          },
+          {
+            "date": "2026-05-03",
+            "mentions": 24
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 241,
+        "mentions": 237,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 203,
+        "mentions": 198,
         "rank": 2,
         "rank_change": 0
       }
@@ -741,6 +741,14 @@
           {
             "date": "2026-05-02",
             "quality_score": 6.8
+          },
+          {
+            "date": "2026-05-03",
+            "quality_score": 6.03
+          },
+          {
+            "date": "2026-05-03",
+            "quality_score": 5.91
           }
         ]
       },
@@ -1002,6 +1010,14 @@
           {
             "date": "2026-05-02",
             "quality_score": 5.63
+          },
+          {
+            "date": "2026-05-03",
+            "quality_score": 5.92
+          },
+          {
+            "date": "2026-05-03",
+            "quality_score": 5.76
           }
         ]
       }
@@ -1022,12 +1038,40 @@
     },
     {
       "month": "2026-05",
-      "input_tokens": 27159,
-      "output_tokens": 10932,
-      "cost_usd": 0.0655
+      "input_tokens": 68847,
+      "output_tokens": 27794,
+      "cost_usd": 0.1663
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-03",
+      "keyword": "claude",
+      "quality_score": 6.03,
+      "post_url": "https://sghman.github.io/posts/2026-05-03-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 제공하는 기본 메모리 6,000자 제한을 GitHub 시크릿 gist와 bash_tool을 조합해 40,000자 이상으로 확장하는 실제 사례 공개. 웹 페칭 제한, API 키 노출 문제 등 4가지 막힌 길을 거쳐 최종 해결책 도출."
+    },
+    {
+      "date": "2026-05-03",
+      "keyword": "claude",
+      "quality_score": 5.91,
+      "post_url": "https://sghman.github.io/posts/2026-05-03-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단순 자동완성이 아닌 \"완전 에이전트형 AI 어시스턴트\"로 작동. 계획 수립 → 검증 → 리뷰 → 실행의 4단계 워크플로우가 표준화되고 있음."
+    },
+    {
+      "date": "2026-05-03",
+      "keyword": "LLM",
+      "quality_score": 5.92,
+      "post_url": "https://sghman.github.io/posts/2026-05-03-llm-digest/",
+      "one_line_summary": "핵심: 대부분의 AI 프로젝트는 모델부터 시작해서 나중에 메모리, 검색, 도구 연동, 테스트 같은 것들이 필요하다는 걸 깨닫는다. 이것이 역순이다. LLM Foundry 같은 프레임워크는 모델 자체가 아니라 모델을 실제로 쓸 수 있게 만드는 \"주변 시스템\"에 집중한다."
+    },
+    {
+      "date": "2026-05-03",
+      "keyword": "LLM",
+      "quality_score": 5.76,
+      "post_url": "https://sghman.github.io/posts/2026-05-03-llm-digest/",
+      "one_line_summary": "핵심: 2026년 LLM 개발의 핵심은 모델 자체가 아니라 그 주변의 \"지루하지만 필수적인 스택\"이다. 메모리 시스템, 의미론적 검색, 도구 사용, 테스트, 다중 제공자 지원이 실제 가치를 만든다."
+    },
     {
       "date": "2026-05-02",
       "keyword": "claude",
@@ -1139,34 +1183,6 @@
       "quality_score": 6.1,
       "post_url": "https://sghman.github.io/posts/2026-04-26-llm-digest/",
       "one_line_summary": "핵심: Anthropic의 Project Deal 실험에서 AI 에이전트가 자율적으로 186건의 거래를 체결했으며(총 거래액 $4,000 이상), 참여자의 46%가 유사 서비스에 대한 구매 의향을 보였다. 이는 단순한 데모가 아닌 실제 제품-시장 적합성(PMF) 신호다."
-    },
-    {
-      "date": "2026-04-25",
-      "keyword": "claude",
-      "quality_score": 6.94,
-      "post_url": "https://sghman.github.io/posts/2026-04-25-claude-digest/",
-      "one_line_summary": "핵심: Claude Opus 4.7은 전체 성능에서 GPT-5.5와 경쟁하지만, 특정 영역에서 명확한 우위를 보임. MCP-Atlas(복잡한 다중 턴 도구 호출) 77.3%, SWE-Bench Pro(실제 GitHub 이슈 해결) 64.3%로 경쟁 모델을 앞섬."
-    },
-    {
-      "date": "2026-04-25",
-      "keyword": "LLM",
-      "quality_score": 5.13,
-      "post_url": "https://sghman.github.io/posts/2026-04-25-llm-digest/",
-      "one_line_summary": "핵심: 4월 24~25일 24시간 내 GPT-5.5(OpenAI), Claude Opus 4.7(Anthropic), DeepSeek V4-Pro/Flash(오픈소스) 동시 출시. 벤치마크 점수는 GPT-5.5(60점) > Claude Opus 4.7(57점) > DeepSeek V4-Pro(경쟁 수준)이지만, 3점 차이는 실무에서 결정적이지 않음."
-    },
-    {
-      "date": "2026-04-24",
-      "keyword": "claude",
-      "quality_score": 5.4,
-      "post_url": "https://sghman.github.io/posts/2026-04-24-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 챗봇이 아닌 터미널 기반 에이전트로, 로컬 파일에 직접 접근하고 프로젝트 구조를 인덱싱한 후 사용자 승인 하에 파일 변경과 명령어를 실행합니다. 이는 기존 Copilot 같은 자동완성 도구와 근본적으로 다른 아키텍처입니다."
-    },
-    {
-      "date": "2026-04-24",
-      "keyword": "LLM",
-      "quality_score": 7.38,
-      "post_url": "https://sghman.github.io/posts/2026-04-24-llm-digest/",
-      "one_line_summary": "핵심: AI가 코드 평가와 맞춤형 면접 질문을 생성하지만, 최종 판단은 여전히 인간의 눈이 필요하다. 기능 검증(Functional Gate)만으로는 지원자의 실제 사고 과정과 AI 활용 능력을 구분할 수 없다."
     }
   ]
 }
