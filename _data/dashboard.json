@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-05-03T04:47:49",
+  "generated_at": "2026-05-04T04:47:05",
   "summary": {
     "total_posts": 131,
     "total_keywords": 2,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.1663
+    "monthly_cost_usd": 0.2086
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-04-03",
-            "mentions": 37
-          },
           {
             "date": "2026-04-04",
             "mentions": 47
@@ -134,16 +130,16 @@
           {
             "date": "2026-05-03",
             "mentions": 27
+          },
+          {
+            "date": "2026-05-04",
+            "mentions": 26
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-04-03",
-            "mentions": 16
-          },
           {
             "date": "2026-04-04",
             "mentions": 36
@@ -263,6 +259,10 @@
           {
             "date": "2026-05-03",
             "mentions": 24
+          },
+          {
+            "date": "2026-05-04",
+            "mentions": 21
           }
         ]
       }
@@ -270,23 +270,23 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 237,
+        "mentions": 232,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 198,
+        "mentions": 192,
         "rank": 2,
         "rank_change": 0
       }
     ],
     "bump_chart": {
       "weeks": [
-        "2026-W15",
         "2026-W16",
         "2026-W17",
-        "2026-W18"
+        "2026-W18",
+        "2026-W19"
       ],
       "series": [
         {
@@ -313,174 +313,179 @@
   "emerging_topics": {
     "topics": [
       {
-        "topic": "AI Agent Skills & Tools",
+        "topic": "AI Coding Agents",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "khazix-skills 数字生命卡兹克开源的 AI Skills 合集",
-          "fireworks-tech-graph Claude Code skill for generating production-quality SVG+PNG technical diagrams"
+          "Open Design: Use Your Coding Agent as a Design Engine",
+          "open-design, browser-harness, obscura (GitHub projects)"
         ]
       },
       {
-        "topic": "Browser Automation for AI",
+        "topic": "Design-to-Code Tools",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "A web-based RDP client built with Go WebAssembly and grdp",
-          "browser-harness Browser Harness | Self-healing harness that enables LLMs to complete any task"
+          "Open Design: Use Your Coding Agent as a Design Engine",
+          "open-codesign, design-extract (GitHub)"
         ]
       },
       {
-        "topic": "Video Processing & Generation",
+        "topic": "Reinforcement Learning Safety",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Seeing Fast and Slow: Learning the Flow of Time in Videos",
-          "video-use Edit videos with coding agents"
+          "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+          "Refusal in Language Models Is Mediated by a Single Direction"
         ]
       },
       {
-        "topic": "Continual Learning",
+        "topic": "Agent Sandboxing",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Temporal Taskification in Streaming Continual Learning",
-          "Fine-Tuning Regimes Define Distinct Continual Learning Problems"
+          "Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes",
+          "browser-harness, obscura"
         ]
       },
       {
-        "topic": "Parameter-Efficient Fine-Tuning (LoRA)",
+        "topic": "Vision Transformers",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Low-Rank Adaptation Redux for Large Models",
-          "GiVA: Gradient-Informed Bases for Vector-Based Adaptation"
+          "Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces",
+          "lingbot-map (GitHub)"
         ]
       },
       {
-        "topic": "DeepSeek v4",
+        "topic": "Sparse Autoencoders",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "DeepSeek v4"
+          "Do Sparse Autoencoders Capture Concept Manifolds?",
+          "Latent Adversarial Detection: Adaptive Probing of LLM Activations"
         ]
       },
       {
-        "topic": "Vision-Language Model Hallucinations",
+        "topic": "Physics-Informed Neural Networks",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs"
+          "An adaptive wavelet-based PINN for problems with localized high-magnitude source",
+          "PhyCo: Learning Controllable Physical Priors"
         ]
       },
       {
-        "topic": "Quantum Circuit Optimization",
+        "topic": "Multi-Turn Prompt Injection Detection",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Replay-buffer engineering for noise-robust quantum circuit optimization"
+          "Latent Adversarial Detection: Adaptive Probing of LLM Activations for Multi-Turn Attack Detection",
+          "FlashRT: Red-Teaming for Prompt Injection"
         ]
       },
       {
-        "topic": "Autonomous Vehicle Sensor Spoofing",
+        "topic": "Time Series Foundation Models",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Cross-Modal Phantom: Coordinated Camera-LiDAR Spoofing Against Multi-Sensor Fusion in Autonomous Vehicles"
+          "Explainable Load Forecasting with Covariate-Informed Time Series Foundation Models",
+          "Sequential Inference for Gaussian Processes"
         ]
       },
       {
-        "topic": "Generative Flow Networks",
+        "topic": "Model Merging",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "GFlowState: Visualizing the Training of Generative Flow Networks Beyond the Reward"
+          "Auto-FlexSwitch: Efficient Dynamic Model Merging via Learnable Task Vector Compression",
+          "agentic-stack (GitHub)"
         ]
       },
       {
-        "topic": "Scientific Workflow Automation",
+        "topic": "Tactile Sensing for Robotics",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation"
+          "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution for Robotic Systems"
         ]
       },
       {
-        "topic": "URL Phishing Detection",
+        "topic": "ML Inference Scheduling",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "TraceScope: Interactive URL Triage via Decoupled Checklist Adjudication"
+          "Strait: Perceiving Priority and Interference in ML Inference Serving"
         ]
       },
       {
-        "topic": "Adversarial Attacks on LLM Agents",
+        "topic": "Autonomous Web Agents",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Transient Turn Injection: Exposing Stateless Multi-Turn Vulnerabilities in Large Language Models",
-          "Black-Box Skill Stealing Attack from Proprietary LLM Agents"
+          "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+          "browser-harness, obscura"
         ]
       },
       {
-        "topic": "Wayland Compositor (Niri)",
+        "topic": "Quantization for LLMs",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Niri 26.04: Scrollable-tiling Wayland compositor"
+          "Advanced Quantization Algorithm for LLMs"
         ]
       },
       {
-        "topic": "Open-Source TTS Models",
+        "topic": "Multimodal RL Pre-alignment",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "MOSS-TTS-Nano is an open-source multilingual tiny speech generation model"
+          "PRISM: Pre-alignment via Black-box On-policy Distillation for Multimodal Reinforcement Learning"
         ]
       }
     ]
@@ -490,10 +495,6 @@
       {
         "keyword": "claude",
         "data_points": [
-          {
-            "date": "2026-03-04",
-            "quality_score": 5.18
-          },
           {
             "date": "2026-03-05",
             "quality_score": 7.03
@@ -749,16 +750,16 @@
           {
             "date": "2026-05-03",
             "quality_score": 5.91
+          },
+          {
+            "date": "2026-05-04",
+            "quality_score": 6.72
           }
         ]
       },
       {
         "keyword": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-04",
-            "quality_score": 7.08
-          },
           {
             "date": "2026-03-05",
             "quality_score": 7.0
@@ -1018,6 +1019,10 @@
           {
             "date": "2026-05-03",
             "quality_score": 5.76
+          },
+          {
+            "date": "2026-05-04",
+            "quality_score": 5.54
           }
         ]
       }
@@ -1026,9 +1031,9 @@
   "monthly_cost": [
     {
       "month": "2026-03",
-      "input_tokens": 515290,
-      "output_tokens": 194394,
-      "cost_usd": 1.1898
+      "input_tokens": 499943,
+      "output_tokens": 190245,
+      "cost_usd": 1.1609
     },
     {
       "month": "2026-04",
@@ -1038,12 +1043,26 @@
     },
     {
       "month": "2026-05",
-      "input_tokens": 68847,
-      "output_tokens": 27794,
-      "cost_usd": 0.1663
+      "input_tokens": 85249,
+      "output_tokens": 35100,
+      "cost_usd": 0.2086
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-04",
+      "keyword": "claude",
+      "quality_score": 6.72,
+      "post_url": "https://sghman.github.io/posts/2026-05-04-claude-digest/",
+      "one_line_summary": "핵심: 현대 LLM은 자기지도학습(Self-Supervised Learning) + 지도학습(Supervised Learning) + 강화학습(Reinforcement Learning)의 세 단계로 구성되어 있다. Yann LeCun의 비유를 빌리면 \"케이크는 자기지도학습, 아이싱은 지도학습, 체리는 강화학습\"이다."
+    },
+    {
+      "date": "2026-05-04",
+      "keyword": "LLM",
+      "quality_score": 5.54,
+      "post_url": "https://sghman.github.io/posts/2026-05-04-llm-digest/",
+      "one_line_summary": "핵심: 2026년 LLM 애플리케이션 개발의 핵심은 \"챗봇 인터페이스 회피\"입니다. 구조화된 출력(Structured Output) 시스템으로 전환하는 것이 업계의 새로운 표준입니다."
+    },
     {
       "date": "2026-05-03",
       "keyword": "claude",
@@ -1169,20 +1188,6 @@
       "quality_score": 3.87,
       "post_url": "https://sghman.github.io/posts/2026-04-26-claude-digest/",
       "one_line_summary": "핵심: Anthropic이 Claude Opus를 출시했으며, 동시에 Claude 에이전트 마켓플레이스를 론칭하여 AI 에이전트 생태계를 본격화했습니다."
-    },
-    {
-      "date": "2026-04-26",
-      "keyword": "LLM",
-      "quality_score": 6.1,
-      "post_url": "https://sghman.github.io/posts/2026-04-26-llm-digest/",
-      "one_line_summary": "핵심: Anthropic이 Project Deal을 통해 AI 에이전트가 실제 거래를 자율적으로 체결할 수 있음을 증명했다. 69개 에이전트가 $4,000 규모의 186건 거래를 성사시켰고, 46%의 참여자가 유사 서비스 구매 의향을 표현했다. 하지만 폐쇄된 조직 내부에서만 작동했다는 한계가 있다."
-    },
-    {
-      "date": "2026-04-26",
-      "keyword": "LLM",
-      "quality_score": 6.1,
-      "post_url": "https://sghman.github.io/posts/2026-04-26-llm-digest/",
-      "one_line_summary": "핵심: Anthropic의 Project Deal 실험에서 AI 에이전트가 자율적으로 186건의 거래를 체결했으며(총 거래액 $4,000 이상), 참여자의 46%가 유사 서비스에 대한 구매 의향을 보였다. 이는 단순한 데모가 아닌 실제 제품-시장 적합성(PMF) 신호다."
     }
   ]
 }
