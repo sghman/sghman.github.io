@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-05-04T04:47:05",
+  "generated_at": "2026-05-05T04:23:57",
   "summary": {
     "total_posts": 131,
     "total_keywords": 2,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.2086
+    "monthly_cost_usd": 0.2601
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-04-04",
-            "mentions": 47
-          },
           {
             "date": "2026-04-05",
             "mentions": 49
@@ -134,16 +130,16 @@
           {
             "date": "2026-05-04",
             "mentions": 26
+          },
+          {
+            "date": "2026-05-05",
+            "mentions": 21
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-04-04",
-            "mentions": 36
-          },
           {
             "date": "2026-04-05",
             "mentions": 37
@@ -263,6 +259,10 @@
           {
             "date": "2026-05-04",
             "mentions": 21
+          },
+          {
+            "date": "2026-05-05",
+            "mentions": 10
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 232,
+        "mentions": 225,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 192,
+        "mentions": 177,
         "rank": 2,
         "rank_change": 0
       }
@@ -495,10 +495,6 @@
       {
         "keyword": "claude",
         "data_points": [
-          {
-            "date": "2026-03-05",
-            "quality_score": 7.03
-          },
           {
             "date": "2026-03-06",
             "quality_score": 6.23
@@ -754,16 +750,16 @@
           {
             "date": "2026-05-04",
             "quality_score": 6.72
+          },
+          {
+            "date": "2026-05-05",
+            "quality_score": 6.43
           }
         ]
       },
       {
         "keyword": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-05",
-            "quality_score": 7.0
-          },
           {
             "date": "2026-03-06",
             "quality_score": 6.96
@@ -1023,6 +1019,10 @@
           {
             "date": "2026-05-04",
             "quality_score": 5.54
+          },
+          {
+            "date": "2026-05-05",
+            "quality_score": 6.2
           }
         ]
       }
@@ -1031,9 +1031,9 @@
   "monthly_cost": [
     {
       "month": "2026-03",
-      "input_tokens": 499943,
-      "output_tokens": 190245,
-      "cost_usd": 1.1609
+      "input_tokens": 485074,
+      "output_tokens": 186210,
+      "cost_usd": 1.1329
     },
     {
       "month": "2026-04",
@@ -1043,12 +1043,26 @@
     },
     {
       "month": "2026-05",
-      "input_tokens": 85249,
-      "output_tokens": 35100,
-      "cost_usd": 0.2086
+      "input_tokens": 102974,
+      "output_tokens": 44423,
+      "cost_usd": 0.2601
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-05",
+      "keyword": "claude",
+      "quality_score": 6.43,
+      "post_url": "https://sghman.github.io/posts/2026-05-05-claude-digest/",
+      "one_line_summary": "핵심: Claude Code, Cursor, GitHub Copilot 같은 AI 어시스턴트가 생성하는 코드의 품질을 일관되게 유지하려면 프로젝트 루트에 CLAUDE.md 규칙을 배치해야 한다. Python 3.11+ 기준으로 타입 힌팅, 데이터클래스, pathlib 사용 등 14가지 규칙을 강제하면 런타임 버그를 사전에 차단할 수 있다."
+    },
+    {
+      "date": "2026-05-05",
+      "keyword": "LLM",
+      "quality_score": 6.2,
+      "post_url": "https://sghman.github.io/posts/2026-05-05-llm-digest/",
+      "one_line_summary": "핵심: LLM은 기본적으로 텍스트 예측 엔진일 뿐이므로, 실제 작업(웹 검색, 캘린더 조회, 예약, 이메일 발송)을 수행하려면 외부 시스템과의 연결이 필수다. 이를 위해 기본 Tool Use → Function Calling → Model Context Protocol(MCP)로 진화했으며, 현재 주요 AI 기업들이 MCP를 채택하고 있다."
+    },
     {
       "date": "2026-05-04",
       "keyword": "claude",
@@ -1174,20 +1188,6 @@
       "quality_score": 6.24,
       "post_url": "https://sghman.github.io/posts/2026-04-27-llm-digest/",
       "one_line_summary": "핵심: KubeStellar의 AI 에이전트가 생성한 PR이 81% 승인율을 기록했다. 이는 단순 자동완성이 아닌 기능 구현, 버그 수정, 리팩토링 수준의 실제 기여를 의미한다."
-    },
-    {
-      "date": "2026-04-26",
-      "keyword": "claude",
-      "quality_score": 4.48,
-      "post_url": "https://sghman.github.io/posts/2026-04-26-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순한 코드 완성 도구를 넘어 자연어 지시만으로 복잡한 프로젝트를 자동화하는 에이전트로 진화했습니다. 영상 편집(Remotion, FFmpeg), .NET 아키텍처 설계, 데이터 분석 등 다양한 분야에서 실제 산출물을 생성합니다."
-    },
-    {
-      "date": "2026-04-26",
-      "keyword": "claude",
-      "quality_score": 3.87,
-      "post_url": "https://sghman.github.io/posts/2026-04-26-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 Claude Opus를 출시했으며, 동시에 Claude 에이전트 마켓플레이스를 론칭하여 AI 에이전트 생태계를 본격화했습니다."
     }
   ]
 }
