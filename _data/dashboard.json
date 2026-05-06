@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-05-05T04:23:57",
+  "generated_at": "2026-05-06T04:39:15",
   "summary": {
     "total_posts": 131,
     "total_keywords": 2,
     "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.2601
+    "monthly_cost_usd": 0.2879
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-04-05",
-            "mentions": 49
-          },
           {
             "date": "2026-04-06",
             "mentions": 44
@@ -134,16 +130,16 @@
           {
             "date": "2026-05-05",
             "mentions": 21
+          },
+          {
+            "date": "2026-05-06",
+            "mentions": 21
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-04-05",
-            "mentions": 37
-          },
           {
             "date": "2026-04-06",
             "mentions": 37
@@ -263,6 +259,10 @@
           {
             "date": "2026-05-05",
             "mentions": 10
+          },
+          {
+            "date": "2026-05-06",
+            "mentions": 29
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "claude",
-        "mentions": 225,
+        "mentions": 215,
         "rank": 1,
         "rank_change": 0
       },
       {
         "topic": "LLM",
-        "mentions": 177,
+        "mentions": 173,
         "rank": 2,
         "rank_change": 0
       }
@@ -495,10 +495,6 @@
       {
         "keyword": "claude",
         "data_points": [
-          {
-            "date": "2026-03-06",
-            "quality_score": 6.23
-          },
           {
             "date": "2026-03-09",
             "quality_score": 5.73
@@ -754,16 +750,16 @@
           {
             "date": "2026-05-05",
             "quality_score": 6.43
+          },
+          {
+            "date": "2026-05-06",
+            "quality_score": 5.73
           }
         ]
       },
       {
         "keyword": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-06",
-            "quality_score": 6.96
-          },
           {
             "date": "2026-03-07",
             "quality_score": 4.05
@@ -1023,6 +1019,10 @@
           {
             "date": "2026-05-05",
             "quality_score": 6.2
+          },
+          {
+            "date": "2026-05-06",
+            "quality_score": 5.71
           }
         ]
       }
@@ -1031,9 +1031,9 @@
   "monthly_cost": [
     {
       "month": "2026-03",
-      "input_tokens": 485074,
-      "output_tokens": 186210,
-      "cost_usd": 1.1329
+      "input_tokens": 471765,
+      "output_tokens": 181678,
+      "cost_usd": 1.1041
     },
     {
       "month": "2026-04",
@@ -1043,12 +1043,26 @@
     },
     {
       "month": "2026-05",
-      "input_tokens": 102974,
-      "output_tokens": 44423,
-      "cost_usd": 0.2601
+      "input_tokens": 112507,
+      "output_tokens": 49483,
+      "cost_usd": 0.2879
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-06",
+      "keyword": "claude",
+      "quality_score": 5.73,
+      "post_url": "https://sghman.github.io/posts/2026-05-06-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 4월 중순 Claude Opus 4.7을 출시했고, Claude Code는 로컬 파일에 직접 접근하는 터미널 기반 에이전트로 작동합니다. 단순 챗봇이 아닌 프로젝트 구조 전체를 인덱싱하고 사용자 승인 하에 파일 변경을 실행합니다."
+    },
+    {
+      "date": "2026-05-06",
+      "keyword": "LLM",
+      "quality_score": 5.71,
+      "post_url": "https://sghman.github.io/posts/2026-05-06-llm-digest/",
+      "one_line_summary": "핵심: 2026년 LLM 활용의 핵심은 단순 챗봇 인터페이스에서 벗어나 구조화된 출력 시스템으로 진화하고 있습니다. 기존의 \"대화형 AI\"라는 직관적 접근에서 벗어나 비즈니스 로직과 통합된 자동화 시스템으로 재설계되는 중입니다."
+    },
     {
       "date": "2026-05-05",
       "keyword": "claude",
@@ -1174,20 +1188,6 @@
       "quality_score": 5.73,
       "post_url": "https://sghman.github.io/posts/2026-04-28-llm-digest/",
       "one_line_summary": "핵심: 일반 LLM이 아닌 특정 도메인에 최적화된 LLM 기반 솔루션이 실제 비즈니스 문제를 해결하고 있다. Amazon의 COSMO(상식 지식 그래프)는 \"임신한 여성용 신발\" 검색처럼 키워드 매칭으로 불가능한 의미적 추론을 가능하게 했고, 스마트라이드는 택시업계 전용 AI 경영분석 레포트 서비스를 출시했다."
-    },
-    {
-      "date": "2026-04-27",
-      "keyword": "claude",
-      "quality_score": 5.45,
-      "post_url": "https://sghman.github.io/posts/2026-04-27-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 Claude Mythos라는 새로운 모델 계층을 출시하며 Haiku → Sonnet → Opus → Mythos 구조로 확대했습니다. 동시에 MCP(Model Context Protocol)와 Cowork OS를 통해 외부 앱 연동과 워크플로우 자동화가 가능해졌습니다."
-    },
-    {
-      "date": "2026-04-27",
-      "keyword": "LLM",
-      "quality_score": 6.24,
-      "post_url": "https://sghman.github.io/posts/2026-04-27-llm-digest/",
-      "one_line_summary": "핵심: KubeStellar의 AI 에이전트가 생성한 PR이 81% 승인율을 기록했다. 이는 단순 자동완성이 아닌 기능 구현, 버그 수정, 리팩토링 수준의 실제 기여를 의미한다."
     }
   ]
 }
