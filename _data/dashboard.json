@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-05-09T04:31:50",
+  "generated_at": "2026-05-10T04:52:19",
   "summary": {
-    "total_posts": 133,
+    "total_posts": 135,
     "total_keywords": 2,
-    "avg_quality_score": 6.0,
-    "monthly_cost_usd": 0.3866
+    "avg_quality_score": 5.9,
+    "monthly_cost_usd": 0.4752
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-04-09",
-            "mentions": 38
-          },
           {
             "date": "2026-04-10",
             "mentions": 35
@@ -134,16 +130,16 @@
           {
             "date": "2026-05-09",
             "mentions": 18
+          },
+          {
+            "date": "2026-05-10",
+            "mentions": 17
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-04-09",
-            "mentions": 30
-          },
           {
             "date": "2026-04-10",
             "mentions": 16
@@ -263,22 +259,26 @@
           {
             "date": "2026-05-09",
             "mentions": 27
+          },
+          {
+            "date": "2026-05-10",
+            "mentions": 27
           }
         ]
       }
     ],
     "weekly_rank": [
       {
-        "topic": "claude",
-        "mentions": 185,
+        "topic": "LLM",
+        "mentions": 174,
         "rank": 1,
-        "rank_change": 0
+        "rank_change": 1
       },
       {
-        "topic": "LLM",
-        "mentions": 170,
+        "topic": "claude",
+        "mentions": 173,
         "rank": 2,
-        "rank_change": 0
+        "rank_change": -1
       }
     ],
     "bump_chart": {
@@ -295,7 +295,7 @@
             1,
             1,
             1,
-            1
+            2
           ]
         },
         {
@@ -304,7 +304,7 @@
             2,
             2,
             2,
-            2
+            1
           ]
         }
       ]
@@ -495,10 +495,6 @@
       {
         "keyword": "claude",
         "data_points": [
-          {
-            "date": "2026-03-10",
-            "quality_score": 5.5
-          },
           {
             "date": "2026-03-11",
             "quality_score": 6.32
@@ -762,16 +758,20 @@
           {
             "date": "2026-05-09",
             "quality_score": 6.13
+          },
+          {
+            "date": "2026-05-10",
+            "quality_score": 5.65
+          },
+          {
+            "date": "2026-05-10",
+            "quality_score": 5.65
           }
         ]
       },
       {
         "keyword": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-10",
-            "quality_score": 6.73
-          },
           {
             "date": "2026-03-11",
             "quality_score": 7.25
@@ -1031,6 +1031,14 @@
           {
             "date": "2026-05-09",
             "quality_score": 5.39
+          },
+          {
+            "date": "2026-05-10",
+            "quality_score": 5.26
+          },
+          {
+            "date": "2026-05-10",
+            "quality_score": 5.2
           }
         ]
       }
@@ -1039,9 +1047,9 @@
   "monthly_cost": [
     {
       "month": "2026-03",
-      "input_tokens": 446006,
-      "output_tokens": 172587,
-      "cost_usd": 1.0472
+      "input_tokens": 416347,
+      "output_tokens": 161482,
+      "cost_usd": 0.979
     },
     {
       "month": "2026-04",
@@ -1051,12 +1059,40 @@
     },
     {
       "month": "2026-05",
-      "input_tokens": 150851,
-      "output_tokens": 66479,
-      "cost_usd": 0.3866
+      "input_tokens": 183270,
+      "output_tokens": 82138,
+      "cost_usd": 0.4752
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-10",
+      "keyword": "claude",
+      "quality_score": 5.65,
+      "post_url": "https://sghman.github.io/posts/2026-05-10-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단기 프로세스 기반(작업 후 종료)이고, OpenClaw는 장기 실행 데몬(WebSocket 지속 연결) 기반으로 설계되어 있다. 같은 AI 능력도 시스템 설계에 따라 완전히 다른 사용 사례를 지원한다."
+    },
+    {
+      "date": "2026-05-10",
+      "keyword": "claude",
+      "quality_score": 5.65,
+      "post_url": "https://sghman.github.io/posts/2026-05-10-claude-digest/",
+      "one_line_summary": "핵심: Claude Code는 단기 프로세스 기반의 심플한 구조로 설계되었으나, OpenClaw 같은 장기 실행 에이전트와의 경쟁 속에서 각각의 설계 철학이 명확히 분화되고 있습니다. Claude Code는 작업 완료 후 종료되는 방식으로 상태 관리를 단순화했고, OpenClaw는 WebSocket 기반 지속 연결로 Discord, Slack 같은 플랫폼과 네이티브 통합을 제공합니다."
+    },
+    {
+      "date": "2026-05-10",
+      "keyword": "LLM",
+      "quality_score": 5.26,
+      "post_url": "https://sghman.github.io/posts/2026-05-10-llm-digest/",
+      "one_line_summary": "핵심: 2026년 기준으로 LLM 애플리케이션 개발의 체계적 학습 경로가 명확해지고 있습니다. 단순 프롬프팅을 넘어 임베딩, 벡터 데이터베이스, RAG(Retrieval-Augmented Generation), 파인튜닝 등이 통합된 실무 워크플로우가 표준화되는 중입니다."
+    },
+    {
+      "date": "2026-05-10",
+      "keyword": "LLM",
+      "quality_score": 5.2,
+      "post_url": "https://sghman.github.io/posts/2026-05-10-llm-digest/",
+      "one_line_summary": "핵심: 2026년 기준으로 LLM 애플리케이션을 실제로 구축하려면 단순 프롬프팅을 넘어 체계적인 학습 경로가 필수다. 임베딩, 벡터 데이터베이스, RAG(Retrieval-Augmented Generation), 파인튜닝, API 통합 등이 어떻게 연결되는지 이해해야 한다."
+    },
     {
       "date": "2026-05-09",
       "keyword": "claude",
@@ -1168,34 +1204,6 @@
       "quality_score": 5.76,
       "post_url": "https://sghman.github.io/posts/2026-05-03-llm-digest/",
       "one_line_summary": "핵심: 2026년 LLM 개발의 핵심은 모델 자체가 아니라 그 주변의 \"지루하지만 필수적인 스택\"이다. 메모리 시스템, 의미론적 검색, 도구 사용, 테스트, 다중 제공자 지원이 실제 가치를 만든다."
-    },
-    {
-      "date": "2026-05-02",
-      "keyword": "claude",
-      "quality_score": 6.8,
-      "post_url": "https://sghman.github.io/posts/2026-05-02-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 2024년 11월 도입한 Model Context Protocol(MCP)이 OpenAI(2025년 3월), Google DeepMind 등 주요 AI 기업에 채택되면서 AI 모델과 외부 서비스 연결의 표준이 되고 있다. 기존의 \"N×M 통합 문제\"(N개 모델 × M개 서비스마다 별도 커넥터 필요)를 JSON-RPC 2.0 기반 클라이언트-서버 아키텍처로 해결한다."
-    },
-    {
-      "date": "2026-05-02",
-      "keyword": "LLM",
-      "quality_score": 5.63,
-      "post_url": "https://sghman.github.io/posts/2026-05-02-llm-digest/",
-      "one_line_summary": "핵심: 2026년 4월 15일부터 Exa의 `startCrawlDate`/`endCrawlDate` 필터가 요청을 받아도 실제로는 작동하지 않음. HTTP 200 응답을 반환하지만 날짜 범위 제약이 무시되어 최신 데이터가 필요한 에이전트가 2019년 블로그 포스트 같은 오래된 콘텐츠를 반환할 수 있음."
-    },
-    {
-      "date": "2026-05-01",
-      "keyword": "claude",
-      "quality_score": 5.56,
-      "post_url": "https://sghman.github.io/posts/2026-05-01-claude-digest/",
-      "one_line_summary": "핵심: Claude Security가 공개 베타로 출시되어 API 연동 없이 저장소 전체 또는 특정 디렉터리의 코드 취약점을 자동으로 스캔하고 패치를 제안합니다. Claude Enterprise 고객은 추가 설정 없이 즉시 사용 가능합니다."
-    },
-    {
-      "date": "2026-05-01",
-      "keyword": "LLM",
-      "quality_score": 6.22,
-      "post_url": "https://sghman.github.io/posts/2026-05-01-llm-digest/",
-      "one_line_summary": "핵심: Arduino가 Qualcomm과 협력해 40 TOPS NPU를 탑재한 첫 AI 보드를 출시했다. 16GB RAM, ROS 2 지원, 로컬 LLM 실행 가능이 특징이다."
     }
   ]
 }
