@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-05-10T04:52:48",
+  "generated_at": "2026-05-11T05:05:13",
   "summary": {
-    "total_posts": 135,
+    "total_posts": 134,
     "total_keywords": 2,
     "avg_quality_score": 5.9,
-    "monthly_cost_usd": 0.4752
+    "monthly_cost_usd": 0.5163
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-04-10",
-            "mentions": 35
-          },
           {
             "date": "2026-04-11",
             "mentions": 34
@@ -134,16 +130,16 @@
           {
             "date": "2026-05-10",
             "mentions": 17
+          },
+          {
+            "date": "2026-05-11",
+            "mentions": 24
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-04-10",
-            "mentions": 16
-          },
           {
             "date": "2026-04-11",
             "mentions": 28
@@ -263,6 +259,10 @@
           {
             "date": "2026-05-10",
             "mentions": 27
+          },
+          {
+            "date": "2026-05-11",
+            "mentions": 27
           }
         ]
       }
@@ -270,23 +270,23 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 174,
+        "mentions": 177,
         "rank": 1,
         "rank_change": 1
       },
       {
         "topic": "claude",
-        "mentions": 173,
+        "mentions": 170,
         "rank": 2,
         "rank_change": -1
       }
     ],
     "bump_chart": {
       "weeks": [
-        "2026-W16",
         "2026-W17",
         "2026-W18",
-        "2026-W19"
+        "2026-W19",
+        "2026-W20"
       ],
       "series": [
         {
@@ -294,7 +294,7 @@
           "ranks": [
             1,
             1,
-            1,
+            2,
             2
           ]
         },
@@ -303,7 +303,7 @@
           "ranks": [
             2,
             2,
-            2,
+            1,
             1
           ]
         }
@@ -313,179 +313,177 @@
   "emerging_topics": {
     "topics": [
       {
-        "topic": "AI Coding Agents",
+        "topic": "Rust rewrite performance",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Open Design: Use Your Coding Agent as a Design Engine",
-          "open-design, browser-harness, obscura (GitHub projects)"
+          "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc"
         ]
       },
       {
-        "topic": "Design-to-Code Tools",
+        "topic": "GUI grounding agents",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Open Design: Use Your Coding Agent as a Design Engine",
-          "open-codesign, design-extract (GitHub)"
+          "BAMI: Training-Free Bias Mitigation in GUI Grounding",
+          "open-design: Local-first, open-source alternative to Claude Design"
         ]
       },
       {
-        "topic": "Reinforcement Learning Safety",
+        "topic": "Mixture-of-Experts architecture",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
-          "Refusal in Language Models Is Mediated by a Single Direction"
+          "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts"
         ]
       },
       {
-        "topic": "Agent Sandboxing",
+        "topic": "Linux kernel privilege escalation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes",
-          "browser-harness, obscura"
+          "Local privilege escalation via execve()",
+          "You gave me a u32. I gave you root. (io_uring ZCRX freelist LPE)",
+          "copy-fail-CVE-2026-31431"
         ]
       },
       {
-        "topic": "Vision Transformers",
+        "topic": "DPI bypass and domain fronting",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces",
-          "lingbot-map (GitHub)"
+          "MasterHttpRelayVPN",
+          "MasterHttpRelayVPN-RUST",
+          "mhr-cfw"
         ]
       },
       {
-        "topic": "Sparse Autoencoders",
+        "topic": "Agent optimization and reinforcement learning",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Do Sparse Autoencoders Capture Concept Manifolds?",
-          "Latent Adversarial Detection: Adaptive Probing of LLM Activations"
+          "Recursive Agent Optimization",
+          "StraTA: Incentivizing Agentic Reinforcement Learning"
         ]
       },
       {
-        "topic": "Physics-Informed Neural Networks",
+        "topic": "Sparse Autoencoders interpretability",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "An adaptive wavelet-based PINN for problems with localized high-magnitude source",
-          "PhyCo: Learning Controllable Physical Priors"
+          "SoftSAE: Dynamic Top-K Selection for Adaptive Sparse Autoencoders"
         ]
       },
       {
-        "topic": "Multi-Turn Prompt Injection Detection",
+        "topic": "Text-to-CAD generation",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Latent Adversarial Detection: Adaptive Probing of LLM Activations for Multi-Turn Attack Detection",
-          "FlashRT: Red-Teaming for Prompt Injection"
+          "text-to-cad: An open source harness for generating CAD models"
         ]
       },
       {
-        "topic": "Time Series Foundation Models",
+        "topic": "VPN vulnerabilities and DPI evasion",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Explainable Load Forecasting with Covariate-Informed Time Series Foundation Models",
-          "Sequential Inference for Gaussian Processes"
+          "EU Parliamentary Research Service calls VPNs a loophole",
+          "GrapheneOS fixes Android VPN leak Google refused to patch"
         ]
       },
       {
-        "topic": "Model Merging",
+        "topic": "WebRTC security issues",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Auto-FlexSwitch: Efficient Dynamic Model Merging via Learnable Task Vector Compression",
-          "agentic-stack (GitHub)"
+          "OpenAI's WebRTC problem"
         ]
       },
       {
-        "topic": "Tactile Sensing for Robotics",
+        "topic": "Android security patches",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution for Robotic Systems"
+          "GrapheneOS fixes Android VPN leak Google refused to patch",
+          "Google broke reCAPTCHA for de-googled Android users"
         ]
       },
       {
-        "topic": "ML Inference Scheduling",
+        "topic": "Agentic coding frameworks",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Strait: Perceiving Priority and Interference in ML Inference Serving"
+          "OpenGame: Open Agentic Coding for Games",
+          "deepsec: security harness for coding agents"
         ]
       },
       {
-        "topic": "Autonomous Web Agents",
+        "topic": "In-context learning mechanisms",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
-          "browser-harness, obscura"
+          "Transformers Efficiently Perform In-Context Logistic Regression via Normalized Gradient Descent"
         ]
       },
       {
-        "topic": "Quantization for LLMs",
+        "topic": "Attention sink phenomenon",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "Advanced Quantization Algorithm for LLMs"
+          "The Structural Origin of Attention Sink: Variance Discrepancy, Super Neurons, and Dimension Disparity"
         ]
       },
       {
-        "topic": "Multimodal RL Pre-alignment",
+        "topic": "Encrypted messaging security",
         "weekly_mentions": 1,
         "peak_score": 0,
         "sources": [
           "extracted"
         ],
         "sample_titles": [
-          "PRISM: Pre-alignment via Black-box On-policy Distillation for Multimodal Reinforcement Learning"
+          "France moves to break encrypted messaging"
         ]
       }
     ]
@@ -495,14 +493,6 @@
       {
         "keyword": "claude",
         "data_points": [
-          {
-            "date": "2026-03-11",
-            "quality_score": 6.32
-          },
-          {
-            "date": "2026-03-11",
-            "quality_score": 5.79
-          },
           {
             "date": "2026-03-12",
             "quality_score": 6.19
@@ -766,16 +756,16 @@
           {
             "date": "2026-05-10",
             "quality_score": 5.65
+          },
+          {
+            "date": "2026-05-11",
+            "quality_score": 5.63
           }
         ]
       },
       {
         "keyword": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-11",
-            "quality_score": 7.25
-          },
           {
             "date": "2026-03-12",
             "quality_score": 7.2
@@ -1039,6 +1029,10 @@
           {
             "date": "2026-05-10",
             "quality_score": 5.2
+          },
+          {
+            "date": "2026-05-11",
+            "quality_score": 6.52
           }
         ]
       }
@@ -1047,9 +1041,9 @@
   "monthly_cost": [
     {
       "month": "2026-03",
-      "input_tokens": 416347,
-      "output_tokens": 161482,
-      "cost_usd": 0.979
+      "input_tokens": 376885,
+      "output_tokens": 147290,
+      "cost_usd": 0.8907
     },
     {
       "month": "2026-04",
@@ -1059,12 +1053,26 @@
     },
     {
       "month": "2026-05",
-      "input_tokens": 183270,
-      "output_tokens": 82138,
-      "cost_usd": 0.4752
+      "input_tokens": 197633,
+      "output_tokens": 89557,
+      "cost_usd": 0.5163
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-11",
+      "keyword": "claude",
+      "quality_score": 5.63,
+      "post_url": "https://sghman.github.io/posts/2026-05-11-claude-digest/",
+      "one_line_summary": "핵심: MCP(Model Context Protocol)는 에이전트의 도구 접근 문제는 해결했지만, 수십 개의 도구 중 올바른 것을 선택하는 문제는 여전히 남아있다. ToolCairn이라는 새로운 MCP 서버가 이 문제를 직접 해결하려고 나섰다."
+    },
+    {
+      "date": "2026-05-11",
+      "keyword": "LLM",
+      "quality_score": 6.52,
+      "post_url": "https://sghman.github.io/posts/2026-05-11-llm-digest/",
+      "one_line_summary": "핵심: Anthropic 연구에 따르면 단일 LLM 에이전트는 10~15개 도구를 초과하면 성능이 급격히 저하된다. 이는 단순한 지연 시간 문제가 아니라 컨텍스트 윈도우 포화와 정확도 감소의 구조적 문제다."
+    },
     {
       "date": "2026-05-10",
       "keyword": "claude",
@@ -1190,20 +1198,6 @@
       "quality_score": 5.91,
       "post_url": "https://sghman.github.io/posts/2026-05-03-claude-digest/",
       "one_line_summary": "핵심: Claude Code는 단순 자동완성이 아닌 \"완전 에이전트형 AI 어시스턴트\"로 작동. 계획 수립 → 검증 → 리뷰 → 실행의 4단계 워크플로우가 표준화되고 있음."
-    },
-    {
-      "date": "2026-05-03",
-      "keyword": "LLM",
-      "quality_score": 5.92,
-      "post_url": "https://sghman.github.io/posts/2026-05-03-llm-digest/",
-      "one_line_summary": "핵심: 대부분의 AI 프로젝트는 모델부터 시작해서 나중에 메모리, 검색, 도구 연동, 테스트 같은 것들이 필요하다는 걸 깨닫는다. 이것이 역순이다. LLM Foundry 같은 프레임워크는 모델 자체가 아니라 모델을 실제로 쓸 수 있게 만드는 \"주변 시스템\"에 집중한다."
-    },
-    {
-      "date": "2026-05-03",
-      "keyword": "LLM",
-      "quality_score": 5.76,
-      "post_url": "https://sghman.github.io/posts/2026-05-03-llm-digest/",
-      "one_line_summary": "핵심: 2026년 LLM 개발의 핵심은 모델 자체가 아니라 그 주변의 \"지루하지만 필수적인 스택\"이다. 메모리 시스템, 의미론적 검색, 도구 사용, 테스트, 다중 제공자 지원이 실제 가치를 만든다."
     }
   ]
 }
