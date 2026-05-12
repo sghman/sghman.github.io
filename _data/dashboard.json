@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-05-11T05:05:13",
+  "generated_at": "2026-05-12T04:43:48",
   "summary": {
     "total_posts": 134,
     "total_keywords": 2,
     "avg_quality_score": 5.9,
-    "monthly_cost_usd": 0.5163
+    "monthly_cost_usd": 0.5449
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-04-11",
-            "mentions": 34
-          },
           {
             "date": "2026-04-12",
             "mentions": 32
@@ -134,16 +130,16 @@
           {
             "date": "2026-05-11",
             "mentions": 24
+          },
+          {
+            "date": "2026-05-12",
+            "mentions": 22
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-04-11",
-            "mentions": 28
-          },
           {
             "date": "2026-04-12",
             "mentions": 28
@@ -263,6 +259,10 @@
           {
             "date": "2026-05-11",
             "mentions": 27
+          },
+          {
+            "date": "2026-05-12",
+            "mentions": 25
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 177,
+        "mentions": 181,
         "rank": 1,
         "rank_change": 1
       },
       {
         "topic": "claude",
-        "mentions": 170,
+        "mentions": 166,
         "rank": 2,
         "rank_change": -1
       }
@@ -493,10 +493,6 @@
       {
         "keyword": "claude",
         "data_points": [
-          {
-            "date": "2026-03-12",
-            "quality_score": 6.19
-          },
           {
             "date": "2026-03-13",
             "quality_score": 6.74
@@ -760,16 +756,16 @@
           {
             "date": "2026-05-11",
             "quality_score": 5.63
+          },
+          {
+            "date": "2026-05-12",
+            "quality_score": 6.6
           }
         ]
       },
       {
         "keyword": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-12",
-            "quality_score": 7.2
-          },
           {
             "date": "2026-03-14",
             "quality_score": 6.03
@@ -1033,6 +1029,10 @@
           {
             "date": "2026-05-11",
             "quality_score": 6.52
+          },
+          {
+            "date": "2026-05-12",
+            "quality_score": 5.58
           }
         ]
       }
@@ -1041,9 +1041,9 @@
   "monthly_cost": [
     {
       "month": "2026-03",
-      "input_tokens": 376885,
-      "output_tokens": 147290,
-      "cost_usd": 0.8907
+      "input_tokens": 361066,
+      "output_tokens": 140371,
+      "cost_usd": 0.8503
     },
     {
       "month": "2026-04",
@@ -1053,12 +1053,26 @@
     },
     {
       "month": "2026-05",
-      "input_tokens": 197633,
-      "output_tokens": 89557,
-      "cost_usd": 0.5163
+      "input_tokens": 210514,
+      "output_tokens": 94110,
+      "cost_usd": 0.5449
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-12",
+      "keyword": "claude",
+      "quality_score": 6.6,
+      "post_url": "https://sghman.github.io/posts/2026-05-12-claude-digest/",
+      "one_line_summary": "핵심: 초기 AI 코딩 도구는 \"얼마나 빠르게 코드를 생성하는가\"에 초점이 맞춰져 있었으나, 실제 프로덕션 환경에서는 AI가 생성한 코드의 검수 및 정리 작업이 전체 생산성을 좌우하는 요소로 떠올랐다."
+    },
+    {
+      "date": "2026-05-12",
+      "keyword": "LLM",
+      "quality_score": 5.58,
+      "post_url": "https://sghman.github.io/posts/2026-05-12-llm-digest/",
+      "one_line_summary": "핵심: LangChain + Ollama + PostgreSQL을 조합하여 자연어로 데이터베이스를 쿼리할 수 있는 AI 에이전트를 구축. SQL 생성 및 실행 과정에서 안전성을 확보하기 위해 커스텀 SQL 검증 레이어 추가."
+    },
     {
       "date": "2026-05-11",
       "keyword": "claude",
@@ -1184,20 +1198,6 @@
       "quality_score": 5.54,
       "post_url": "https://sghman.github.io/posts/2026-05-04-llm-digest/",
       "one_line_summary": "핵심: 2026년 LLM 애플리케이션 개발의 핵심은 \"챗봇 인터페이스 회피\"입니다. 구조화된 출력(Structured Output) 시스템으로 전환하는 것이 업계의 새로운 표준입니다."
-    },
-    {
-      "date": "2026-05-03",
-      "keyword": "claude",
-      "quality_score": 6.03,
-      "post_url": "https://sghman.github.io/posts/2026-05-03-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 제공하는 기본 메모리 6,000자 제한을 GitHub 시크릿 gist와 bash_tool을 조합해 40,000자 이상으로 확장하는 실제 사례 공개. 웹 페칭 제한, API 키 노출 문제 등 4가지 막힌 길을 거쳐 최종 해결책 도출."
-    },
-    {
-      "date": "2026-05-03",
-      "keyword": "claude",
-      "quality_score": 5.91,
-      "post_url": "https://sghman.github.io/posts/2026-05-03-claude-digest/",
-      "one_line_summary": "핵심: Claude Code는 단순 자동완성이 아닌 \"완전 에이전트형 AI 어시스턴트\"로 작동. 계획 수립 → 검증 → 리뷰 → 실행의 4단계 워크플로우가 표준화되고 있음."
     }
   ]
 }
