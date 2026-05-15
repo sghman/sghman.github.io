@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-05-14T04:54:52",
+  "generated_at": "2026-05-15T04:59:18",
   "summary": {
-    "total_posts": 135,
+    "total_posts": 133,
     "total_keywords": 2,
     "avg_quality_score": 5.9,
-    "monthly_cost_usd": 0.6412
+    "monthly_cost_usd": 0.69
   },
   "tracked_trend": {
     "series": [
       {
         "topic": "claude",
         "data_points": [
-          {
-            "date": "2026-04-14",
-            "mentions": 31
-          },
           {
             "date": "2026-04-15",
             "mentions": 32
@@ -134,16 +130,16 @@
           {
             "date": "2026-05-14",
             "mentions": 22
+          },
+          {
+            "date": "2026-05-15",
+            "mentions": 25
           }
         ]
       },
       {
         "topic": "LLM",
         "data_points": [
-          {
-            "date": "2026-04-14",
-            "mentions": 34
-          },
           {
             "date": "2026-04-15",
             "mentions": 33
@@ -263,6 +259,10 @@
           {
             "date": "2026-05-14",
             "mentions": 34
+          },
+          {
+            "date": "2026-05-15",
+            "mentions": 17
           }
         ]
       }
@@ -270,13 +270,13 @@
     "weekly_rank": [
       {
         "topic": "LLM",
-        "mentions": 212,
+        "mentions": 206,
         "rank": 1,
         "rank_change": 1
       },
       {
         "topic": "claude",
-        "mentions": 167,
+        "mentions": 171,
         "rank": 2,
         "rank_change": -1
       }
@@ -493,14 +493,6 @@
       {
         "keyword": "claude",
         "data_points": [
-          {
-            "date": "2026-03-15",
-            "quality_score": 5.88
-          },
-          {
-            "date": "2026-03-15",
-            "quality_score": 6.02
-          },
           {
             "date": "2026-03-17",
             "quality_score": 6.57
@@ -760,20 +752,16 @@
           {
             "date": "2026-05-14",
             "quality_score": 5.81
+          },
+          {
+            "date": "2026-05-15",
+            "quality_score": 6.12
           }
         ]
       },
       {
         "keyword": "LLM",
         "data_points": [
-          {
-            "date": "2026-03-15",
-            "quality_score": 6.43
-          },
-          {
-            "date": "2026-03-15",
-            "quality_score": 6.08
-          },
           {
             "date": "2026-03-16",
             "quality_score": 5.73
@@ -1037,6 +1025,10 @@
           {
             "date": "2026-05-14",
             "quality_score": 7.1
+          },
+          {
+            "date": "2026-05-15",
+            "quality_score": 6.63
           }
         ]
       }
@@ -1045,9 +1037,9 @@
   "monthly_cost": [
     {
       "month": "2026-03",
-      "input_tokens": 335450,
-      "output_tokens": 130105,
-      "cost_usd": 0.7888
+      "input_tokens": 303399,
+      "output_tokens": 114635,
+      "cost_usd": 0.7013
     },
     {
       "month": "2026-04",
@@ -1057,12 +1049,26 @@
     },
     {
       "month": "2026-05",
-      "input_tokens": 251592,
-      "output_tokens": 109977,
-      "cost_usd": 0.6412
+      "input_tokens": 269839,
+      "output_tokens": 118526,
+      "cost_usd": 0.69
     }
   ],
   "recent_posts": [
+    {
+      "date": "2026-05-15",
+      "keyword": "claude",
+      "quality_score": 6.12,
+      "post_url": "https://sghman.github.io/posts/2026-05-15-claude-digest/",
+      "one_line_summary": "핵심: Anthropic이 SpaceX xAI의 Colossus 1 데이터센터(NVIDIA GPU 220,000개 이상)를 임차하면서 Claude의 용량 문제를 근본적으로 해결하려는 움직임을 보이고 있습니다. 동시에 Claude Code의 5시간 제한을 2배로 확대하고 피크 시간대 제한을 완전 해제했습니다."
+    },
+    {
+      "date": "2026-05-15",
+      "keyword": "LLM",
+      "quality_score": 6.63,
+      "post_url": "https://sghman.github.io/posts/2026-05-15-llm-digest/",
+      "one_line_summary": "핵심: 기존의 비용 모니터링 대시보드는 \"이미 일어난 일\"을 보여주는 사후 대응이다. 진정한 비용 제어는 에이전트 실행 중간에 토큰 게이트를 삽입해 지출 결정을 즉시 내려야 한다."
+    },
     {
       "date": "2026-05-14",
       "keyword": "claude",
@@ -1188,20 +1194,6 @@
       "quality_score": 7.88,
       "post_url": "https://sghman.github.io/posts/2026-05-07-llm-digest/",
       "one_line_summary": "핵심: Google Cloud가 AI 에이전트를 서비스 계정이 아닌 독립적인 1급 주체(First-Class Principal)로 인정하면서, 에이전트 전용 암호화 ID, 정책 집행, 감사 추적이 가능해졌다."
-    },
-    {
-      "date": "2026-05-06",
-      "keyword": "claude",
-      "quality_score": 5.73,
-      "post_url": "https://sghman.github.io/posts/2026-05-06-claude-digest/",
-      "one_line_summary": "핵심: Anthropic이 4월 중순 Claude Opus 4.7을 출시했고, Claude Code는 로컬 파일에 직접 접근하는 터미널 기반 에이전트로 작동합니다. 단순 챗봇이 아닌 프로젝트 구조 전체를 인덱싱하고 사용자 승인 하에 파일 변경을 실행합니다."
-    },
-    {
-      "date": "2026-05-06",
-      "keyword": "LLM",
-      "quality_score": 5.71,
-      "post_url": "https://sghman.github.io/posts/2026-05-06-llm-digest/",
-      "one_line_summary": "핵심: 2026년 LLM 활용의 핵심은 단순 챗봇 인터페이스에서 벗어나 구조화된 출력 시스템으로 진화하고 있습니다. 기존의 \"대화형 AI\"라는 직관적 접근에서 벗어나 비즈니스 로직과 통합된 자동화 시스템으로 재설계되는 중입니다."
     }
   ]
 }
